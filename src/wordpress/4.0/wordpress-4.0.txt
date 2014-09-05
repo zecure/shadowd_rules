@@ -336,6 +336,13 @@
         "filter": 7
     },
     {
+        "path": "GET|test",
+        "caller": "{BASE}wp-admin\/admin-ajax.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 4
+    },
+    {
         "path": "GET|widget",
         "caller": "{BASE}wp-admin\/admin-ajax.php",
         "min_length": -1,
