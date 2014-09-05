@@ -1,0 +1,4230 @@
+[
+    {
+        "path": "COOKIE|comment_author_*",
+        "caller": "*",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 12
+    },
+    {
+        "path": "COOKIE|comment_author_email_*",
+        "caller": "*",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 12
+    },
+    {
+        "path": "COOKIE|comment_author_url_*",
+        "caller": "*",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 12
+    },
+    {
+        "path": "COOKIE|PHPSESSID",
+        "caller": "*",
+        "min_length": 26,
+        "max_length": 26,
+        "filter": 4
+    },
+    {
+        "path": "COOKIE|REMEMBERME",
+        "caller": "*",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 5
+    },
+    {
+        "path": "COOKIE|wordpress_*",
+        "caller": "*",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 12
+    },
+    {
+        "path": "COOKIE|wordpress_logged_in_*",
+        "caller": "*",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 12
+    },
+    {
+        "path": "COOKIE|wordpress_test_cookie",
+        "caller": "*",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 9
+    },
+    {
+        "path": "COOKIE|wp-resetpass-*",
+        "caller": "*",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 12
+    },
+    {
+        "path": "COOKIE|wp-saving-post",
+        "caller": "*",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "COOKIE|wp-settings-*",
+        "caller": "*",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 12
+    },
+    {
+        "path": "COOKIE|wp-settings-time-*",
+        "caller": "*",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "GET|action",
+        "caller": "{BASE}*",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "GET|submit",
+        "caller": "{BASE}*",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 9
+    },
+    {
+        "path": "GET|_wpnonce",
+        "caller": "{BASE}*",
+        "min_length": 10,
+        "max_length": 10,
+        "filter": 3
+    },
+    {
+        "path": "POST|action",
+        "caller": "{BASE}*",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|nonce",
+        "caller": "{BASE}*",
+        "min_length": 10,
+        "max_length": 10,
+        "filter": 3
+    },
+    {
+        "path": "POST|Submit",
+        "caller": "{BASE}*",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 9
+    },
+    {
+        "path": "POST|submit",
+        "caller": "{BASE}*",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 9
+    },
+    {
+        "path": "POST|_nonce",
+        "caller": "{BASE}*",
+        "min_length": 10,
+        "max_length": 10,
+        "filter": 3
+    },
+    {
+        "path": "POST|_wpnonce",
+        "caller": "{BASE}*",
+        "min_length": 10,
+        "max_length": 10,
+        "filter": 3
+    },
+    {
+        "path": "POST|_wp_unfiltered_html_comment",
+        "caller": "{BASE}*",
+        "min_length": 10,
+        "max_length": 10,
+        "filter": 4
+    },
+    {
+        "path": "GET|attachment_id",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "GET|author",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "GET|cat",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "GET|feed",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 12
+    },
+    {
+        "path": "GET|m",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "GET|p",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "GET|page_id",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "GET|preview",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 4
+    },
+    {
+        "path": "GET|s",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 12
+    },
+    {
+        "path": "GET|tag",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 12
+    },
+    {
+        "path": "POST|customized",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 12
+    },
+    {
+        "path": "POST|customize_messenger_channel",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|nonce",
+        "caller": "{BASE}index.php",
+        "min_length": 10,
+        "max_length": 10,
+        "filter": 3
+    },
+    {
+        "path": "POST|theme",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 4
+    },
+    {
+        "path": "POST|wp_customize",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 4
+    },
+    {
+        "path": "GET|action2",
+        "caller": "{BASE}wp-admin\/*",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 12
+    },
+    {
+        "path": "GET|wp_http_referer",
+        "caller": "{BASE}wp-admin\/*",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 12
+    },
+    {
+        "path": "GET|_wp_http_referer",
+        "caller": "{BASE}wp-admin\/*",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 12
+    },
+    {
+        "path": "POST|action2",
+        "caller": "{BASE}wp-admin\/*",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|wp_http_referer",
+        "caller": "{BASE}wp-admin\/*",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 12
+    },
+    {
+        "path": "POST|_wp_http_referer",
+        "caller": "{BASE}wp-admin\/*",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 12
+    },
+    {
+        "path": "POST|_wp_original_http_referer",
+        "caller": "{BASE}wp-admin\/*",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 12
+    },
+    {
+        "path": "GET|pagenow",
+        "caller": "{BASE}wp-admin\/admin-ajax.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 4
+    },
+    {
+        "path": "GET|post",
+        "caller": "{BASE}wp-admin\/admin-ajax.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "GET|q",
+        "caller": "{BASE}wp-admin\/admin-ajax.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 12
+    },
+    {
+        "path": "GET|tax",
+        "caller": "{BASE}wp-admin\/admin-ajax.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "GET|widget",
+        "caller": "{BASE}wp-admin\/admin-ajax.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|aa",
+        "caller": "{BASE}wp-admin\/admin-ajax.php",
+        "min_length": 4,
+        "max_length": 4,
+        "filter": 1
+    },
+    {
+        "path": "POST|active_post_lock",
+        "caller": "{BASE}wp-admin\/admin-ajax.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|add_new",
+        "caller": "{BASE}wp-admin\/admin-ajax.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 12
+    },
+    {
+        "path": "POST|approve_parent",
+        "caller": "{BASE}wp-admin\/admin-ajax.php",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|attachment|align",
+        "caller": "{BASE}wp-admin\/admin-ajax.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 4
+    },
+    {
+        "path": "POST|attachment|id",
+        "caller": "{BASE}wp-admin\/admin-ajax.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "POST|attachment|image-size",
+        "caller": "{BASE}wp-admin\/admin-ajax.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 4
+    },
+    {
+        "path": "POST|attachment|image_alt",
+        "caller": "{BASE}wp-admin\/admin-ajax.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 12
+    },
+    {
+        "path": "POST|attachment|post_content",
+        "caller": "{BASE}wp-admin\/admin-ajax.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 12
+    },
+    {
+        "path": "POST|attachment|post_excerpt",
+        "caller": "{BASE}wp-admin\/admin-ajax.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 12
+    },
+    {
+        "path": "POST|attachment|url",
+        "caller": "{BASE}wp-admin\/admin-ajax.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 8
+    },
+    {
+        "path": "POST|changes|alt",
+        "caller": "{BASE}wp-admin\/admin-ajax.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 12
+    },
+    {
+        "path": "POST|changes|caption",
+        "caller": "{BASE}wp-admin\/admin-ajax.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 12
+    },
+    {
+        "path": "POST|changes|description",
+        "caller": "{BASE}wp-admin\/admin-ajax.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 12
+    },
+    {
+        "path": "POST|checkbox",
+        "caller": "{BASE}wp-admin\/admin-ajax.php",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|comments_listing",
+        "caller": "{BASE}wp-admin\/admin-ajax.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 4
+    },
+    {
+        "path": "POST|comment_ID",
+        "caller": "{BASE}wp-admin\/admin-ajax.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "POST|comment_post_ID",
+        "caller": "{BASE}wp-admin\/admin-ajax.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "POST|comment_status",
+        "caller": "{BASE}wp-admin\/admin-ajax.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 4
+    },
+    {
+        "path": "POST|compare|*",
+        "caller": "{BASE}wp-admin\/admin-ajax.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 10
+    },
+    {
+        "path": "POST|content",
+        "caller": "{BASE}wp-admin\/admin-ajax.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 12
+    },
+    {
+        "path": "POST|data|wp-auth-check",
+        "caller": "{BASE}wp-admin\/admin-ajax.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 4
+    },
+    {
+        "path": "POST|data|wp-check-locked-posts|*",
+        "caller": "{BASE}wp-admin\/admin-ajax.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|data|wp-refresh-post-lock|lock",
+        "caller": "{BASE}wp-admin\/admin-ajax.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|data|wp-refresh-post-lock|post_id",
+        "caller": "{BASE}wp-admin\/admin-ajax.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "POST|data|wp-refresh-post-nonces|post_id",
+        "caller": "{BASE}wp-admin\/admin-ajax.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "POST|data|wp-refresh-post-nonces|post_nonce",
+        "caller": "{BASE}wp-admin\/admin-ajax.php",
+        "min_length": 10,
+        "max_length": 10,
+        "filter": 3
+    },
+    {
+        "path": "POST|data|wp_autosave|auto_draft",
+        "caller": "{BASE}wp-admin\/admin-ajax.php",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|data|wp_autosave|catslist",
+        "caller": "{BASE}wp-admin\/admin-ajax.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "POST|data|wp_autosave|comment_status",
+        "caller": "{BASE}wp-admin\/admin-ajax.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 4
+    },
+    {
+        "path": "POST|data|wp_autosave|content",
+        "caller": "{BASE}wp-admin\/admin-ajax.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 12
+    },
+    {
+        "path": "POST|data|wp_autosave|excerpt",
+        "caller": "{BASE}wp-admin\/admin-ajax.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 12
+    },
+    {
+        "path": "POST|data|wp_autosave|ping_status",
+        "caller": "{BASE}wp-admin\/admin-ajax.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 4
+    },
+    {
+        "path": "POST|data|wp_autosave|post_author",
+        "caller": "{BASE}wp-admin\/admin-ajax.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "POST|data|wp_autosave|post_id",
+        "caller": "{BASE}wp-admin\/admin-ajax.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "POST|data|wp_autosave|post_title",
+        "caller": "{BASE}wp-admin\/admin-ajax.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 12
+    },
+    {
+        "path": "POST|data|wp_autosave|post_type",
+        "caller": "{BASE}wp-admin\/admin-ajax.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 4
+    },
+    {
+        "path": "POST|data|wp_autosave|_wpnonce",
+        "caller": "{BASE}wp-admin\/admin-ajax.php",
+        "min_length": 10,
+        "max_length": 10,
+        "filter": 12
+    },
+    {
+        "path": "POST|delete",
+        "caller": "{BASE}wp-admin\/admin-ajax.php",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|description",
+        "caller": "{BASE}wp-admin\/admin-ajax.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 12
+    },
+    {
+        "path": "POST|dimClass",
+        "caller": "{BASE}wp-admin\/admin-ajax.php",
+        "min_length": 10,
+        "max_length": 10,
+        "filter": 4
+    },
+    {
+        "path": "POST|edit_date",
+        "caller": "{BASE}wp-admin\/admin-ajax.php",
+        "min_length": 4,
+        "max_length": 4,
+        "filter": 4
+    },
+    {
+        "path": "POST|has_focus",
+        "caller": "{BASE}wp-admin\/admin-ajax.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 4
+    },
+    {
+        "path": "POST|hh",
+        "caller": "{BASE}wp-admin\/admin-ajax.php",
+        "min_length": 2,
+        "max_length": 2,
+        "filter": 1
+    },
+    {
+        "path": "POST|html",
+        "caller": "{BASE}wp-admin\/admin-ajax.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 12
+    },
+    {
+        "path": "POST|id",
+        "caller": "{BASE}wp-admin\/admin-ajax.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "POST|id_base",
+        "caller": "{BASE}wp-admin\/admin-ajax.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 12
+    },
+    {
+        "path": "POST|interval",
+        "caller": "{BASE}wp-admin\/admin-ajax.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "POST|jj",
+        "caller": "{BASE}wp-admin\/admin-ajax.php",
+        "min_length": 2,
+        "max_length": 2,
+        "filter": 1
+    },
+    {
+        "path": "POST|mm",
+        "caller": "{BASE}wp-admin\/admin-ajax.php",
+        "min_length": 2,
+        "max_length": 2,
+        "filter": 1
+    },
+    {
+        "path": "POST|mn",
+        "caller": "{BASE}wp-admin\/admin-ajax.php",
+        "min_length": 2,
+        "max_length": 2,
+        "filter": 1
+    },
+    {
+        "path": "POST|mode",
+        "caller": "{BASE}wp-admin\/admin-ajax.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 4
+    },
+    {
+        "path": "POST|multi_number",
+        "caller": "{BASE}wp-admin\/admin-ajax.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "POST|new",
+        "caller": "{BASE}wp-admin\/admin-ajax.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 4
+    },
+    {
+        "path": "POST|newcategory",
+        "caller": "{BASE}wp-admin\/admin-ajax.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 12
+    },
+    {
+        "path": "POST|newcategory_parent",
+        "caller": "{BASE}wp-admin\/admin-ajax.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "POST|newcomment_author",
+        "caller": "{BASE}wp-admin\/admin-ajax.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 12
+    },
+    {
+        "path": "POST|newcomment_author_email",
+        "caller": "{BASE}wp-admin\/admin-ajax.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 12
+    },
+    {
+        "path": "POST|newcomment_author_url",
+        "caller": "{BASE}wp-admin\/admin-ajax.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 12
+    },
+    {
+        "path": "POST|new_slug",
+        "caller": "{BASE}wp-admin\/admin-ajax.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 12
+    },
+    {
+        "path": "POST|new_title",
+        "caller": "{BASE}wp-admin\/admin-ajax.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 12
+    },
+    {
+        "path": "POST|parent",
+        "caller": "{BASE}wp-admin\/admin-ajax.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "POST|ping_status",
+        "caller": "{BASE}wp-admin\/admin-ajax.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 4
+    },
+    {
+        "path": "POST|pointer",
+        "caller": "{BASE}wp-admin\/admin-ajax.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|position",
+        "caller": "{BASE}wp-admin\/admin-ajax.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 2
+    },
+    {
+        "path": "POST|post_author",
+        "caller": "{BASE}wp-admin\/admin-ajax.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "POST|post_category|*",
+        "caller": "{BASE}wp-admin\/admin-ajax.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "POST|post_id",
+        "caller": "{BASE}wp-admin\/admin-ajax.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "POST|post_ID",
+        "caller": "{BASE}wp-admin\/admin-ajax.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "POST|post_name",
+        "caller": "{BASE}wp-admin\/admin-ajax.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 12
+    },
+    {
+        "path": "POST|post_password",
+        "caller": "{BASE}wp-admin\/admin-ajax.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 12
+    },
+    {
+        "path": "POST|post_status",
+        "caller": "{BASE}wp-admin\/admin-ajax.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 4
+    },
+    {
+        "path": "POST|post_title",
+        "caller": "{BASE}wp-admin\/admin-ajax.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 12
+    },
+    {
+        "path": "POST|post_type",
+        "caller": "{BASE}wp-admin\/admin-ajax.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 4
+    },
+    {
+        "path": "POST|post_view",
+        "caller": "{BASE}wp-admin\/admin-ajax.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 4
+    },
+    {
+        "path": "POST|query|order",
+        "caller": "{BASE}wp-admin\/admin-ajax.php",
+        "min_length": 3,
+        "max_length": 4,
+        "filter": 4
+    },
+    {
+        "path": "POST|query|orderby",
+        "caller": "{BASE}wp-admin\/admin-ajax.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 12
+    },
+    {
+        "path": "POST|query|paged",
+        "caller": "{BASE}wp-admin\/admin-ajax.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "POST|query|posts_per_page",
+        "caller": "{BASE}wp-admin\/admin-ajax.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "POST|query|post_mime_type",
+        "caller": "{BASE}wp-admin\/admin-ajax.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 4
+    },
+    {
+        "path": "POST|query|post_parent",
+        "caller": "{BASE}wp-admin\/admin-ajax.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "POST|query|s",
+        "caller": "{BASE}wp-admin\/admin-ajax.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 12
+    },
+    {
+        "path": "POST|request|browse",
+        "caller": "{BASE}wp-admin\/admin-ajax.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 4
+    },
+    {
+        "path": "POST|request|fields|description",
+        "caller": "{BASE}wp-admin\/admin-ajax.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 4
+    },
+    {
+        "path": "POST|request|fields|downloaded",
+        "caller": "{BASE}wp-admin\/admin-ajax.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 4
+    },
+    {
+        "path": "POST|request|fields|downloadLink",
+        "caller": "{BASE}wp-admin\/admin-ajax.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 4
+    },
+    {
+        "path": "POST|request|fields|homepage",
+        "caller": "{BASE}wp-admin\/admin-ajax.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 4
+    },
+    {
+        "path": "POST|request|fields|last_updated",
+        "caller": "{BASE}wp-admin\/admin-ajax.php",
+        "min_length": 4,
+        "max_length": 4,
+        "filter": 4
+    },
+    {
+        "path": "POST|request|fields|num_ratings",
+        "caller": "{BASE}wp-admin\/admin-ajax.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 4
+    },
+    {
+        "path": "POST|request|fields|rating",
+        "caller": "{BASE}wp-admin\/admin-ajax.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 4
+    },
+    {
+        "path": "POST|request|fields|requires",
+        "caller": "{BASE}wp-admin\/admin-ajax.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 4
+    },
+    {
+        "path": "POST|request|fields|tested",
+        "caller": "{BASE}wp-admin\/admin-ajax.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 4
+    },
+    {
+        "path": "POST|request|per_page",
+        "caller": "{BASE}wp-admin\/admin-ajax.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "POST|request|tag|*",
+        "caller": "{BASE}wp-admin\/admin-ajax.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 12
+    },
+    {
+        "path": "POST|samplepermalinknonce",
+        "caller": "{BASE}wp-admin\/admin-ajax.php",
+        "min_length": 10,
+        "max_length": 10,
+        "filter": 3
+    },
+    {
+        "path": "POST|screen",
+        "caller": "{BASE}wp-admin\/admin-ajax.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|screen_id",
+        "caller": "{BASE}wp-admin\/admin-ajax.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 12
+    },
+    {
+        "path": "POST|shortcode",
+        "caller": "{BASE}wp-admin\/admin-ajax.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 12
+    },
+    {
+        "path": "POST|slug",
+        "caller": "{BASE}wp-admin\/admin-ajax.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 12
+    },
+    {
+        "path": "POST|spam",
+        "caller": "{BASE}wp-admin\/admin-ajax.php",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|src",
+        "caller": "{BASE}wp-admin\/admin-ajax.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 8
+    },
+    {
+        "path": "POST|ss",
+        "caller": "{BASE}wp-admin\/admin-ajax.php",
+        "min_length": 2,
+        "max_length": 2,
+        "filter": 1
+    },
+    {
+        "path": "POST|status",
+        "caller": "{BASE}wp-admin\/admin-ajax.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "POST|tag-name",
+        "caller": "{BASE}wp-admin\/admin-ajax.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 12
+    },
+    {
+        "path": "POST|tax",
+        "caller": "{BASE}wp-admin\/admin-ajax.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|taxonomy",
+        "caller": "{BASE}wp-admin\/admin-ajax.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 12
+    },
+    {
+        "path": "POST|tax_input|post_tag",
+        "caller": "{BASE}wp-admin\/admin-ajax.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 12
+    },
+    {
+        "path": "POST|theme",
+        "caller": "{BASE}wp-admin\/admin-ajax.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 4
+    },
+    {
+        "path": "POST|title",
+        "caller": "{BASE}wp-admin\/admin-ajax.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 12
+    },
+    {
+        "path": "POST|trash",
+        "caller": "{BASE}wp-admin\/admin-ajax.php",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|unspam",
+        "caller": "{BASE}wp-admin\/admin-ajax.php",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|untrash",
+        "caller": "{BASE}wp-admin\/admin-ajax.php",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|user_ID",
+        "caller": "{BASE}wp-admin\/admin-ajax.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "POST|widget-height",
+        "caller": "{BASE}wp-admin\/admin-ajax.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "POST|widget-id",
+        "caller": "{BASE}wp-admin\/admin-ajax.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|widget-meta|*|title",
+        "caller": "{BASE}wp-admin\/admin-ajax.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 12
+    },
+    {
+        "path": "POST|widget-recent-comments|*|number",
+        "caller": "{BASE}wp-admin\/admin-ajax.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "POST|widget-recent-comments|*|title",
+        "caller": "{BASE}wp-admin\/admin-ajax.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 12
+    },
+    {
+        "path": "POST|widget-recent-posts|*|number",
+        "caller": "{BASE}wp-admin\/admin-ajax.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "POST|widget-recent-posts|*|show_date",
+        "caller": "{BASE}wp-admin\/admin-ajax.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 4
+    },
+    {
+        "path": "POST|widget-recent-posts|*|title",
+        "caller": "{BASE}wp-admin\/admin-ajax.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 12
+    },
+    {
+        "path": "POST|widget-width",
+        "caller": "{BASE}wp-admin\/admin-ajax.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "POST|widget_number",
+        "caller": "{BASE}wp-admin\/admin-ajax.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "POST|wp_customize",
+        "caller": "{BASE}wp-admin\/admin-ajax.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 4
+    },
+    {
+        "path": "POST|_ajax_nonce",
+        "caller": "{BASE}wp-admin\/admin-ajax.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 12
+    },
+    {
+        "path": "POST|_ajax_nonce-add-category",
+        "caller": "{BASE}wp-admin\/admin-ajax.php",
+        "min_length": 10,
+        "max_length": 10,
+        "filter": 3
+    },
+    {
+        "path": "POST|_ajax_nonce-replyto-comment",
+        "caller": "{BASE}wp-admin\/admin-ajax.php",
+        "min_length": 10,
+        "max_length": 10,
+        "filter": 3
+    },
+    {
+        "path": "POST|_inline_edit",
+        "caller": "{BASE}wp-admin\/admin-ajax.php",
+        "min_length": 10,
+        "max_length": 10,
+        "filter": 3
+    },
+    {
+        "path": "POST|_page",
+        "caller": "{BASE}wp-admin\/admin-ajax.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "POST|_per_page",
+        "caller": "{BASE}wp-admin\/admin-ajax.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "POST|_status",
+        "caller": "{BASE}wp-admin\/admin-ajax.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 4
+    },
+    {
+        "path": "POST|_total",
+        "caller": "{BASE}wp-admin\/admin-ajax.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "POST|_url",
+        "caller": "{BASE}wp-admin\/admin-ajax.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 8
+    },
+    {
+        "path": "POST|_wpnonce_add-tag",
+        "caller": "{BASE}wp-admin\/admin-ajax.php",
+        "min_length": 10,
+        "max_length": 10,
+        "filter": 3
+    },
+    {
+        "path": "POST|attachment_id",
+        "caller": "{BASE}wp-admin\/async-upload.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "POST|fetch",
+        "caller": "{BASE}wp-admin\/async-upload.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "POST|name",
+        "caller": "{BASE}wp-admin\/async-upload.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|post_id",
+        "caller": "{BASE}wp-admin\/async-upload.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "POST|short",
+        "caller": "{BASE}wp-admin\/async-upload.php",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|tab",
+        "caller": "{BASE}wp-admin\/async-upload.php",
+        "min_length": 0,
+        "max_length": 0,
+        "filter": 1
+    },
+    {
+        "path": "POST|type",
+        "caller": "{BASE}wp-admin\/async-upload.php",
+        "min_length": 0,
+        "max_length": 0,
+        "filter": 1
+    },
+    {
+        "path": "GET|c",
+        "caller": "{BASE}wp-admin\/comment.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "GET|p",
+        "caller": "{BASE}wp-admin\/comment.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "POST|aa",
+        "caller": "{BASE}wp-admin\/comment.php",
+        "min_length": 4,
+        "max_length": 4,
+        "filter": 1
+    },
+    {
+        "path": "POST|c",
+        "caller": "{BASE}wp-admin\/comment.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "POST|closedpostboxesnonce",
+        "caller": "{BASE}wp-admin\/comment.php",
+        "min_length": 10,
+        "max_length": 10,
+        "filter": 3
+    },
+    {
+        "path": "POST|comment_ID",
+        "caller": "{BASE}wp-admin\/comment.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "POST|comment_post_ID",
+        "caller": "{BASE}wp-admin\/comment.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "POST|comment_status",
+        "caller": "{BASE}wp-admin\/comment.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 12
+    },
+    {
+        "path": "POST|content",
+        "caller": "{BASE}wp-admin\/comment.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 12
+    },
+    {
+        "path": "POST|cur_aa",
+        "caller": "{BASE}wp-admin\/comment.php",
+        "min_length": 4,
+        "max_length": 4,
+        "filter": 1
+    },
+    {
+        "path": "POST|cur_hh",
+        "caller": "{BASE}wp-admin\/comment.php",
+        "min_length": 2,
+        "max_length": 2,
+        "filter": 1
+    },
+    {
+        "path": "POST|cur_jj",
+        "caller": "{BASE}wp-admin\/comment.php",
+        "min_length": 2,
+        "max_length": 2,
+        "filter": 1
+    },
+    {
+        "path": "POST|cur_mm",
+        "caller": "{BASE}wp-admin\/comment.php",
+        "min_length": 2,
+        "max_length": 2,
+        "filter": 1
+    },
+    {
+        "path": "POST|cur_mn",
+        "caller": "{BASE}wp-admin\/comment.php",
+        "min_length": 2,
+        "max_length": 2,
+        "filter": 1
+    },
+    {
+        "path": "POST|hh",
+        "caller": "{BASE}wp-admin\/comment.php",
+        "min_length": 2,
+        "max_length": 2,
+        "filter": 1
+    },
+    {
+        "path": "POST|hidden_aa",
+        "caller": "{BASE}wp-admin\/comment.php",
+        "min_length": 4,
+        "max_length": 4,
+        "filter": 1
+    },
+    {
+        "path": "POST|hidden_hh",
+        "caller": "{BASE}wp-admin\/comment.php",
+        "min_length": 2,
+        "max_length": 2,
+        "filter": 1
+    },
+    {
+        "path": "POST|hidden_jj",
+        "caller": "{BASE}wp-admin\/comment.php",
+        "min_length": 2,
+        "max_length": 2,
+        "filter": 1
+    },
+    {
+        "path": "POST|hidden_mm",
+        "caller": "{BASE}wp-admin\/comment.php",
+        "min_length": 2,
+        "max_length": 2,
+        "filter": 1
+    },
+    {
+        "path": "POST|hidden_mn",
+        "caller": "{BASE}wp-admin\/comment.php",
+        "min_length": 2,
+        "max_length": 2,
+        "filter": 1
+    },
+    {
+        "path": "POST|jj",
+        "caller": "{BASE}wp-admin\/comment.php",
+        "min_length": 2,
+        "max_length": 2,
+        "filter": 1
+    },
+    {
+        "path": "POST|mm",
+        "caller": "{BASE}wp-admin\/comment.php",
+        "min_length": 2,
+        "max_length": 2,
+        "filter": 1
+    },
+    {
+        "path": "POST|mn",
+        "caller": "{BASE}wp-admin\/comment.php",
+        "min_length": 2,
+        "max_length": 2,
+        "filter": 1
+    },
+    {
+        "path": "POST|newcomment_author",
+        "caller": "{BASE}wp-admin\/comment.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 12
+    },
+    {
+        "path": "POST|newcomment_author_email",
+        "caller": "{BASE}wp-admin\/comment.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 12
+    },
+    {
+        "path": "POST|newcomment_author_url",
+        "caller": "{BASE}wp-admin\/comment.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 12
+    },
+    {
+        "path": "POST|noredir",
+        "caller": "{BASE}wp-admin\/comment.php",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|p",
+        "caller": "{BASE}wp-admin\/comment.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "POST|referredby",
+        "caller": "{BASE}wp-admin\/comment.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 8
+    },
+    {
+        "path": "POST|save",
+        "caller": "{BASE}wp-admin\/comment.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 4
+    },
+    {
+        "path": "POST|ss",
+        "caller": "{BASE}wp-admin\/comment.php",
+        "min_length": 2,
+        "max_length": 2,
+        "filter": 1
+    },
+    {
+        "path": "POST|user_ID",
+        "caller": "{BASE}wp-admin\/comment.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "GET|return",
+        "caller": "{BASE}wp-admin\/customize.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 12
+    },
+    {
+        "path": "GET|approved",
+        "caller": "{BASE}wp-admin\/edit-comments.php",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "GET|comment_status",
+        "caller": "{BASE}wp-admin\/edit-comments.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 4
+    },
+    {
+        "path": "GET|comment_type",
+        "caller": "{BASE}wp-admin\/edit-comments.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 12
+    },
+    {
+        "path": "GET|delete_comments|*",
+        "caller": "{BASE}wp-admin\/edit-comments.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "GET|doaction",
+        "caller": "{BASE}wp-admin\/edit-comments.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 4
+    },
+    {
+        "path": "GET|filter_action",
+        "caller": "{BASE}wp-admin\/edit-comments.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 4
+    },
+    {
+        "path": "GET|ids",
+        "caller": "{BASE}wp-admin\/edit-comments.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 12
+    },
+    {
+        "path": "GET|mode",
+        "caller": "{BASE}wp-admin\/edit-comments.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 4
+    },
+    {
+        "path": "GET|order",
+        "caller": "{BASE}wp-admin\/edit-comments.php",
+        "min_length": 3,
+        "max_length": 4,
+        "filter": 4
+    },
+    {
+        "path": "GET|orderby",
+        "caller": "{BASE}wp-admin\/edit-comments.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "GET|p",
+        "caller": "{BASE}wp-admin\/edit-comments.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "GET|paged",
+        "caller": "{BASE}wp-admin\/edit-comments.php",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "GET|pagegen_timestamp",
+        "caller": "{BASE}wp-admin\/edit-comments.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 10
+    },
+    {
+        "path": "GET|s",
+        "caller": "{BASE}wp-admin\/edit-comments.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 12
+    },
+    {
+        "path": "GET|spammed",
+        "caller": "{BASE}wp-admin\/edit-comments.php",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "GET|trashed",
+        "caller": "{BASE}wp-admin\/edit-comments.php",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "GET|unapproved",
+        "caller": "{BASE}wp-admin\/edit-comments.php",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "GET|unspammed",
+        "caller": "{BASE}wp-admin\/edit-comments.php",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "GET|_ajax_fetch_list_nonce",
+        "caller": "{BASE}wp-admin\/edit-comments.php",
+        "min_length": 10,
+        "max_length": 10,
+        "filter": 3
+    },
+    {
+        "path": "GET|_page",
+        "caller": "{BASE}wp-admin\/edit-comments.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "GET|_per_page",
+        "caller": "{BASE}wp-admin\/edit-comments.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "GET|_total",
+        "caller": "{BASE}wp-admin\/edit-comments.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "POST|author-hide",
+        "caller": "{BASE}wp-admin\/edit-comments.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 4
+    },
+    {
+        "path": "POST|response-hide",
+        "caller": "{BASE}wp-admin\/edit-comments.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 4
+    },
+    {
+        "path": "POST|screen-options-apply",
+        "caller": "{BASE}wp-admin\/edit-comments.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 4
+    },
+    {
+        "path": "POST|screenoptionnonce",
+        "caller": "{BASE}wp-admin\/edit-comments.php",
+        "min_length": 10,
+        "max_length": 10,
+        "filter": 3
+    },
+    {
+        "path": "POST|wp_screen_options|option",
+        "caller": "{BASE}wp-admin\/edit-comments.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|wp_screen_options|value",
+        "caller": "{BASE}wp-admin\/edit-comments.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "GET|message",
+        "caller": "{BASE}wp-admin\/edit-tags.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "GET|order",
+        "caller": "{BASE}wp-admin\/edit-tags.php",
+        "min_length": 3,
+        "max_length": 4,
+        "filter": 4
+    },
+    {
+        "path": "GET|orderby",
+        "caller": "{BASE}wp-admin\/edit-tags.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 4
+    },
+    {
+        "path": "GET|paged",
+        "caller": "{BASE}wp-admin\/edit-tags.php",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "GET|post_type",
+        "caller": "{BASE}wp-admin\/edit-tags.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 4
+    },
+    {
+        "path": "GET|tag_ID",
+        "caller": "{BASE}wp-admin\/edit-tags.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "GET|taxonomy",
+        "caller": "{BASE}wp-admin\/edit-tags.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 12
+    },
+    {
+        "path": "POST|delete_tags|*",
+        "caller": "{BASE}wp-admin\/edit-tags.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "POST|description",
+        "caller": "{BASE}wp-admin\/edit-tags.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 12
+    },
+    {
+        "path": "POST|name",
+        "caller": "{BASE}wp-admin\/edit-tags.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 12
+    },
+    {
+        "path": "POST|paged",
+        "caller": "{BASE}wp-admin\/edit-tags.php",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|post_type",
+        "caller": "{BASE}wp-admin\/edit-tags.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 4
+    },
+    {
+        "path": "POST|slug",
+        "caller": "{BASE}wp-admin\/edit-tags.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 12
+    },
+    {
+        "path": "POST|tag_ID",
+        "caller": "{BASE}wp-admin\/edit-tags.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "POST|taxonomy",
+        "caller": "{BASE}wp-admin\/edit-tags.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 12
+    },
+    {
+        "path": "GET|author",
+        "caller": "{BASE}wp-admin\/edit.php",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "GET|bulk_edit",
+        "caller": "{BASE}wp-admin\/edit.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 4
+    },
+    {
+        "path": "GET|cat",
+        "caller": "{BASE}wp-admin\/edit.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "GET|category_name",
+        "caller": "{BASE}wp-admin\/edit.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 4
+    },
+    {
+        "path": "GET|comment_status",
+        "caller": "{BASE}wp-admin\/edit.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 4
+    },
+    {
+        "path": "GET|doaction",
+        "caller": "{BASE}wp-admin\/edit.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 4
+    },
+    {
+        "path": "GET|filter_action",
+        "caller": "{BASE}wp-admin\/edit.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 4
+    },
+    {
+        "path": "GET|ids",
+        "caller": "{BASE}wp-admin\/edit.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "GET|locked",
+        "caller": "{BASE}wp-admin\/edit.php",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "GET|m",
+        "caller": "{BASE}wp-admin\/edit.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "GET|mode",
+        "caller": "{BASE}wp-admin\/edit.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 4
+    },
+    {
+        "path": "GET|order",
+        "caller": "{BASE}wp-admin\/edit.php",
+        "min_length": 3,
+        "max_length": 4,
+        "filter": 4
+    },
+    {
+        "path": "GET|orderby",
+        "caller": "{BASE}wp-admin\/edit.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 12
+    },
+    {
+        "path": "GET|paged",
+        "caller": "{BASE}wp-admin\/edit.php",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "GET|page_template",
+        "caller": "{BASE}wp-admin\/edit.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 9
+    },
+    {
+        "path": "GET|ping_status",
+        "caller": "{BASE}wp-admin\/edit.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 4
+    },
+    {
+        "path": "GET|post_author",
+        "caller": "{BASE}wp-admin\/edit.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "GET|post_category|*",
+        "caller": "{BASE}wp-admin\/edit.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "GET|post_format",
+        "caller": "{BASE}wp-admin\/edit.php",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "GET|post_parent",
+        "caller": "{BASE}wp-admin\/edit.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "GET|post_status",
+        "caller": "{BASE}wp-admin\/edit.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 4
+    },
+    {
+        "path": "GET|post_type",
+        "caller": "{BASE}wp-admin\/edit.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 4
+    },
+    {
+        "path": "GET|post_view",
+        "caller": "{BASE}wp-admin\/edit.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 4
+    },
+    {
+        "path": "GET|post|*",
+        "caller": "{BASE}wp-admin\/edit.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "GET|s",
+        "caller": "{BASE}wp-admin\/edit.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 12
+    },
+    {
+        "path": "GET|screen",
+        "caller": "{BASE}wp-admin\/edit.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "GET|skipped",
+        "caller": "{BASE}wp-admin\/edit.php",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "GET|sticky",
+        "caller": "{BASE}wp-admin\/edit.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 4
+    },
+    {
+        "path": "GET|tax_input|post_tag",
+        "caller": "{BASE}wp-admin\/edit.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 12
+    },
+    {
+        "path": "GET|trashed",
+        "caller": "{BASE}wp-admin\/edit.php",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "GET|untrashed",
+        "caller": "{BASE}wp-admin\/edit.php",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "GET|updated",
+        "caller": "{BASE}wp-admin\/edit.php",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "GET|_status",
+        "caller": "{BASE}wp-admin\/edit.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 4
+    },
+    {
+        "path": "GET|cat",
+        "caller": "{BASE}wp-admin\/export.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "GET|content",
+        "caller": "{BASE}wp-admin\/export.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 4
+    },
+    {
+        "path": "GET|download",
+        "caller": "{BASE}wp-admin\/export.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 4
+    },
+    {
+        "path": "GET|page_author",
+        "caller": "{BASE}wp-admin\/export.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "GET|page_end_date",
+        "caller": "{BASE}wp-admin\/export.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 12
+    },
+    {
+        "path": "GET|page_start_date",
+        "caller": "{BASE}wp-admin\/export.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 12
+    },
+    {
+        "path": "GET|page_status",
+        "caller": "{BASE}wp-admin\/export.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 12
+    },
+    {
+        "path": "GET|post_author",
+        "caller": "{BASE}wp-admin\/export.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "GET|post_end_date",
+        "caller": "{BASE}wp-admin\/export.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "GET|post_start_date",
+        "caller": "{BASE}wp-admin\/export.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "GET|post_status",
+        "caller": "{BASE}wp-admin\/export.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "GET|welcome",
+        "caller": "{BASE}wp-admin\/index.php",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "GET|step",
+        "caller": "{BASE}wp-admin\/install.php",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|admin_email",
+        "caller": "{BASE}wp-admin\/install.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 12
+    },
+    {
+        "path": "POST|admin_password",
+        "caller": "{BASE}wp-admin\/install.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 12
+    },
+    {
+        "path": "POST|admin_password2",
+        "caller": "{BASE}wp-admin\/install.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 12
+    },
+    {
+        "path": "POST|blog_public",
+        "caller": "{BASE}wp-admin\/install.php",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|language",
+        "caller": "{BASE}wp-admin\/install.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 4
+    },
+    {
+        "path": "POST|user_name",
+        "caller": "{BASE}wp-admin\/install.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 12
+    },
+    {
+        "path": "POST|weblog_title",
+        "caller": "{BASE}wp-admin\/install.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 12
+    },
+    {
+        "path": "GET|c",
+        "caller": "{BASE}wp-admin\/load-scripts.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "GET|load|*",
+        "caller": "{BASE}wp-admin\/load-scripts.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 9
+    },
+    {
+        "path": "GET|ver",
+        "caller": "{BASE}wp-admin\/load-scripts.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 2
+    },
+    {
+        "path": "GET|c",
+        "caller": "{BASE}wp-admin\/load-styles.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "GET|dir",
+        "caller": "{BASE}wp-admin\/load-styles.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 4
+    },
+    {
+        "path": "GET|load",
+        "caller": "{BASE}wp-admin\/load-styles.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 12
+    },
+    {
+        "path": "GET|ver",
+        "caller": "{BASE}wp-admin\/load-styles.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 2
+    },
+    {
+        "path": "GET|menu",
+        "caller": "{BASE}wp-admin\/nav-menus.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "GET|use-location",
+        "caller": "{BASE}wp-admin\/nav-menus.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 4
+    },
+    {
+        "path": "POST|closedpostboxesnonce",
+        "caller": "{BASE}wp-admin\/nav-menus.php",
+        "min_length": 10,
+        "max_length": 10,
+        "filter": 3
+    },
+    {
+        "path": "POST|menu",
+        "caller": "{BASE}wp-admin\/nav-menus.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "POST|menu-name",
+        "caller": "{BASE}wp-admin\/nav-menus.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 12
+    },
+    {
+        "path": "POST|meta-box-order-nonce",
+        "caller": "{BASE}wp-admin\/nav-menus.php",
+        "min_length": 10,
+        "max_length": 10,
+        "filter": 3
+    },
+    {
+        "path": "POST|save_menu",
+        "caller": "{BASE}wp-admin\/nav-menus.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 9
+    },
+    {
+        "path": "POST|update-nav-menu-nonce",
+        "caller": "{BASE}wp-admin\/nav-menus.php",
+        "min_length": 10,
+        "max_length": 10,
+        "filter": 3
+    },
+    {
+        "path": "GET|settings-updated",
+        "caller": "{BASE}wp-admin\/options-discussion.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 4
+    },
+    {
+        "path": "GET|settings-updated",
+        "caller": "{BASE}wp-admin\/options-general.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 4
+    },
+    {
+        "path": "GET|settings-updated",
+        "caller": "{BASE}wp-admin\/options-media.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 4
+    },
+    {
+        "path": "GET|settings-updated",
+        "caller": "{BASE}wp-admin\/options-permalink.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 4
+    },
+    {
+        "path": "POST|category_base",
+        "caller": "{BASE}wp-admin\/options-permalink.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 12
+    },
+    {
+        "path": "POST|permalink_structure",
+        "caller": "{BASE}wp-admin\/options-permalink.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 12
+    },
+    {
+        "path": "POST|selection",
+        "caller": "{BASE}wp-admin\/options-permalink.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 12
+    },
+    {
+        "path": "POST|tag_base",
+        "caller": "{BASE}wp-admin\/options-permalink.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 12
+    },
+    {
+        "path": "GET|settings-updated",
+        "caller": "{BASE}wp-admin\/options-reading.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 4
+    },
+    {
+        "path": "GET|settings-updated",
+        "caller": "{BASE}wp-admin\/options-writing.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 4
+    },
+    {
+        "path": "POST|admin_email",
+        "caller": "{BASE}wp-admin\/options.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 12
+    },
+    {
+        "path": "POST|avatar_default",
+        "caller": "{BASE}wp-admin\/options.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 4
+    },
+    {
+        "path": "POST|avatar_rating",
+        "caller": "{BASE}wp-admin\/options.php",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 4
+    },
+    {
+        "path": "POST|blacklist_keys",
+        "caller": "{BASE}wp-admin\/options.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 12
+    },
+    {
+        "path": "POST|blogdescription",
+        "caller": "{BASE}wp-admin\/options.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 12
+    },
+    {
+        "path": "POST|blogname",
+        "caller": "{BASE}wp-admin\/options.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 12
+    },
+    {
+        "path": "POST|blog_public",
+        "caller": "{BASE}wp-admin\/options.php",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|close_comments_days_old",
+        "caller": "{BASE}wp-admin\/options.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "POST|close_comments_for_old_posts",
+        "caller": "{BASE}wp-admin\/options.php",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|comments_notify",
+        "caller": "{BASE}wp-admin\/options.php",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|comments_per_page",
+        "caller": "{BASE}wp-admin\/options.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "POST|comment_max_links",
+        "caller": "{BASE}wp-admin\/options.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "POST|comment_moderation",
+        "caller": "{BASE}wp-admin\/options.php",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|comment_order",
+        "caller": "{BASE}wp-admin\/options.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 4
+    },
+    {
+        "path": "POST|comment_registration",
+        "caller": "{BASE}wp-admin\/options.php",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|comment_whitelist",
+        "caller": "{BASE}wp-admin\/options.php",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|date_format",
+        "caller": "{BASE}wp-admin\/options.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 12
+    },
+    {
+        "path": "POST|date_format_custom",
+        "caller": "{BASE}wp-admin\/options.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 12
+    },
+    {
+        "path": "POST|default_category",
+        "caller": "{BASE}wp-admin\/options.php",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|default_comments_page",
+        "caller": "{BASE}wp-admin\/options.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 4
+    },
+    {
+        "path": "POST|default_comment_status",
+        "caller": "{BASE}wp-admin\/options.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 4
+    },
+    {
+        "path": "POST|default_email_category",
+        "caller": "{BASE}wp-admin\/options.php",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|default_pingback_flag",
+        "caller": "{BASE}wp-admin\/options.php",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|default_ping_status",
+        "caller": "{BASE}wp-admin\/options.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 4
+    },
+    {
+        "path": "POST|default_post_format",
+        "caller": "{BASE}wp-admin\/options.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 12
+    },
+    {
+        "path": "POST|default_role",
+        "caller": "{BASE}wp-admin\/options.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 4
+    },
+    {
+        "path": "POST|home",
+        "caller": "{BASE}wp-admin\/options.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 8
+    },
+    {
+        "path": "POST|large_size_h",
+        "caller": "{BASE}wp-admin\/options.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "POST|large_size_w",
+        "caller": "{BASE}wp-admin\/options.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "POST|mailserver_login",
+        "caller": "{BASE}wp-admin\/options.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 12
+    },
+    {
+        "path": "POST|mailserver_pass",
+        "caller": "{BASE}wp-admin\/options.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 12
+    },
+    {
+        "path": "POST|mailserver_port",
+        "caller": "{BASE}wp-admin\/options.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "POST|mailserver_url",
+        "caller": "{BASE}wp-admin\/options.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|medium_size_h",
+        "caller": "{BASE}wp-admin\/options.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "POST|medium_size_w",
+        "caller": "{BASE}wp-admin\/options.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "POST|moderation_keys",
+        "caller": "{BASE}wp-admin\/options.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 12
+    },
+    {
+        "path": "POST|moderation_notify",
+        "caller": "{BASE}wp-admin\/options.php",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|option_page",
+        "caller": "{BASE}wp-admin\/options.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 4
+    },
+    {
+        "path": "POST|page_comments",
+        "caller": "{BASE}wp-admin\/options.php",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|page_for_posts",
+        "caller": "{BASE}wp-admin\/options.php",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|page_on_front",
+        "caller": "{BASE}wp-admin\/options.php",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|ping_sites",
+        "caller": "{BASE}wp-admin\/options.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 12
+    },
+    {
+        "path": "POST|posts_per_page",
+        "caller": "{BASE}wp-admin\/options.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "POST|posts_per_rss",
+        "caller": "{BASE}wp-admin\/options.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "POST|require_name_email",
+        "caller": "{BASE}wp-admin\/options.php",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|rss_use_excerpt",
+        "caller": "{BASE}wp-admin\/options.php",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|show_avatars",
+        "caller": "{BASE}wp-admin\/options.php",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|show_on_front",
+        "caller": "{BASE}wp-admin\/options.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 4
+    },
+    {
+        "path": "POST|siteurl",
+        "caller": "{BASE}wp-admin\/options.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 8
+    },
+    {
+        "path": "POST|start_of_week",
+        "caller": "{BASE}wp-admin\/options.php",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|thread_comments",
+        "caller": "{BASE}wp-admin\/options.php",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|thread_comments_depth",
+        "caller": "{BASE}wp-admin\/options.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "POST|thumbnail_crop",
+        "caller": "{BASE}wp-admin\/options.php",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|thumbnail_size_h",
+        "caller": "{BASE}wp-admin\/options.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "POST|thumbnail_size_w",
+        "caller": "{BASE}wp-admin\/options.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "POST|timezone_string",
+        "caller": "{BASE}wp-admin\/options.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 5
+    },
+    {
+        "path": "POST|time_format",
+        "caller": "{BASE}wp-admin\/options.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 10
+    },
+    {
+        "path": "POST|time_format_custom",
+        "caller": "{BASE}wp-admin\/options.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 10
+    },
+    {
+        "path": "POST|uploads_use_yearmonth_folders",
+        "caller": "{BASE}wp-admin\/options.php",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|users_can_register",
+        "caller": "{BASE}wp-admin\/options.php",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|use_balanceTags",
+        "caller": "{BASE}wp-admin\/options.php",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|use_smilies",
+        "caller": "{BASE}wp-admin\/options.php",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "GET|file",
+        "caller": "{BASE}wp-admin\/plugin-editor.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 9
+    },
+    {
+        "path": "GET|plugin",
+        "caller": "{BASE}wp-admin\/plugin-editor.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 9
+    },
+    {
+        "path": "POST|plugin",
+        "caller": "{BASE}wp-admin\/plugin-editor.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 9
+    },
+    {
+        "path": "GET|from",
+        "caller": "{BASE}wp-admin\/plugin-install.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 4
+    },
+    {
+        "path": "GET|height",
+        "caller": "{BASE}wp-admin\/plugin-install.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "GET|plugin",
+        "caller": "{BASE}wp-admin\/plugin-install.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 12
+    },
+    {
+        "path": "GET|s",
+        "caller": "{BASE}wp-admin\/plugin-install.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 12
+    },
+    {
+        "path": "GET|tab",
+        "caller": "{BASE}wp-admin\/plugin-install.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 12
+    },
+    {
+        "path": "GET|TB_iframe",
+        "caller": "{BASE}wp-admin\/plugin-install.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 4
+    },
+    {
+        "path": "GET|width",
+        "caller": "{BASE}wp-admin\/plugin-install.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "GET|activate",
+        "caller": "{BASE}wp-admin\/plugins.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 4
+    },
+    {
+        "path": "GET|checked|*",
+        "caller": "{BASE}wp-admin\/plugins.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 11
+    },
+    {
+        "path": "GET|deactivate",
+        "caller": "{BASE}wp-admin\/plugins.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 4
+    },
+    {
+        "path": "GET|paged",
+        "caller": "{BASE}wp-admin\/plugins.php",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "GET|plugin",
+        "caller": "{BASE}wp-admin\/plugins.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 9
+    },
+    {
+        "path": "GET|plugin_status",
+        "caller": "{BASE}wp-admin\/plugins.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 4
+    },
+    {
+        "path": "GET|s",
+        "caller": "{BASE}wp-admin\/plugins.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 12
+    },
+    {
+        "path": "GET|verify-delete",
+        "caller": "{BASE}wp-admin\/plugins.php",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|checked|*",
+        "caller": "{BASE}wp-admin\/plugins.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 11
+    },
+    {
+        "path": "POST|connection_type",
+        "caller": "{BASE}wp-admin\/plugins.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 4
+    },
+    {
+        "path": "POST|hostname",
+        "caller": "{BASE}wp-admin\/plugins.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 12
+    },
+    {
+        "path": "POST|password",
+        "caller": "{BASE}wp-admin\/plugins.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 12
+    },
+    {
+        "path": "POST|upgrade",
+        "caller": "{BASE}wp-admin\/plugins.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 4
+    },
+    {
+        "path": "POST|username",
+        "caller": "{BASE}wp-admin\/plugins.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 12
+    },
+    {
+        "path": "POST|verify-delete",
+        "caller": "{BASE}wp-admin\/plugins.php",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "GET|post_type",
+        "caller": "{BASE}wp-admin\/post-new.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 4
+    },
+    {
+        "path": "GET|message",
+        "caller": "{BASE}wp-admin\/post.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "GET|post",
+        "caller": "{BASE}wp-admin\/post.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "GET|revision",
+        "caller": "{BASE}wp-admin\/post.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "POST|aa",
+        "caller": "{BASE}wp-admin\/post.php",
+        "min_length": 4,
+        "max_length": 4,
+        "filter": 1
+    },
+    {
+        "path": "POST|add_comment_nonce",
+        "caller": "{BASE}wp-admin\/post.php",
+        "min_length": 10,
+        "max_length": 10,
+        "filter": 3
+    },
+    {
+        "path": "POST|advanced_view",
+        "caller": "{BASE}wp-admin\/post.php",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|attachment_url",
+        "caller": "{BASE}wp-admin\/post.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 12
+    },
+    {
+        "path": "POST|auto_draft",
+        "caller": "{BASE}wp-admin\/post.php",
+        "min_length": 0,
+        "max_length": 0,
+        "filter": 1
+    },
+    {
+        "path": "POST|closedpostboxesnonce",
+        "caller": "{BASE}wp-admin\/post.php",
+        "min_length": 10,
+        "max_length": 10,
+        "filter": 3
+    },
+    {
+        "path": "POST|comment_status",
+        "caller": "{BASE}wp-admin\/post.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 4
+    },
+    {
+        "path": "POST|content",
+        "caller": "{BASE}wp-admin\/post.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 12
+    },
+    {
+        "path": "POST|cur_aa",
+        "caller": "{BASE}wp-admin\/post.php",
+        "min_length": 4,
+        "max_length": 4,
+        "filter": 1
+    },
+    {
+        "path": "POST|cur_hh",
+        "caller": "{BASE}wp-admin\/post.php",
+        "min_length": 2,
+        "max_length": 2,
+        "filter": 1
+    },
+    {
+        "path": "POST|cur_jj",
+        "caller": "{BASE}wp-admin\/post.php",
+        "min_length": 2,
+        "max_length": 2,
+        "filter": 1
+    },
+    {
+        "path": "POST|cur_mm",
+        "caller": "{BASE}wp-admin\/post.php",
+        "min_length": 2,
+        "max_length": 2,
+        "filter": 1
+    },
+    {
+        "path": "POST|cur_mn",
+        "caller": "{BASE}wp-admin\/post.php",
+        "min_length": 2,
+        "max_length": 2,
+        "filter": 1
+    },
+    {
+        "path": "POST|excerpt",
+        "caller": "{BASE}wp-admin\/post.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 12
+    },
+    {
+        "path": "POST|excerpt",
+        "caller": "{BASE}wp-admin\/post.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 12
+    },
+    {
+        "path": "POST|hh",
+        "caller": "{BASE}wp-admin\/post.php",
+        "min_length": 2,
+        "max_length": 2,
+        "filter": 1
+    },
+    {
+        "path": "POST|hidden_aa",
+        "caller": "{BASE}wp-admin\/post.php",
+        "min_length": 4,
+        "max_length": 4,
+        "filter": 1
+    },
+    {
+        "path": "POST|hidden_hh",
+        "caller": "{BASE}wp-admin\/post.php",
+        "min_length": 2,
+        "max_length": 2,
+        "filter": 1
+    },
+    {
+        "path": "POST|hidden_jj",
+        "caller": "{BASE}wp-admin\/post.php",
+        "min_length": 2,
+        "max_length": 2,
+        "filter": 1
+    },
+    {
+        "path": "POST|hidden_mm",
+        "caller": "{BASE}wp-admin\/post.php",
+        "min_length": 2,
+        "max_length": 2,
+        "filter": 1
+    },
+    {
+        "path": "POST|hidden_mn",
+        "caller": "{BASE}wp-admin\/post.php",
+        "min_length": 2,
+        "max_length": 2,
+        "filter": 1
+    },
+    {
+        "path": "POST|hidden_post_password",
+        "caller": "{BASE}wp-admin\/post.php",
+        "min_length": 0,
+        "max_length": 0,
+        "filter": 1
+    },
+    {
+        "path": "POST|hidden_post_status",
+        "caller": "{BASE}wp-admin\/post.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 4
+    },
+    {
+        "path": "POST|hidden_post_visibility",
+        "caller": "{BASE}wp-admin\/post.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 4
+    },
+    {
+        "path": "POST|jj",
+        "caller": "{BASE}wp-admin\/post.php",
+        "min_length": 2,
+        "max_length": 2,
+        "filter": 1
+    },
+    {
+        "path": "POST|menu_order",
+        "caller": "{BASE}wp-admin\/post.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "POST|meta-box-order-nonce",
+        "caller": "{BASE}wp-admin\/post.php",
+        "min_length": 10,
+        "max_length": 10,
+        "filter": 3
+    },
+    {
+        "path": "POST|metakeyinput",
+        "caller": "{BASE}wp-admin\/post.php",
+        "min_length": 0,
+        "max_length": 0,
+        "filter": 1
+    },
+    {
+        "path": "POST|metavalue",
+        "caller": "{BASE}wp-admin\/post.php",
+        "min_length": 0,
+        "max_length": 0,
+        "filter": 1
+    },
+    {
+        "path": "POST|mm",
+        "caller": "{BASE}wp-admin\/post.php",
+        "min_length": 2,
+        "max_length": 2,
+        "filter": 1
+    },
+    {
+        "path": "POST|mn",
+        "caller": "{BASE}wp-admin\/post.php",
+        "min_length": 2,
+        "max_length": 2,
+        "filter": 1
+    },
+    {
+        "path": "POST|newcategory",
+        "caller": "{BASE}wp-admin\/post.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 12
+    },
+    {
+        "path": "POST|newcategory_parent",
+        "caller": "{BASE}wp-admin\/post.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 2
+    },
+    {
+        "path": "POST|newtag|post_tag",
+        "caller": "{BASE}wp-admin\/post.php",
+        "min_length": 0,
+        "max_length": 0,
+        "filter": 1
+    },
+    {
+        "path": "POST|originalaction",
+        "caller": "{BASE}wp-admin\/post.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 4
+    },
+    {
+        "path": "POST|original_post_status",
+        "caller": "{BASE}wp-admin\/post.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 12
+    },
+    {
+        "path": "POST|original_publish",
+        "caller": "{BASE}wp-admin\/post.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 9
+    },
+    {
+        "path": "POST|page_template",
+        "caller": "{BASE}wp-admin\/post.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 12
+    },
+    {
+        "path": "POST|parent_id",
+        "caller": "{BASE}wp-admin\/post.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "POST|ping_status",
+        "caller": "{BASE}wp-admin\/post.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 4
+    },
+    {
+        "path": "POST|post_author",
+        "caller": "{BASE}wp-admin\/post.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "POST|post_author_override",
+        "caller": "{BASE}wp-admin\/post.php",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|post_category|*",
+        "caller": "{BASE}wp-admin\/post.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "POST|post_format",
+        "caller": "{BASE}wp-admin\/post.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 12
+    },
+    {
+        "path": "POST|post_ID",
+        "caller": "{BASE}wp-admin\/post.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "POST|post_name",
+        "caller": "{BASE}wp-admin\/post.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 12
+    },
+    {
+        "path": "POST|post_password",
+        "caller": "{BASE}wp-admin\/post.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 12
+    },
+    {
+        "path": "POST|post_status",
+        "caller": "{BASE}wp-admin\/post.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 4
+    },
+    {
+        "path": "POST|post_title",
+        "caller": "{BASE}wp-admin\/post.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 12
+    },
+    {
+        "path": "POST|post_type",
+        "caller": "{BASE}wp-admin\/post.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 4
+    },
+    {
+        "path": "POST|publish",
+        "caller": "{BASE}wp-admin\/post.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 9
+    },
+    {
+        "path": "POST|referredby",
+        "caller": "{BASE}wp-admin\/post.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 8
+    },
+    {
+        "path": "POST|samplepermalinknonce",
+        "caller": "{BASE}wp-admin\/post.php",
+        "min_length": 10,
+        "max_length": 10,
+        "filter": 3
+    },
+    {
+        "path": "POST|save",
+        "caller": "{BASE}wp-admin\/post.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 12
+    },
+    {
+        "path": "POST|ss",
+        "caller": "{BASE}wp-admin\/post.php",
+        "min_length": 2,
+        "max_length": 2,
+        "filter": 1
+    },
+    {
+        "path": "POST|tax_input|post_tag",
+        "caller": "{BASE}wp-admin\/post.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 12
+    },
+    {
+        "path": "POST|trackback_url",
+        "caller": "{BASE}wp-admin\/post.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 12
+    },
+    {
+        "path": "POST|user_ID",
+        "caller": "{BASE}wp-admin\/post.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "POST|visibility",
+        "caller": "{BASE}wp-admin\/post.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 4
+    },
+    {
+        "path": "POST|wp-preview",
+        "caller": "{BASE}wp-admin\/post.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 4
+    },
+    {
+        "path": "POST|_ajax_fetch_list_nonce",
+        "caller": "{BASE}wp-admin\/post.php",
+        "min_length": 10,
+        "max_length": 10,
+        "filter": 3
+    },
+    {
+        "path": "POST|_ajax_nonce-add-category",
+        "caller": "{BASE}wp-admin\/post.php",
+        "min_length": 10,
+        "max_length": 10,
+        "filter": 3
+    },
+    {
+        "path": "POST|_ajax_nonce-add-meta",
+        "caller": "{BASE}wp-admin\/post.php",
+        "min_length": 10,
+        "max_length": 10,
+        "filter": 3
+    },
+    {
+        "path": "POST|_wp_attachment_image_alt",
+        "caller": "{BASE}wp-admin\/post.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 12
+    },
+    {
+        "path": "GET|updated",
+        "caller": "{BASE}wp-admin\/profile.php",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|admin_bar_front",
+        "caller": "{BASE}wp-admin\/profile.php",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|admin_color",
+        "caller": "{BASE}wp-admin\/profile.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 4
+    },
+    {
+        "path": "POST|checkuser_id",
+        "caller": "{BASE}wp-admin\/profile.php",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|color-nonce",
+        "caller": "{BASE}wp-admin\/profile.php",
+        "min_length": 10,
+        "max_length": 10,
+        "filter": 3
+    },
+    {
+        "path": "POST|description",
+        "caller": "{BASE}wp-admin\/profile.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 12
+    },
+    {
+        "path": "POST|display_name",
+        "caller": "{BASE}wp-admin\/profile.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 12
+    },
+    {
+        "path": "POST|email",
+        "caller": "{BASE}wp-admin\/profile.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 12
+    },
+    {
+        "path": "POST|first_name",
+        "caller": "{BASE}wp-admin\/profile.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 12
+    },
+    {
+        "path": "POST|from",
+        "caller": "{BASE}wp-admin\/profile.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 4
+    },
+    {
+        "path": "POST|last_name",
+        "caller": "{BASE}wp-admin\/profile.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 12
+    },
+    {
+        "path": "POST|nickname",
+        "caller": "{BASE}wp-admin\/profile.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 12
+    },
+    {
+        "path": "POST|pass1",
+        "caller": "{BASE}wp-admin\/profile.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 12
+    },
+    {
+        "path": "POST|pass2",
+        "caller": "{BASE}wp-admin\/profile.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 12
+    },
+    {
+        "path": "POST|url",
+        "caller": "{BASE}wp-admin\/profile.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 12
+    },
+    {
+        "path": "POST|user_id",
+        "caller": "{BASE}wp-admin\/profile.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "GET|revision",
+        "caller": "{BASE}wp-admin\/revision.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "GET|file",
+        "caller": "{BASE}wp-admin\/theme-editor.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "GET|theme",
+        "caller": "{BASE}wp-admin\/theme-editor.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 4
+    },
+    {
+        "path": "POST|theme",
+        "caller": "{BASE}wp-admin\/theme-editor.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 4
+    },
+    {
+        "path": "GET|activated",
+        "caller": "{BASE}wp-admin\/themes.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 4
+    },
+    {
+        "path": "GET|page",
+        "caller": "{BASE}wp-admin\/themes.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "GET|stylesheet",
+        "caller": "{BASE}wp-admin\/themes.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 4
+    },
+    {
+        "path": "POST|background-color",
+        "caller": "{BASE}wp-admin\/themes.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 12
+    },
+    {
+        "path": "POST|save-background-options",
+        "caller": "{BASE}wp-admin\/themes.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 9
+    },
+    {
+        "path": "POST|_wpnonce-custom-background-upload",
+        "caller": "{BASE}wp-admin\/themes.php",
+        "min_length": 10,
+        "max_length": 10,
+        "filter": 3
+    },
+    {
+        "path": "GET|force-check",
+        "caller": "{BASE}wp-admin\/update-core.php",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|locale",
+        "caller": "{BASE}wp-admin\/update-core.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|upgrade",
+        "caller": "{BASE}wp-admin\/update-core.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 9
+    },
+    {
+        "path": "POST|version",
+        "caller": "{BASE}wp-admin\/update-core.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 2
+    },
+    {
+        "path": "GET|plugin",
+        "caller": "{BASE}wp-admin\/update.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "GET|theme",
+        "caller": "{BASE}wp-admin\/update.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 4
+    },
+    {
+        "path": "POST|connection_type",
+        "caller": "{BASE}wp-admin\/update.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 4
+    },
+    {
+        "path": "POST|hostname",
+        "caller": "{BASE}wp-admin\/update.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|install-plugin-submit",
+        "caller": "{BASE}wp-admin\/update.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 9
+    },
+    {
+        "path": "POST|password",
+        "caller": "{BASE}wp-admin\/update.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 12
+    },
+    {
+        "path": "POST|upgrade",
+        "caller": "{BASE}wp-admin\/update.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 4
+    },
+    {
+        "path": "POST|username",
+        "caller": "{BASE}wp-admin\/update.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 4
+    },
+    {
+        "path": "GET|deleted",
+        "caller": "{BASE}wp-admin\/upload.php",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "GET|mode",
+        "caller": "{BASE}wp-admin\/upload.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 4
+    },
+    {
+        "path": "GET|updated",
+        "caller": "{BASE}wp-admin\/user-edit.php",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "GET|user_id",
+        "caller": "{BASE}wp-admin\/user-edit.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "POST|admin_bar_front",
+        "caller": "{BASE}wp-admin\/user-edit.php",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|admin_color",
+        "caller": "{BASE}wp-admin\/user-edit.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 4
+    },
+    {
+        "path": "POST|checkuser_id",
+        "caller": "{BASE}wp-admin\/user-edit.php",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|color-nonce",
+        "caller": "{BASE}wp-admin\/user-edit.php",
+        "min_length": 10,
+        "max_length": 10,
+        "filter": 3
+    },
+    {
+        "path": "POST|description",
+        "caller": "{BASE}wp-admin\/user-edit.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 12
+    },
+    {
+        "path": "POST|display_name",
+        "caller": "{BASE}wp-admin\/user-edit.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 12
+    },
+    {
+        "path": "POST|email",
+        "caller": "{BASE}wp-admin\/user-edit.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 12
+    },
+    {
+        "path": "POST|first_name",
+        "caller": "{BASE}wp-admin\/user-edit.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 12
+    },
+    {
+        "path": "POST|from",
+        "caller": "{BASE}wp-admin\/user-edit.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 4
+    },
+    {
+        "path": "POST|last_name",
+        "caller": "{BASE}wp-admin\/user-edit.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 12
+    },
+    {
+        "path": "POST|nickname",
+        "caller": "{BASE}wp-admin\/user-edit.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 12
+    },
+    {
+        "path": "POST|pass1",
+        "caller": "{BASE}wp-admin\/user-edit.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 12
+    },
+    {
+        "path": "POST|pass2",
+        "caller": "{BASE}wp-admin\/user-edit.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 12
+    },
+    {
+        "path": "POST|rich_editing",
+        "caller": "{BASE}wp-admin\/user-edit.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 4
+    },
+    {
+        "path": "POST|role",
+        "caller": "{BASE}wp-admin\/user-edit.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 4
+    },
+    {
+        "path": "POST|url",
+        "caller": "{BASE}wp-admin\/user-edit.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 12
+    },
+    {
+        "path": "POST|user_id",
+        "caller": "{BASE}wp-admin\/user-edit.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "POST|createuser",
+        "caller": "{BASE}wp-admin\/user-new.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 9
+    },
+    {
+        "path": "POST|email",
+        "caller": "{BASE}wp-admin\/user-new.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 12
+    },
+    {
+        "path": "POST|first_name",
+        "caller": "{BASE}wp-admin\/user-new.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 12
+    },
+    {
+        "path": "POST|last_name",
+        "caller": "{BASE}wp-admin\/user-new.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 12
+    },
+    {
+        "path": "POST|pass1",
+        "caller": "{BASE}wp-admin\/user-new.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 12
+    },
+    {
+        "path": "POST|pass2",
+        "caller": "{BASE}wp-admin\/user-new.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 12
+    },
+    {
+        "path": "POST|role",
+        "caller": "{BASE}wp-admin\/user-new.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 4
+    },
+    {
+        "path": "POST|send_password",
+        "caller": "{BASE}wp-admin\/user-new.php",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|url",
+        "caller": "{BASE}wp-admin\/user-new.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 12
+    },
+    {
+        "path": "POST|user_login",
+        "caller": "{BASE}wp-admin\/user-new.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 12
+    },
+    {
+        "path": "POST|_wpnonce_create-user",
+        "caller": "{BASE}wp-admin\/user-new.php",
+        "min_length": 10,
+        "max_length": 10,
+        "filter": 3
+    },
+    {
+        "path": "GET|changeit",
+        "caller": "{BASE}wp-admin\/users.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 4
+    },
+    {
+        "path": "GET|id",
+        "caller": "{BASE}wp-admin\/users.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "GET|new_role",
+        "caller": "{BASE}wp-admin\/users.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 12
+    },
+    {
+        "path": "GET|order",
+        "caller": "{BASE}wp-admin\/users.php",
+        "min_length": 3,
+        "max_length": 4,
+        "filter": 4
+    },
+    {
+        "path": "GET|orderby",
+        "caller": "{BASE}wp-admin\/users.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 4
+    },
+    {
+        "path": "GET|paged",
+        "caller": "{BASE}wp-admin\/users.php",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "GET|role",
+        "caller": "{BASE}wp-admin\/users.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 4
+    },
+    {
+        "path": "GET|s",
+        "caller": "{BASE}wp-admin\/users.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 12
+    },
+    {
+        "path": "GET|update",
+        "caller": "{BASE}wp-admin\/users.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 3
+    },
+    {
+        "path": "GET|users|*",
+        "caller": "{BASE}wp-admin\/users.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "POST|author",
+        "caller": "{BASE}wp-comments-post.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 12
+    },
+    {
+        "path": "POST|comment",
+        "caller": "{BASE}wp-comments-post.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 12
+    },
+    {
+        "path": "POST|comment_parent",
+        "caller": "{BASE}wp-comments-post.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "POST|comment_post_ID",
+        "caller": "{BASE}wp-comments-post.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "POST|email",
+        "caller": "{BASE}wp-comments-post.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 12
+    },
+    {
+        "path": "POST|url",
+        "caller": "{BASE}wp-comments-post.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 12
+    },
+    {
+        "path": "GET|doing_wp_cron",
+        "caller": "{BASE}wp-cron.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 2
+    },
+    {
+        "path": "GET|c",
+        "caller": "{BASE}wp-includes\/js\/tinymce\/wp-tinymce.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "GET|ver",
+        "caller": "{BASE}wp-includes\/js\/tinymce\/wp-tinymce.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "GET|checkemail",
+        "caller": "{BASE}wp-login.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 4
+    },
+    {
+        "path": "GET|error",
+        "caller": "{BASE}wp-login.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 4
+    },
+    {
+        "path": "GET|key",
+        "caller": "{BASE}wp-login.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 4
+    },
+    {
+        "path": "GET|loggedout",
+        "caller": "{BASE}wp-login.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 4
+    },
+    {
+        "path": "GET|login",
+        "caller": "{BASE}wp-login.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 12
+    },
+    {
+        "path": "POST|log",
+        "caller": "{BASE}wp-login.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 12
+    },
+    {
+        "path": "POST|pass1",
+        "caller": "{BASE}wp-login.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 12
+    },
+    {
+        "path": "POST|pass2",
+        "caller": "{BASE}wp-login.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 12
+    },
+    {
+        "path": "POST|pwd",
+        "caller": "{BASE}wp-login.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 12
+    },
+    {
+        "path": "POST|redirect_to",
+        "caller": "{BASE}wp-login.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 12
+    },
+    {
+        "path": "POST|rememberme",
+        "caller": "{BASE}wp-login.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 4
+    },
+    {
+        "path": "POST|testcookie",
+        "caller": "{BASE}wp-login.php",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|user_email",
+        "caller": "{BASE}wp-login.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 12
+    },
+    {
+        "path": "POST|user_login",
+        "caller": "{BASE}wp-login.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 12
+    },
+    {
+        "path": "POST|wp-submit",
+        "caller": "{BASE}wp-login.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 12
+    },
+    {
+        "path": "GET|rsd",
+        "caller": "{BASE}xmlrpc.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    }
+]
