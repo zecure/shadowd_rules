@@ -308,6 +308,13 @@
         "filter": 12
     },
     {
+        "path": "GET|*",
+        "caller": "{BASE}wp-admin\/admin-ajax.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 12
+    },
+    {
         "path": "GET|pagenow",
         "caller": "{BASE}wp-admin\/admin-ajax.php",
         "min_length": -1,
