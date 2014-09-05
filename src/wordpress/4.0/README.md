@@ -17,4 +17,5 @@ Wordpress also uses Javascript to generate code. This code looks like an attack 
 ```
 POST|content              /.../wp-admin/post.php
 POST|html                 /.../wp-admin/admin-ajax.php
+POST|customized           /.../index.php
 ```
