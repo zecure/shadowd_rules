@@ -56,6 +56,13 @@
         "filter": 7
     },
     {
+        "path": "SERVER|HTTP_CONTENT_LENGTH",
+        "caller": "*",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
         "path": "SERVER|HTTP_CONTENT_MD5",
         "caller": "*",
         "min_length": 24,
@@ -270,6 +277,6 @@
         "caller": "*",
         "min_length": -1,
         "max_length": -1,
-        "filter": 9
+        "filter": 11
     }
 ]
