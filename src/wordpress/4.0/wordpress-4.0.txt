@@ -2265,7 +2265,7 @@
         "caller": "{BASE}wp-admin\/load-scripts.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 2
+        "filter": 7
     },
     {
         "path": "GET|c",
@@ -2293,7 +2293,7 @@
         "caller": "{BASE}wp-admin\/load-styles.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 2
+        "filter": 7
     },
     {
         "path": "GET|menu",
