@@ -1,4 +1,4 @@
-This is a tolerant Wordpress 4.0 rules set.
+This is a tolerant Wordpress 4.0 rules set. Wordpress is a very complex system and it is possible that some parameters are missing in this rules set. If this is the case please submit the missing rules and/or manually add them to your system.
 
 
 For security reasons you should ignore:

@@ -63,7 +63,7 @@
         "filter": 12
     },
     {
-        "path": "COOKIE|wp-saving-post",
+        "path": "COOKIE|wp-saving-post*",
         "caller": "*",
         "min_length": -1,
         "max_length": -1,
@@ -182,6 +182,13 @@
         "filter": 12
     },
     {
+        "path": "GET|ids",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 9
+    },
+    {
         "path": "GET|m",
         "caller": "{BASE}index.php",
         "min_length": -1,
@@ -222,6 +229,13 @@
         "min_length": -1,
         "max_length": -1,
         "filter": 12
+    },
+    {
+        "path": "GET|trashed",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
     },
     {
         "path": "POST|customized",
@@ -1621,7 +1635,7 @@
         "caller": "{BASE}wp-admin\/edit-comments.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 9
     },
     {
         "path": "GET|mode",
@@ -1911,6 +1925,20 @@
         "filter": 4
     },
     {
+        "path": "GET|deleted",
+        "caller": "{BASE}wp-admin\/edit.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "GET|delete_all",
+        "caller": "{BASE}wp-admin\/edit.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 4
+    },
+    {
         "path": "GET|doaction",
         "caller": "{BASE}wp-admin\/edit.php",
         "min_length": -1,
@@ -1929,7 +1957,7 @@
         "caller": "{BASE}wp-admin\/edit.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 1
+        "filter": 9
     },
     {
         "path": "GET|locked",
