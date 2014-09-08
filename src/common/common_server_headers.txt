@@ -102,7 +102,7 @@
         "caller": "*",
         "min_length": -1,
         "max_length": -1,
-        "filter": 6
+        "filter": 12
     },
     {
         "path": "SERVER|HTTP_FRONT_END_HTTPS",
