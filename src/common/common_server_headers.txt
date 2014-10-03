@@ -154,6 +154,13 @@
         "filter": 10
     },
     {
+        "path": "SERVER|HTTP_KEEP_ALIVE",
+        "caller": "*",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
         "path": "SERVER|HTTP_MAX_FORWARDS",
         "caller": "*",
         "min_length": -1,
