@@ -53,7 +53,7 @@
         "caller": "*",
         "min_length": -1,
         "max_length": -1,
-        "filter": 7
+        "filter": 9
     },
     {
         "path": "SERVER|HTTP_CONTENT_LENGTH",
