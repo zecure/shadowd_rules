@@ -4,56 +4,56 @@
         "caller": "*",
         "min_length": -1,
         "max_length": -1,
-        "filter": 11
+        "filter": 7
     },
     {
         "path": "SERVER|HTTP_ACCEPT_CHARSET",
         "caller": "*",
         "min_length": -1,
         "max_length": -1,
-        "filter": 11
+        "filter": 7
     },
     {
         "path": "SERVER|HTTP_ACCEPT_DATETIME",
         "caller": "*",
         "min_length": -1,
         "max_length": -1,
-        "filter": 10
+        "filter": 7
     },
     {
         "path": "SERVER|HTTP_ACCEPT_ENCODING",
         "caller": "*",
         "min_length": -1,
         "max_length": -1,
-        "filter": 11
+        "filter": 7
     },
     {
         "path": "SERVER|HTTP_ACCEPT_LANGUAGE",
         "caller": "*",
         "min_length": -1,
         "max_length": -1,
-        "filter": 11
+        "filter": 7
     },
     {
         "path": "SERVER|HTTP_AUTHORIZATION",
         "caller": "*",
         "min_length": -1,
         "max_length": -1,
-        "filter": 10
+        "filter": 7
     },
     {
         "path": "SERVER|HTTP_CACHE_CONTROL",
         "caller": "*",
         "min_length": -1,
         "max_length": -1,
-        "filter": 10
+        "filter": 7
     },
     {
         "path": "SERVER|HTTP_CONNECTION",
         "caller": "*",
         "min_length": -1,
         "max_length": -1,
-        "filter": 9
+        "filter": 7
     },
     {
         "path": "SERVER|HTTP_CONTENT_LENGTH",
@@ -74,14 +74,14 @@
         "caller": "*",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "SERVER|HTTP_DATE",
         "caller": "*",
         "min_length": -1,
         "max_length": -1,
-        "filter": 10
+        "filter": 7
     },
     {
         "path": "SERVER|HTTP_DNT",
@@ -95,14 +95,14 @@
         "caller": "*",
         "min_length": -1,
         "max_length": -1,
-        "filter": 7
+        "filter": 6
     },
     {
         "path": "SERVER|HTTP_FROM",
         "caller": "*",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "SERVER|HTTP_FRONT_END_HTTPS",
@@ -116,7 +116,7 @@
         "caller": "*",
         "min_length": -1,
         "max_length": -1,
-        "filter": 7
+        "filter": 6
     },
     {
         "path": "SERVER|HTTP_IF_MATCH",
@@ -130,7 +130,7 @@
         "caller": "*",
         "min_length": -1,
         "max_length": -1,
-        "filter": 10
+        "filter": 7
     },
     {
         "path": "SERVER|HTTP_IF_NONE_MATCH",
@@ -151,7 +151,7 @@
         "caller": "*",
         "min_length": -1,
         "max_length": -1,
-        "filter": 10
+        "filter": 7
     },
     {
         "path": "SERVER|HTTP_KEEP_ALIVE",
@@ -172,91 +172,91 @@
         "caller": "*",
         "min_length": -1,
         "max_length": -1,
-        "filter": 8
+        "filter": 7
     },
     {
         "path": "SERVER|HTTP_PRAGMA",
         "caller": "*",
         "min_length": -1,
         "max_length": -1,
-        "filter": 9
+        "filter": 7
     },
     {
         "path": "SERVER|HTTP_PROXY_AUTHORIZATION",
         "caller": "*",
         "min_length": -1,
         "max_length": -1,
-        "filter": 10
+        "filter": 7
     },
     {
         "path": "SERVER|HTTP_PROXY_CONNECTION",
         "caller": "*",
         "min_length": -1,
         "max_length": -1,
-        "filter": 7
+        "filter": 6
     },
     {
         "path": "SERVER|HTTP_RANGE",
         "caller": "*",
         "min_length": -1,
         "max_length": -1,
-        "filter": 10
+        "filter": 7
     },
     {
         "path": "SERVER|HTTP_REFERER",
         "caller": "*",
         "min_length": -1,
         "max_length": -1,
-        "filter": 8
+        "filter": 7
     },
     {
         "path": "SERVER|HTTP_TE",
         "caller": "*",
         "min_length": -1,
         "max_length": -1,
-        "filter": 11
+        "filter": 7
     },
     {
         "path": "SERVER|HTTP_UPGRADE",
         "caller": "*",
         "min_length": -1,
         "max_length": -1,
-        "filter": 9
+        "filter": 7
     },
     {
         "path": "SERVER|HTTP_USER_AGENT",
         "caller": "*",
         "min_length": -1,
         "max_length": -1,
-        "filter": 11
+        "filter": 7
     },
     {
         "path": "SERVER|HTTP_VIA",
         "caller": "*",
         "min_length": -1,
         "max_length": -1,
-        "filter": 11
+        "filter": 7
     },
     {
         "path": "SERVER|HTTP_WARNING",
         "caller": "*",
         "min_length": -1,
         "max_length": -1,
-        "filter": 9
+        "filter": 7
     },
     {
         "path": "SERVER|HTTP_X_ATT_DEVICEID",
         "caller": "*",
         "min_length": -1,
         "max_length": -1,
-        "filter": 9
+        "filter": 7
     },
     {
         "path": "SERVER|HTTP_X_FORWARDED_FOR",
         "caller": "*",
         "min_length": -1,
         "max_length": -1,
-        "filter": 10
+        "filter": 7
     },
     {
         "path": "SERVER|HTTP_X_FORWARDED_PROTO",
@@ -277,13 +277,13 @@
         "caller": "*",
         "min_length": -1,
         "max_length": -1,
-        "filter": 8
+        "filter": 7
     },
     {
         "path": "SERVER|PHP_SELF",
         "caller": "*",
         "min_length": -1,
         "max_length": -1,
-        "filter": 11
+        "filter": 7
     }
 ]

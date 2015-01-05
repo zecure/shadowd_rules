@@ -4,21 +4,21 @@
         "caller": "*",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "COOKIE|comment_author_email_*",
         "caller": "*",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "COOKIE|comment_author_url_*",
         "caller": "*",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "COOKIE|PHPSESSID",
@@ -39,42 +39,42 @@
         "caller": "*",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "COOKIE|wordpress_logged_in_*",
         "caller": "*",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "COOKIE|wordpress_test_cookie",
         "caller": "*",
         "min_length": -1,
         "max_length": -1,
-        "filter": 9
+        "filter": 7
     },
     {
         "path": "COOKIE|wp-resetpass-*",
         "caller": "*",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "COOKIE|wp-saving-post*",
         "caller": "*",
         "min_length": -1,
         "max_length": -1,
-        "filter": 7
+        "filter": 6
     },
     {
         "path": "COOKIE|wp-settings-*",
         "caller": "*",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "COOKIE|wp-settings-time-*",
@@ -88,14 +88,14 @@
         "caller": "{BASE}*",
         "min_length": -1,
         "max_length": -1,
-        "filter": 7
+        "filter": 6
     },
     {
         "path": "GET|submit",
         "caller": "{BASE}*",
         "min_length": -1,
         "max_length": -1,
-        "filter": 9
+        "filter": 7
     },
     {
         "path": "GET|_wpnonce",
@@ -109,7 +109,7 @@
         "caller": "{BASE}*",
         "min_length": -1,
         "max_length": -1,
-        "filter": 7
+        "filter": 6
     },
     {
         "path": "POST|nonce",
@@ -123,14 +123,14 @@
         "caller": "{BASE}*",
         "min_length": -1,
         "max_length": -1,
-        "filter": 9
+        "filter": 7
     },
     {
         "path": "POST|submit",
         "caller": "{BASE}*",
         "min_length": -1,
         "max_length": -1,
-        "filter": 9
+        "filter": 7
     },
     {
         "path": "POST|_nonce",
@@ -179,14 +179,14 @@
         "caller": "{BASE}index.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "GET|ids",
         "caller": "{BASE}index.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 9
+        "filter": 7
     },
     {
         "path": "GET|m",
@@ -221,14 +221,14 @@
         "caller": "{BASE}index.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "GET|tag",
         "caller": "{BASE}index.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "GET|trashed",
@@ -242,14 +242,14 @@
         "caller": "{BASE}index.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "POST|customize_messenger_channel",
         "caller": "{BASE}index.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 7
+        "filter": 6
     },
     {
         "path": "POST|nonce",
@@ -277,56 +277,56 @@
         "caller": "{BASE}wp-admin\/*",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "GET|wp_http_referer",
         "caller": "{BASE}wp-admin\/*",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "GET|_wp_http_referer",
         "caller": "{BASE}wp-admin\/*",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "POST|action2",
         "caller": "{BASE}wp-admin\/*",
         "min_length": -1,
         "max_length": -1,
-        "filter": 7
+        "filter": 6
     },
     {
         "path": "POST|wp_http_referer",
         "caller": "{BASE}wp-admin\/*",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "POST|_wp_http_referer",
         "caller": "{BASE}wp-admin\/*",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "POST|_wp_original_http_referer",
         "caller": "{BASE}wp-admin\/*",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "GET|*",
         "caller": "{BASE}wp-admin\/admin-ajax.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "GET|pagenow",
@@ -347,14 +347,14 @@
         "caller": "{BASE}wp-admin\/admin-ajax.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "GET|tax",
         "caller": "{BASE}wp-admin\/admin-ajax.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 7
+        "filter": 6
     },
     {
         "path": "GET|test",
@@ -368,7 +368,7 @@
         "caller": "{BASE}wp-admin\/admin-ajax.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 7
+        "filter": 6
     },
     {
         "path": "POST|aa",
@@ -382,14 +382,14 @@
         "caller": "{BASE}wp-admin\/admin-ajax.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 7
+        "filter": 6
     },
     {
         "path": "POST|add_new",
         "caller": "{BASE}wp-admin\/admin-ajax.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "POST|approve_parent",
@@ -424,49 +424,49 @@
         "caller": "{BASE}wp-admin\/admin-ajax.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "POST|attachment|post_content",
         "caller": "{BASE}wp-admin\/admin-ajax.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "POST|attachment|post_excerpt",
         "caller": "{BASE}wp-admin\/admin-ajax.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "POST|attachment|url",
         "caller": "{BASE}wp-admin\/admin-ajax.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 8
+        "filter": 7
     },
     {
         "path": "POST|changes|alt",
         "caller": "{BASE}wp-admin\/admin-ajax.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "POST|changes|caption",
         "caller": "{BASE}wp-admin\/admin-ajax.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "POST|changes|description",
         "caller": "{BASE}wp-admin\/admin-ajax.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "POST|checkbox",
@@ -508,14 +508,14 @@
         "caller": "{BASE}wp-admin\/admin-ajax.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 10
+        "filter": 7
     },
     {
         "path": "POST|content",
         "caller": "{BASE}wp-admin\/admin-ajax.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "POST|data|wp-auth-check",
@@ -529,14 +529,14 @@
         "caller": "{BASE}wp-admin\/admin-ajax.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 7
+        "filter": 6
     },
     {
         "path": "POST|data|wp-refresh-post-lock|lock",
         "caller": "{BASE}wp-admin\/admin-ajax.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 7
+        "filter": 6
     },
     {
         "path": "POST|data|wp-refresh-post-lock|post_id",
@@ -585,14 +585,14 @@
         "caller": "{BASE}wp-admin\/admin-ajax.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "POST|data|wp_autosave|excerpt",
         "caller": "{BASE}wp-admin\/admin-ajax.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "POST|data|wp_autosave|ping_status",
@@ -620,7 +620,7 @@
         "caller": "{BASE}wp-admin\/admin-ajax.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "POST|data|wp_autosave|post_type",
@@ -634,7 +634,7 @@
         "caller": "{BASE}wp-admin\/admin-ajax.php",
         "min_length": 10,
         "max_length": 10,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "POST|delete",
@@ -648,7 +648,7 @@
         "caller": "{BASE}wp-admin\/admin-ajax.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "POST|dimClass",
@@ -683,7 +683,7 @@
         "caller": "{BASE}wp-admin\/admin-ajax.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "POST|id",
@@ -697,7 +697,7 @@
         "caller": "{BASE}wp-admin\/admin-ajax.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "POST|interval",
@@ -753,7 +753,7 @@
         "caller": "{BASE}wp-admin\/admin-ajax.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "POST|newcategory_parent",
@@ -767,35 +767,35 @@
         "caller": "{BASE}wp-admin\/admin-ajax.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "POST|newcomment_author_email",
         "caller": "{BASE}wp-admin\/admin-ajax.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "POST|newcomment_author_url",
         "caller": "{BASE}wp-admin\/admin-ajax.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "POST|new_slug",
         "caller": "{BASE}wp-admin\/admin-ajax.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "POST|new_title",
         "caller": "{BASE}wp-admin\/admin-ajax.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "POST|parent",
@@ -816,7 +816,7 @@
         "caller": "{BASE}wp-admin\/admin-ajax.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 7
+        "filter": 6
     },
     {
         "path": "POST|position",
@@ -858,14 +858,14 @@
         "caller": "{BASE}wp-admin\/admin-ajax.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "POST|post_password",
         "caller": "{BASE}wp-admin\/admin-ajax.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "POST|post_status",
@@ -879,7 +879,7 @@
         "caller": "{BASE}wp-admin\/admin-ajax.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "POST|post_type",
@@ -907,7 +907,7 @@
         "caller": "{BASE}wp-admin\/admin-ajax.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "POST|query|paged",
@@ -942,7 +942,7 @@
         "caller": "{BASE}wp-admin\/admin-ajax.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "POST|request|browse",
@@ -1026,7 +1026,7 @@
         "caller": "{BASE}wp-admin\/admin-ajax.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "POST|samplepermalinknonce",
@@ -1040,28 +1040,28 @@
         "caller": "{BASE}wp-admin\/admin-ajax.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 7
+        "filter": 6
     },
     {
         "path": "POST|screen_id",
         "caller": "{BASE}wp-admin\/admin-ajax.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "POST|shortcode",
         "caller": "{BASE}wp-admin\/admin-ajax.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "POST|slug",
         "caller": "{BASE}wp-admin\/admin-ajax.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "POST|spam",
@@ -1075,7 +1075,7 @@
         "caller": "{BASE}wp-admin\/admin-ajax.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 8
+        "filter": 7
     },
     {
         "path": "POST|ss",
@@ -1096,28 +1096,28 @@
         "caller": "{BASE}wp-admin\/admin-ajax.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "POST|tax",
         "caller": "{BASE}wp-admin\/admin-ajax.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 7
+        "filter": 6
     },
     {
         "path": "POST|taxonomy",
         "caller": "{BASE}wp-admin\/admin-ajax.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "POST|tax_input|post_tag",
         "caller": "{BASE}wp-admin\/admin-ajax.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "POST|theme",
@@ -1131,7 +1131,7 @@
         "caller": "{BASE}wp-admin\/admin-ajax.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "POST|trash",
@@ -1173,14 +1173,14 @@
         "caller": "{BASE}wp-admin\/admin-ajax.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 7
+        "filter": 6
     },
     {
         "path": "POST|widget-meta|*|title",
         "caller": "{BASE}wp-admin\/admin-ajax.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "POST|widget-recent-comments|*|number",
@@ -1194,7 +1194,7 @@
         "caller": "{BASE}wp-admin\/admin-ajax.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "POST|widget-recent-posts|*|number",
@@ -1215,7 +1215,7 @@
         "caller": "{BASE}wp-admin\/admin-ajax.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "POST|widget-width",
@@ -1243,7 +1243,7 @@
         "caller": "{BASE}wp-admin\/admin-ajax.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "POST|_ajax_nonce-add-category",
@@ -1299,7 +1299,7 @@
         "caller": "{BASE}wp-admin\/admin-ajax.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 8
+        "filter": 7
     },
     {
         "path": "POST|_wpnonce_add-tag",
@@ -1327,7 +1327,7 @@
         "caller": "{BASE}wp-admin\/async-upload.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 7
+        "filter": 6
     },
     {
         "path": "POST|post_id",
@@ -1411,14 +1411,14 @@
         "caller": "{BASE}wp-admin\/comment.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "POST|content",
         "caller": "{BASE}wp-admin\/comment.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "POST|cur_aa",
@@ -1523,21 +1523,21 @@
         "caller": "{BASE}wp-admin\/comment.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "POST|newcomment_author_email",
         "caller": "{BASE}wp-admin\/comment.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "POST|newcomment_author_url",
         "caller": "{BASE}wp-admin\/comment.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "POST|noredir",
@@ -1558,7 +1558,7 @@
         "caller": "{BASE}wp-admin\/comment.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 8
+        "filter": 7
     },
     {
         "path": "POST|save",
@@ -1586,7 +1586,7 @@
         "caller": "{BASE}wp-admin\/customize.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "GET|approved",
@@ -1607,7 +1607,7 @@
         "caller": "{BASE}wp-admin\/edit-comments.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "GET|delete_comments|*",
@@ -1635,7 +1635,7 @@
         "caller": "{BASE}wp-admin\/edit-comments.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 9
+        "filter": 7
     },
     {
         "path": "GET|mode",
@@ -1656,7 +1656,7 @@
         "caller": "{BASE}wp-admin\/edit-comments.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 7
+        "filter": 6
     },
     {
         "path": "GET|p",
@@ -1677,14 +1677,14 @@
         "caller": "{BASE}wp-admin\/edit-comments.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 10
+        "filter": 7
     },
     {
         "path": "GET|s",
         "caller": "{BASE}wp-admin\/edit-comments.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "GET|spammed",
@@ -1775,7 +1775,7 @@
         "caller": "{BASE}wp-admin\/edit-comments.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 7
+        "filter": 6
     },
     {
         "path": "POST|wp_screen_options|value",
@@ -1831,7 +1831,7 @@
         "caller": "{BASE}wp-admin\/edit-tags.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "POST|delete_tags|*",
@@ -1845,14 +1845,14 @@
         "caller": "{BASE}wp-admin\/edit-tags.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "POST|name",
         "caller": "{BASE}wp-admin\/edit-tags.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "POST|paged",
@@ -1873,7 +1873,7 @@
         "caller": "{BASE}wp-admin\/edit-tags.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "POST|tag_ID",
@@ -1887,7 +1887,7 @@
         "caller": "{BASE}wp-admin\/edit-tags.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "GET|author",
@@ -1957,7 +1957,7 @@
         "caller": "{BASE}wp-admin\/edit.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 9
+        "filter": 7
     },
     {
         "path": "GET|locked",
@@ -1992,7 +1992,7 @@
         "caller": "{BASE}wp-admin\/edit.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "GET|paged",
@@ -2006,7 +2006,7 @@
         "caller": "{BASE}wp-admin\/edit.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 9
+        "filter": 7
     },
     {
         "path": "GET|ping_status",
@@ -2076,14 +2076,14 @@
         "caller": "{BASE}wp-admin\/edit.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "GET|screen",
         "caller": "{BASE}wp-admin\/edit.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 7
+        "filter": 6
     },
     {
         "path": "GET|skipped",
@@ -2104,7 +2104,7 @@
         "caller": "{BASE}wp-admin\/edit.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "GET|trashed",
@@ -2167,21 +2167,21 @@
         "caller": "{BASE}wp-admin\/export.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "GET|page_start_date",
         "caller": "{BASE}wp-admin\/export.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "GET|page_status",
         "caller": "{BASE}wp-admin\/export.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "GET|post_author",
@@ -2230,21 +2230,21 @@
         "caller": "{BASE}wp-admin\/install.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "POST|admin_password",
         "caller": "{BASE}wp-admin\/install.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "POST|admin_password2",
         "caller": "{BASE}wp-admin\/install.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "POST|blog_public",
@@ -2265,14 +2265,14 @@
         "caller": "{BASE}wp-admin\/install.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "POST|weblog_title",
         "caller": "{BASE}wp-admin\/install.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "GET|c",
@@ -2286,14 +2286,14 @@
         "caller": "{BASE}wp-admin\/load-scripts.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 9
+        "filter": 7
     },
     {
         "path": "GET|ver",
         "caller": "{BASE}wp-admin\/load-scripts.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 7
+        "filter": 6
     },
     {
         "path": "GET|c",
@@ -2314,14 +2314,14 @@
         "caller": "{BASE}wp-admin\/load-styles.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "GET|ver",
         "caller": "{BASE}wp-admin\/load-styles.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 7
+        "filter": 6
     },
     {
         "path": "GET|menu",
@@ -2356,7 +2356,7 @@
         "caller": "{BASE}wp-admin\/nav-menus.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "POST|meta-box-order-nonce",
@@ -2370,7 +2370,7 @@
         "caller": "{BASE}wp-admin\/nav-menus.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 9
+        "filter": 7
     },
     {
         "path": "POST|update-nav-menu-nonce",
@@ -2412,28 +2412,28 @@
         "caller": "{BASE}wp-admin\/options-permalink.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "POST|permalink_structure",
         "caller": "{BASE}wp-admin\/options-permalink.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "POST|selection",
         "caller": "{BASE}wp-admin\/options-permalink.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "POST|tag_base",
         "caller": "{BASE}wp-admin\/options-permalink.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "GET|settings-updated",
@@ -2454,7 +2454,7 @@
         "caller": "{BASE}wp-admin\/options.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "POST|avatar_default",
@@ -2475,21 +2475,21 @@
         "caller": "{BASE}wp-admin\/options.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "POST|blogdescription",
         "caller": "{BASE}wp-admin\/options.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "POST|blogname",
         "caller": "{BASE}wp-admin\/options.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "POST|blog_public",
@@ -2566,14 +2566,14 @@
         "caller": "{BASE}wp-admin\/options.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "POST|date_format_custom",
         "caller": "{BASE}wp-admin\/options.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "POST|default_category",
@@ -2622,7 +2622,7 @@
         "caller": "{BASE}wp-admin\/options.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "POST|default_role",
@@ -2636,7 +2636,7 @@
         "caller": "{BASE}wp-admin\/options.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 8
+        "filter": 7
     },
     {
         "path": "POST|large_size_h",
@@ -2657,14 +2657,14 @@
         "caller": "{BASE}wp-admin\/options.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "POST|mailserver_pass",
         "caller": "{BASE}wp-admin\/options.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "POST|mailserver_port",
@@ -2678,7 +2678,7 @@
         "caller": "{BASE}wp-admin\/options.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 7
+        "filter": 6
     },
     {
         "path": "POST|medium_size_h",
@@ -2699,7 +2699,7 @@
         "caller": "{BASE}wp-admin\/options.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "POST|moderation_notify",
@@ -2741,7 +2741,7 @@
         "caller": "{BASE}wp-admin\/options.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "POST|posts_per_page",
@@ -2790,7 +2790,7 @@
         "caller": "{BASE}wp-admin\/options.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 8
+        "filter": 7
     },
     {
         "path": "POST|start_of_week",
@@ -2846,14 +2846,14 @@
         "caller": "{BASE}wp-admin\/options.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 10
+        "filter": 7
     },
     {
         "path": "POST|time_format_custom",
         "caller": "{BASE}wp-admin\/options.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 10
+        "filter": 7
     },
     {
         "path": "POST|uploads_use_yearmonth_folders",
@@ -2888,21 +2888,21 @@
         "caller": "{BASE}wp-admin\/plugin-editor.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 9
+        "filter": 7
     },
     {
         "path": "GET|plugin",
         "caller": "{BASE}wp-admin\/plugin-editor.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 9
+        "filter": 7
     },
     {
         "path": "POST|plugin",
         "caller": "{BASE}wp-admin\/plugin-editor.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 9
+        "filter": 7
     },
     {
         "path": "GET|from",
@@ -2923,21 +2923,21 @@
         "caller": "{BASE}wp-admin\/plugin-install.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "GET|s",
         "caller": "{BASE}wp-admin\/plugin-install.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "GET|tab",
         "caller": "{BASE}wp-admin\/plugin-install.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "GET|TB_iframe",
@@ -2965,7 +2965,7 @@
         "caller": "{BASE}wp-admin\/plugins.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 11
+        "filter": 7
     },
     {
         "path": "GET|deactivate",
@@ -2986,7 +2986,7 @@
         "caller": "{BASE}wp-admin\/plugins.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 9
+        "filter": 7
     },
     {
         "path": "GET|plugin_status",
@@ -3000,7 +3000,7 @@
         "caller": "{BASE}wp-admin\/plugins.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "GET|verify-delete",
@@ -3014,7 +3014,7 @@
         "caller": "{BASE}wp-admin\/plugins.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 11
+        "filter": 7
     },
     {
         "path": "POST|connection_type",
@@ -3028,14 +3028,14 @@
         "caller": "{BASE}wp-admin\/plugins.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "POST|password",
         "caller": "{BASE}wp-admin\/plugins.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "POST|upgrade",
@@ -3049,7 +3049,7 @@
         "caller": "{BASE}wp-admin\/plugins.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "POST|verify-delete",
@@ -3112,7 +3112,7 @@
         "caller": "{BASE}wp-admin\/post.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "POST|auto_draft",
@@ -3140,7 +3140,7 @@
         "caller": "{BASE}wp-admin\/post.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "POST|cur_aa",
@@ -3182,14 +3182,14 @@
         "caller": "{BASE}wp-admin\/post.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "POST|excerpt",
         "caller": "{BASE}wp-admin\/post.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "POST|hh",
@@ -3308,7 +3308,7 @@
         "caller": "{BASE}wp-admin\/post.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "POST|newcategory_parent",
@@ -3336,21 +3336,21 @@
         "caller": "{BASE}wp-admin\/post.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "POST|original_publish",
         "caller": "{BASE}wp-admin\/post.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 9
+        "filter": 7
     },
     {
         "path": "POST|page_template",
         "caller": "{BASE}wp-admin\/post.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "POST|parent_id",
@@ -3392,7 +3392,7 @@
         "caller": "{BASE}wp-admin\/post.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "POST|post_ID",
@@ -3406,14 +3406,14 @@
         "caller": "{BASE}wp-admin\/post.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "POST|post_password",
         "caller": "{BASE}wp-admin\/post.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "POST|post_status",
@@ -3427,7 +3427,7 @@
         "caller": "{BASE}wp-admin\/post.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "POST|post_type",
@@ -3441,14 +3441,14 @@
         "caller": "{BASE}wp-admin\/post.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 9
+        "filter": 7
     },
     {
         "path": "POST|referredby",
         "caller": "{BASE}wp-admin\/post.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 8
+        "filter": 7
     },
     {
         "path": "POST|samplepermalinknonce",
@@ -3462,7 +3462,7 @@
         "caller": "{BASE}wp-admin\/post.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "POST|ss",
@@ -3476,14 +3476,14 @@
         "caller": "{BASE}wp-admin\/post.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "POST|trackback_url",
         "caller": "{BASE}wp-admin\/post.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "POST|user_ID",
@@ -3532,7 +3532,7 @@
         "caller": "{BASE}wp-admin\/post.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "GET|updated",
@@ -3574,28 +3574,28 @@
         "caller": "{BASE}wp-admin\/profile.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "POST|display_name",
         "caller": "{BASE}wp-admin\/profile.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "POST|email",
         "caller": "{BASE}wp-admin\/profile.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "POST|first_name",
         "caller": "{BASE}wp-admin\/profile.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "POST|from",
@@ -3609,35 +3609,35 @@
         "caller": "{BASE}wp-admin\/profile.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "POST|nickname",
         "caller": "{BASE}wp-admin\/profile.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "POST|pass1",
         "caller": "{BASE}wp-admin\/profile.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "POST|pass2",
         "caller": "{BASE}wp-admin\/profile.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "POST|url",
         "caller": "{BASE}wp-admin\/profile.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "POST|user_id",
@@ -3658,7 +3658,7 @@
         "caller": "{BASE}wp-admin\/theme-editor.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 7
+        "filter": 6
     },
     {
         "path": "GET|theme",
@@ -3686,7 +3686,7 @@
         "caller": "{BASE}wp-admin\/themes.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 7
+        "filter": 6
     },
     {
         "path": "GET|stylesheet",
@@ -3700,14 +3700,14 @@
         "caller": "{BASE}wp-admin\/themes.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "POST|save-background-options",
         "caller": "{BASE}wp-admin\/themes.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 9
+        "filter": 7
     },
     {
         "path": "POST|_wpnonce-custom-background-upload",
@@ -3728,14 +3728,14 @@
         "caller": "{BASE}wp-admin\/update-core.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 7
+        "filter": 6
     },
     {
         "path": "POST|upgrade",
         "caller": "{BASE}wp-admin\/update-core.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 9
+        "filter": 7
     },
     {
         "path": "POST|version",
@@ -3749,7 +3749,7 @@
         "caller": "{BASE}wp-admin\/update.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 7
+        "filter": 6
     },
     {
         "path": "GET|theme",
@@ -3770,21 +3770,21 @@
         "caller": "{BASE}wp-admin\/update.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 7
+        "filter": 6
     },
     {
         "path": "POST|install-plugin-submit",
         "caller": "{BASE}wp-admin\/update.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 9
+        "filter": 7
     },
     {
         "path": "POST|password",
         "caller": "{BASE}wp-admin\/update.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "POST|upgrade",
@@ -3861,28 +3861,28 @@
         "caller": "{BASE}wp-admin\/user-edit.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "POST|display_name",
         "caller": "{BASE}wp-admin\/user-edit.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "POST|email",
         "caller": "{BASE}wp-admin\/user-edit.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "POST|first_name",
         "caller": "{BASE}wp-admin\/user-edit.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "POST|from",
@@ -3896,28 +3896,28 @@
         "caller": "{BASE}wp-admin\/user-edit.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "POST|nickname",
         "caller": "{BASE}wp-admin\/user-edit.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "POST|pass1",
         "caller": "{BASE}wp-admin\/user-edit.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "POST|pass2",
         "caller": "{BASE}wp-admin\/user-edit.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "POST|rich_editing",
@@ -3938,7 +3938,7 @@
         "caller": "{BASE}wp-admin\/user-edit.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "POST|user_id",
@@ -3952,42 +3952,42 @@
         "caller": "{BASE}wp-admin\/user-new.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 9
+        "filter": 7
     },
     {
         "path": "POST|email",
         "caller": "{BASE}wp-admin\/user-new.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "POST|first_name",
         "caller": "{BASE}wp-admin\/user-new.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "POST|last_name",
         "caller": "{BASE}wp-admin\/user-new.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "POST|pass1",
         "caller": "{BASE}wp-admin\/user-new.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "POST|pass2",
         "caller": "{BASE}wp-admin\/user-new.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "POST|role",
@@ -4008,14 +4008,14 @@
         "caller": "{BASE}wp-admin\/user-new.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "POST|user_login",
         "caller": "{BASE}wp-admin\/user-new.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "POST|_wpnonce_create-user",
@@ -4043,7 +4043,7 @@
         "caller": "{BASE}wp-admin\/users.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "GET|order",
@@ -4078,7 +4078,7 @@
         "caller": "{BASE}wp-admin\/users.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "GET|update",
@@ -4099,14 +4099,14 @@
         "caller": "{BASE}wp-comments-post.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "POST|comment",
         "caller": "{BASE}wp-comments-post.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "POST|comment_parent",
@@ -4127,14 +4127,14 @@
         "caller": "{BASE}wp-comments-post.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "POST|url",
         "caller": "{BASE}wp-comments-post.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "GET|doing_wp_cron",
@@ -4155,7 +4155,7 @@
         "caller": "{BASE}wp-includes\/js\/tinymce\/wp-tinymce.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 7
+        "filter": 6
     },
     {
         "path": "GET|checkemail",
@@ -4190,42 +4190,42 @@
         "caller": "{BASE}wp-login.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "POST|log",
         "caller": "{BASE}wp-login.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "POST|pass1",
         "caller": "{BASE}wp-login.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "POST|pass2",
         "caller": "{BASE}wp-login.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "POST|pwd",
         "caller": "{BASE}wp-login.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "POST|redirect_to",
         "caller": "{BASE}wp-login.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "POST|rememberme",
@@ -4246,21 +4246,21 @@
         "caller": "{BASE}wp-login.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "POST|user_login",
         "caller": "{BASE}wp-login.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "POST|wp-submit",
         "caller": "{BASE}wp-login.php",
         "min_length": -1,
         "max_length": -1,
-        "filter": 12
+        "filter": 7
     },
     {
         "path": "GET|rsd",
