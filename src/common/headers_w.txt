@@ -182,7 +182,7 @@
         "filter": 7
     },
     {
-        "path": "Proxy-Authorization",
+        "path": "SERVER|Proxy-Authorization",
         "caller": "*",
         "min_length": -1,
         "max_length": -1,
