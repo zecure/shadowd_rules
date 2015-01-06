@@ -4193,6 +4193,20 @@
         "filter": 7
     },
     {
+        "path": "GET|reauth",
+        "caller": "{BASE}wp-login.php",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "GET|redirect_to",
+        "caller": "{BASE}wp-login.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
         "path": "POST|log",
         "caller": "{BASE}wp-login.php",
         "min_length": -1,
