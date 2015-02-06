@@ -1,0 +1,17 @@
+[
+    {
+        "path": "POST|content",
+        "caller": "{BASE}wp-admin\/post.php",
+        "threshold": -1
+    },
+    {
+        "path": "POST|html",
+        "caller": "{BASE}wp-admin\/admin-ajax.php",
+        "threshold": -1
+    },
+    {
+        "path": "POST|customized",
+        "caller": "{BASE}index.php",
+        "threshold": -1
+    }
+]
