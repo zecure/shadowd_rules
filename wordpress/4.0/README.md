@@ -17,7 +17,7 @@ For security reasons you should ignore:
         {"caller": "\/...\/wp-admin\/user-new.php", "path": "POST|pass2"},
         {"caller": "\/...\/wp-login.php", "path": "POST|pass1"},
         {"caller": "\/...\/wp-login.php", "path": "POST|pass2"},
-        {"caller": "\/...\/wp-login.php", "path": "POST|pwd"},
+        {"caller": "\/...\/wp-login.php", "path": "POST|pwd"}
     ]
 
 Do not forget to replace `...` with the location of your blog.
