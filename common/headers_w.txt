@@ -123,7 +123,7 @@
         "caller": "*",
         "min_length": 32,
         "max_length": 32,
-        "filter": 4
+        "filter": 7
     },
     {
         "path": "SERVER|If-Modified-Since",
@@ -137,7 +137,7 @@
         "caller": "*",
         "min_length": 32,
         "max_length": 32,
-        "filter": 4
+        "filter": 7
     },
     {
         "path": "SERVER|If-Range",
