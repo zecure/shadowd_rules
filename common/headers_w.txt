@@ -121,8 +121,8 @@
     {
         "path": "SERVER|If-Match",
         "caller": "*",
-        "min_length": 32,
-        "max_length": 32,
+        "min_length": -1,
+        "max_length": -1,
         "filter": 7
     },
     {
@@ -135,8 +135,8 @@
     {
         "path": "SERVER|If-None-Match",
         "caller": "*",
-        "min_length": 32,
-        "max_length": 32,
+        "min_length": -1,
+        "max_length": -1,
         "filter": 7
     },
     {
