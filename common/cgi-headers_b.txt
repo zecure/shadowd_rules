@@ -1,0 +1,12 @@
+[
+    {
+        "path": "SERVER|HTTP_COOKIE",
+        "caller": "*",
+        "threshold": 20
+    },
+    {
+        "path": "SERVER|HTTP_REFERER",
+        "caller": "*",
+        "threshold": 15
+    }
+]
