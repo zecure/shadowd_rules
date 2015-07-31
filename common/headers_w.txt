@@ -119,6 +119,13 @@
         "filter": 6
     },
     {
+        "path": "SERVER|HTTPS",
+        "caller": "*",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
         "path": "SERVER|If-Match",
         "caller": "*",
         "min_length": -1,
