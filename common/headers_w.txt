@@ -259,6 +259,13 @@
         "filter": 7
     },
     {
+        "path": "SERVER|X-Cnection",
+        "caller": "*",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 4
+    },
+    {
         "path": "SERVER|X-Forwarded-For",
         "caller": "*",
         "min_length": -1,
