@@ -284,7 +284,7 @@
         "caller": "*",
         "min_length": -1,
         "max_length": -1,
-        "filter": 4
+        "filter": 6
     },
     {
         "path": "SERVER|HTTP_X_WAP_PROFILE",
