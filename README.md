@@ -3,13 +3,18 @@
 This repository contains whitelist and blacklist rules. Feel free to submit your own rules or improvements.
 
 # Conventions
-Directory structure:
+
+## Directory structure
 
     appname/version
 
-File structure:
+## File structure
 
     Blacklist: appname-version_b.txt
     Whitelist: appname-version_w.txt
 
 The application names are written in lower case. Space and other special characters are replaced by underscores.
+
+## Scope
+
+The sets should not include rules for installation or update scripts that should not be accessible in a production environment.
