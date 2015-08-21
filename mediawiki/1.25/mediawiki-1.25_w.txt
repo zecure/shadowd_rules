@@ -42,13 +42,6 @@
         "filter": 7
     },
     {
-        "path": "COOKIE|mw_installer_session",
-        "caller": "*",
-        "min_length": -1,
-        "max_length": -1,
-        "filter": 7
-    },
-    {
         "path": "COOKIE|PHPSESSID",
         "caller": "*",
         "min_length": 26,
