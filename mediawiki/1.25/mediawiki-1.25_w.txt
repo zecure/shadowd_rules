@@ -1,0 +1,2214 @@
+[
+    {
+        "path": "COOKIE|mediawikiLoggedOut",
+        "caller": "*",
+        "min_length": 1,
+        "max_length": 20,
+        "filter": 1
+    },
+    {
+        "path": "COOKIE|mediawikiPostEditRevision*",
+        "caller": "*",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 4
+    },
+    {
+        "path": "COOKIE|mediawiki_session",
+        "caller": "*",
+        "min_length": 26,
+        "max_length": 26,
+        "filter": 4
+    },
+    {
+        "path": "COOKIE|mediawikiToken",
+        "caller": "*",
+        "min_length": 32,
+        "max_length": 32,
+        "filter": 3
+    },
+    {
+        "path": "COOKIE|mediawikiUserID",
+        "caller": "*",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "COOKIE|mediawikiUserName",
+        "caller": "*",
+        "min_length": 1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "COOKIE|mw_installer_session",
+        "caller": "*",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "COOKIE|PHPSESSID",
+        "caller": "*",
+        "min_length": 26,
+        "max_length": 26,
+        "filter": 4
+    },
+    {
+        "path": "COOKIE|REMEMBERME",
+        "caller": "*",
+        "min_length": 156,
+        "max_length": 156,
+        "filter": 5
+    },
+    {
+        "path": "GET|action",
+        "caller": "{BASE}api.php",
+        "min_length": 1,
+        "max_length": 32,
+        "filter": 4
+    },
+    {
+        "path": "GET|aulimit",
+        "caller": "{BASE}api.php",
+        "min_length": 2,
+        "max_length": 2,
+        "filter": 1
+    },
+    {
+        "path": "GET|auprefix",
+        "caller": "{BASE}api.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "GET|days",
+        "caller": "{BASE}api.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 2
+    },
+    {
+        "path": "GET|deletedonly",
+        "caller": "{BASE}api.php",
+        "min_length": -1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "GET|feedformat",
+        "caller": "{BASE}api.php",
+        "min_length": 4,
+        "max_length": 4,
+        "filter": 4
+    },
+    {
+        "path": "GET|format",
+        "caller": "{BASE}api.php",
+        "min_length": 4,
+        "max_length": 4,
+        "filter": 4
+    },
+    {
+        "path": "GET|from",
+        "caller": "{BASE}api.php",
+        "min_length": 1,
+        "max_length": 20,
+        "filter": 1
+    },
+    {
+        "path": "GET|hidebots",
+        "caller": "{BASE}api.php",
+        "min_length": -1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "GET|hideminor",
+        "caller": "{BASE}api.php",
+        "min_length": -1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "GET|hidepatrolled",
+        "caller": "{BASE}api.php",
+        "min_length": -1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "GET|iiprop",
+        "caller": "{BASE}api.php",
+        "min_length": 1,
+        "max_length": 20,
+        "filter": 4
+    },
+    {
+        "path": "GET|indexpageids",
+        "caller": "{BASE}api.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 6
+    },
+    {
+        "path": "GET|limit",
+        "caller": "{BASE}api.php",
+        "min_length": 1,
+        "max_length": 5,
+        "filter": 1
+    },
+    {
+        "path": "GET|list",
+        "caller": "{BASE}api.php",
+        "min_length": 8,
+        "max_length": 8,
+        "filter": 4
+    },
+    {
+        "path": "GET|namespace",
+        "caller": "{BASE}api.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "GET|newonly",
+        "caller": "{BASE}api.php",
+        "min_length": -1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "GET|prop",
+        "caller": "{BASE}api.php",
+        "min_length": 9,
+        "max_length": 9,
+        "filter": 4
+    },
+    {
+        "path": "GET|search",
+        "caller": "{BASE}api.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "GET|suggest",
+        "caller": "{BASE}api.php",
+        "min_length": -1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "GET|titles",
+        "caller": "{BASE}api.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "GET|toponly",
+        "caller": "{BASE}api.php",
+        "min_length": -1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "GET|user",
+        "caller": "{BASE}api.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 4
+    },
+    {
+        "path": "GET|ususers",
+        "caller": "{BASE}api.php",
+        "min_length": 11,
+        "max_length": 11,
+        "filter": 6
+    },
+    {
+        "path": "POST|action",
+        "caller": "{BASE}api.php",
+        "min_length": 5,
+        "max_length": 9,
+        "filter": 4
+    },
+    {
+        "path": "POST|baserevid",
+        "caller": "{BASE}api.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "POST|contentformat",
+        "caller": "{BASE}api.php",
+        "min_length": 11,
+        "max_length": 11,
+        "filter": 7
+    },
+    {
+        "path": "POST|contentmodel",
+        "caller": "{BASE}api.php",
+        "min_length": 8,
+        "max_length": 8,
+        "filter": 4
+    },
+    {
+        "path": "POST|disableeditsection",
+        "caller": "{BASE}api.php",
+        "min_length": 4,
+        "max_length": 5,
+        "filter": 4
+    },
+    {
+        "path": "POST|format",
+        "caller": "{BASE}api.php",
+        "min_length": 4,
+        "max_length": 4,
+        "filter": 4
+    },
+    {
+        "path": "POST|preview",
+        "caller": "{BASE}api.php",
+        "min_length": -1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|prop",
+        "caller": "{BASE}api.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|pst",
+        "caller": "{BASE}api.php",
+        "min_length": -1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|rcid",
+        "caller": "{BASE}api.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "POST|section",
+        "caller": "{BASE}api.php",
+        "min_length": -1,
+        "max_length": 20,
+        "filter": 4
+    },
+    {
+        "path": "POST|sectionpreview",
+        "caller": "{BASE}api.php",
+        "min_length": -1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|sectiontitle",
+        "caller": "{BASE}api.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|summary",
+        "caller": "{BASE}api.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|text",
+        "caller": "{BASE}api.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|title",
+        "caller": "{BASE}api.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|titles",
+        "caller": "{BASE}api.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|token",
+        "caller": "{BASE}api.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|unwatch",
+        "caller": "{BASE}api.php",
+        "min_length": -1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|uselang",
+        "caller": "{BASE}api.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 6
+    },
+    {
+        "path": "GET|action",
+        "caller": "{BASE}index.php",
+        "min_length": 1,
+        "max_length": 50,
+        "filter": 4
+    },
+    {
+        "path": "GET|asc",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "GET|associated",
+        "caller": "{BASE}index.php",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "GET|contribs",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": 10,
+        "filter": 4
+    },
+    {
+        "path": "GET|creationSort",
+        "caller": "{BASE}index.php",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "GET|curid",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "GET|days",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 2
+    },
+    {
+        "path": "GET|deleted",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "GET|deletedOnly",
+        "caller": "{BASE}index.php",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "GET|desc",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "GET|diff",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "GET|diffonly",
+        "caller": "{BASE}index.php",
+        "min_length": 0,
+        "max_length": 0,
+        "filter": 1
+    },
+    {
+        "path": "GET|dir",
+        "caller": "{BASE}index.php",
+        "min_length": 1,
+        "max_length": 15,
+        "filter": 4
+    },
+    {
+        "path": "GET|direction",
+        "caller": "{BASE}index.php",
+        "min_length": 4,
+        "max_length": 4,
+        "filter": 4
+    },
+    {
+        "path": "GET|editchangetags",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "GET|editsOnly",
+        "caller": "{BASE}index.php",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "GET|feed",
+        "caller": "{BASE}index.php",
+        "min_length": 4,
+        "max_length": 4,
+        "filter": 4
+    },
+    {
+        "path": "GET|filter",
+        "caller": "{BASE}index.php",
+        "min_length": 3,
+        "max_length": 10,
+        "filter": 4
+    },
+    {
+        "path": "GET|from",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "GET|fulltext",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "GET|go",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "GET|group",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": 10,
+        "filter": 4
+    },
+    {
+        "path": "GET|hideanons",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "GET|hidebots",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "GET|hidelinks",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "GET|hideliu",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "GET|hideminor",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "GET|hidemyself",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "GET|hidepatrolled",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "GET|hide_patrol_log",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "GET|hideredirects",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "GET|hideredirs",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "GET|hidesysops",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "GET|hide_tag_log",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "GET|hidetrans",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "GET|ids|*",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "GET|ilsearch",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "GET|ilshowall",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "GET|invert",
+        "caller": "{BASE}index.php",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "GET|isbn",
+        "caller": "{BASE}index.php",
+        "min_length": 8,
+        "max_length": 32,
+        "filter": 7
+    },
+    {
+        "path": "GET|lang",
+        "caller": "{BASE}index.php",
+        "min_length": 1,
+        "max_length": 10,
+        "filter": 6
+    },
+    {
+        "path": "GET|level",
+        "caller": "{BASE}index.php",
+        "min_length": 1,
+        "max_length": 13,
+        "filter": 7
+    },
+    {
+        "path": "GET|like",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "GET|limit",
+        "caller": "{BASE}index.php",
+        "min_length": 1,
+        "max_length": 5,
+        "filter": 1
+    },
+    {
+        "path": "GET|maxjobs",
+        "caller": "{BASE}index.php",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "GET|mime",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": 20,
+        "filter": 7
+    },
+    {
+        "path": "GET|month",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "GET|namespace",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "GET|newOnly",
+        "caller": "{BASE}index.php",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "GET|ns*",
+        "caller": "{BASE}index.php",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "GET|offset",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 6
+    },
+    {
+        "path": "GET|oldid",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "GET|page*",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "GET|pattern",
+        "caller": "{BASE}index.php",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "GET|prefix",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "GET|printable",
+        "caller": "{BASE}index.php",
+        "min_length": 2,
+        "max_length": 3,
+        "filter": 4
+    },
+    {
+        "path": "GET|profile",
+        "caller": "{BASE}index.php",
+        "min_length": 3,
+        "max_length": 8,
+        "filter": 4
+    },
+    {
+        "path": "GET|rcid",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "GET|redirect",
+        "caller": "{BASE}index.php",
+        "min_length": 2,
+        "max_length": 3,
+        "filter": 4
+    },
+    {
+        "path": "GET|redirectparams",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "GET|redlink",
+        "caller": "{BASE}index.php",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "GET|returnto",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "GET|returntoquery",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "GET|rev*",
+        "caller": "{BASE}index.php",
+        "min_length": 1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "GET|search",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "GET|section",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "GET|showbots",
+        "caller": "{BASE}index.php",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "GET|sigexpiry",
+        "caller": "{BASE}index.php",
+        "min_length": 10,
+        "max_length": 10,
+        "filter": 1
+    },
+    {
+        "path": "GET|signature",
+        "caller": "{BASE}index.php",
+        "min_length": 40,
+        "max_length": 40,
+        "filter": 3
+    },
+    {
+        "path": "GET|sort",
+        "caller": "{BASE}index.php",
+        "min_length": 1,
+        "max_length": 20,
+        "filter": 6
+    },
+    {
+        "path": "GET|success",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "GET|tagfilter",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "GET|target",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "GET|tasks",
+        "caller": "{BASE}index.php",
+        "min_length": 4,
+        "max_length": 4,
+        "filter": 4
+    },
+    {
+        "path": "GET|title",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "GET|to",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "GET|token",
+        "caller": "{BASE}index.php",
+        "min_length": 42,
+        "max_length": 42,
+        "filter": 7
+    },
+    {
+        "path": "GET|topOnly",
+        "caller": "{BASE}index.php",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "GET|type",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": 20,
+        "filter": 4
+    },
+    {
+        "path": "GET|unhide",
+        "caller": "{BASE}index.php",
+        "min_length": 0,
+        "max_length": 0,
+        "filter": 1
+    },
+    {
+        "path": "GET|user",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "GET|username",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "GET|useskin",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 4
+    },
+    {
+        "path": "GET|warning",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "GET|wpDestFile",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "GET|wpForReUpload",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "GET|wpOptions|*",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 4
+    },
+    {
+        "path": "GET|wpTarget",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "GET|wptype",
+        "caller": "{BASE}index.php",
+        "min_length": 4,
+        "max_length": 8,
+        "filter": 4
+    },
+    {
+        "path": "GET|wpvalue",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "GET|year",
+        "caller": "{BASE}index.php",
+        "min_length": 0,
+        "max_length": 4,
+        "filter": 1
+    },
+    {
+        "path": "POST|action",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|catname",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|conflictcheck-originalgroups",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 6
+    },
+    {
+        "path": "POST|curonly",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|days",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 2
+    },
+    {
+        "path": "POST|editToken",
+        "caller": "{BASE}index.php",
+        "min_length": 16,
+        "max_length": 64,
+        "filter": 5
+    },
+    {
+        "path": "POST|fileid*",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|format",
+        "caller": "{BASE}index.php",
+        "min_length": 11,
+        "max_length": 11,
+        "filter": 7
+    },
+    {
+        "path": "POST|fulltext",
+        "caller": "{BASE}index.php",
+        "min_length": 1,
+        "max_length": 20,
+        "filter": 4
+    },
+    {
+        "path": "POST|ids",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 6
+    },
+    {
+        "path": "POST|log-comment",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|model",
+        "caller": "{BASE}index.php",
+        "min_length": 8,
+        "max_length": 8,
+        "filter": 4
+    },
+    {
+        "path": "POST|mw-filedelete-submit",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": 20,
+        "filter": 4
+    },
+    {
+        "path": "POST|mwProtect-expiry-edit",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 6
+    },
+    {
+        "path": "POST|mwProtect-expiry-move",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 6
+    },
+    {
+        "path": "POST|mwProtect-level-edit",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|mwProtect-level-move",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|mwProtect-reason",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|mwProtectWatch",
+        "caller": "{BASE}index.php",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|namespace",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "POST|ns*",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": 64,
+        "filter": 7
+    },
+    {
+        "path": "POST|oldid",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "POST|pages",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|parentRevId",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "POST|profile",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": 20,
+        "filter": 4
+    },
+    {
+        "path": "POST|redirectparams",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|restore",
+        "caller": "{BASE}index.php",
+        "min_length": 7,
+        "max_length": 7,
+        "filter": 4
+    },
+    {
+        "path": "POST|returnto",
+        "caller": "{BASE}index.php",
+        "min_length": 1,
+        "max_length": -1,
+        "filter": 6
+    },
+    {
+        "path": "POST|rootpage",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|saveusergroups",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 6
+    },
+    {
+        "path": "POST|search",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|source",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 6
+    },
+    {
+        "path": "POST|target",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|templates",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|title",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|ts*",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|type",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 4
+    },
+    {
+        "path": "POST|user",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|user-reason",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|wpAntispam",
+        "caller": "{BASE}index.php",
+        "min_length": 0,
+        "max_length": 0,
+        "filter": 1
+    },
+    {
+        "path": "POST|wpAutoBlock",
+        "caller": "{BASE}index.php",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|wpAutoSummary",
+        "caller": "{BASE}index.php",
+        "min_length": 32,
+        "max_length": 32,
+        "filter": 3
+    },
+    {
+        "path": "POST|wpcategory",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|wpcols",
+        "caller": "{BASE}index.php",
+        "min_length": 1,
+        "max_length": 10,
+        "filter": 1
+    },
+    {
+        "path": "POST|wpComment",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|wpConfirm",
+        "caller": "{BASE}index.php",
+        "min_length": 0,
+        "max_length": 0,
+        "filter": 1
+    },
+    {
+        "path": "POST|wpConfirmB",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|wpContextTitle",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|wpCreateaccount",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|wpCreateAccount",
+        "caller": "{BASE}index.php",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|wpCreateaccountToken",
+        "caller": "{BASE}index.php",
+        "min_length": 32,
+        "max_length": 32,
+        "filter": 3
+    },
+    {
+        "path": "POST|wpdate",
+        "caller": "{BASE}index.php",
+        "min_length": 1,
+        "max_length": 20,
+        "filter": 6
+    },
+    {
+        "path": "POST|wpDeleteReasonList",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": 100,
+        "filter": 6
+    },
+    {
+        "path": "POST|wpDestFile",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|wpDestFileWarningAck",
+        "caller": "{BASE}index.php",
+        "min_length": 0,
+        "max_length": 0,
+        "filter": 1
+    },
+    {
+        "path": "POST|wpDiff",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|wpdiffonly",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|wpDisableEmail",
+        "caller": "{BASE}index.php",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|wpDownload",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|wpeditfont",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 6
+    },
+    {
+        "path": "POST|wpeditondblclick",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|wpeditsectiononrightclick",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|wpEdittime",
+        "caller": "{BASE}index.php",
+        "min_length": 1,
+        "max_length": 20,
+        "filter": 1
+    },
+    {
+        "path": "POST|wpEditToken",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|wpEmail",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|wpExpiry",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": 20,
+        "filter": 7
+    },
+    {
+        "path": "POST|wpExpiry-other",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": 20,
+        "filter": 7
+    },
+    {
+        "path": "POST|wpextendwatchlist",
+        "caller": "{BASE}index.php",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|wpfancysig",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|wpforceeditsummary",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|wpgender",
+        "caller": "{BASE}index.php",
+        "min_length": 4,
+        "max_length": 7,
+        "filter": 4
+    },
+    {
+        "path": "POST|wpGenerateRawHtml",
+        "caller": "{BASE}index.php",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|wpGenerateXml",
+        "caller": "{BASE}index.php",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|wpGroup-*",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "POST|wphideminor",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|wphidepatrolled",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|wpIgnoreBlankSummary",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|wpIgnoreWarning",
+        "caller": "{BASE}index.php",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|wpIgnoreWarnings",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|wpimagesize",
+        "caller": "{BASE}index.php",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|wpInput",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|wplanguage",
+        "caller": "{BASE}index.php",
+        "min_length": 1,
+        "max_length": 10,
+        "filter": 6
+    },
+    {
+        "path": "POST|wpLeaveRedirect",
+        "caller": "{BASE}index.php",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|wpLicense",
+        "caller": "{BASE}index.php",
+        "min_length": 0,
+        "max_length": 0,
+        "filter": 1
+    },
+    {
+        "path": "POST|wpLoginAttempt",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|wpLoginToken",
+        "caller": "{BASE}index.php",
+        "min_length": 32,
+        "max_length": 32,
+        "filter": 3
+    },
+    {
+        "path": "POST|wpminordefault",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|wpMinoredit",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|wpMove",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|wpMovetalk",
+        "caller": "{BASE}index.php",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|wpName",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|wpNewEmail",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|wpnewpageshidepatrolled",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|wpNewPassword",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|wpNewTitleMain",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|wpNewTitleNs",
+        "caller": "{BASE}index.php",
+        "min_length": 1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "POST|wpnickname",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|wpnorollbackdiff",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|wpnumberheadings",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|wpOldTitle",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|wpPassword",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|wpPreview",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|wppreviewonfirst",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|wppreviewontop",
+        "caller": "{BASE}index.php",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|wpPreviousTarget",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|wpProtectExpirySelection-edit",
+        "caller": "{BASE}index.php",
+        "min_length": 1,
+        "max_length": -1,
+        "filter": 6
+    },
+    {
+        "path": "POST|wpProtectExpirySelection-move",
+        "caller": "{BASE}index.php",
+        "min_length": 1,
+        "max_length": -1,
+        "filter": 6
+    },
+    {
+        "path": "POST|wpProtectReasonSelection",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|wprcdays",
+        "caller": "{BASE}index.php",
+        "min_length": 1,
+        "max_length": 10,
+        "filter": 1
+    },
+    {
+        "path": "POST|wprclimit",
+        "caller": "{BASE}index.php",
+        "min_length": 1,
+        "max_length": 10,
+        "filter": 1
+    },
+    {
+        "path": "POST|wprealname",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|wpRealName",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|wpReason",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|wpReason-other",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|wpRemember",
+        "caller": "{BASE}index.php",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|wpRemoveAllTags",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "POST|wpRemoveComments",
+        "caller": "{BASE}index.php",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|wpRemoveNowiki",
+        "caller": "{BASE}index.php",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|wpRetype",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|wprows",
+        "caller": "{BASE}index.php",
+        "min_length": 1,
+        "max_length": 10,
+        "filter": 1
+    },
+    {
+        "path": "POST|wpSave",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|wpScrolltop",
+        "caller": "{BASE}index.php",
+        "min_length": 0,
+        "max_length": 2,
+        "filter": 1
+    },
+    {
+        "path": "POST|wpSection",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 4
+    },
+    {
+        "path": "POST|wpServerTime",
+        "caller": "{BASE}index.php",
+        "min_length": 1,
+        "max_length": 10,
+        "filter": 1
+    },
+    {
+        "path": "POST|wpshowhiddencats",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|wpshowtoolbar",
+        "caller": "{BASE}index.php",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|wpskin",
+        "caller": "{BASE}index.php",
+        "min_length": 1,
+        "max_length": 50,
+        "filter": 4
+    },
+    {
+        "path": "POST|wpStarttime",
+        "caller": "{BASE}index.php",
+        "min_length": 1,
+        "max_length": 20,
+        "filter": 1
+    },
+    {
+        "path": "POST|wpstubthreshold",
+        "caller": "{BASE}index.php",
+        "min_length": 1,
+        "max_length": 10,
+        "filter": 1
+    },
+    {
+        "path": "POST|wpSubmit",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|wpSummary",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|wpTag",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|wpTagList|*",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|wpTagsToRemove|*",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|wpTarget",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|wpTextbox*",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|wpthumbsize",
+        "caller": "{BASE}index.php",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|wptimecorrection",
+        "caller": "{BASE}index.php",
+        "min_length": 1,
+        "max_length": 100,
+        "filter": 7
+    },
+    {
+        "path": "POST|wptimecorrection-other",
+        "caller": "{BASE}index.php",
+        "min_length": 1,
+        "max_length": 100,
+        "filter": 7
+    },
+    {
+        "path": "POST|wpTitles",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|wpTitlesNs*",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 6
+    },
+    {
+        "path": "POST|wptokens|*",
+        "caller": "{BASE}index.php",
+        "min_length": 14,
+        "max_length": 14,
+        "filter": 4
+    },
+    {
+        "path": "POST|wpUltimateParam",
+        "caller": "{BASE}index.php",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|wpunderline",
+        "caller": "{BASE}index.php",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|wpUpload",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|wpUploadDescription",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|wpuseeditwarning",
+        "caller": "{BASE}index.php",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|wpuselivepreview",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|wpusenewrc",
+        "caller": "{BASE}index.php",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|wpUsername",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 6
+    },
+    {
+        "path": "POST|wpWatch",
+        "caller": "{BASE}index.php",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|wpwatchcreations",
+        "caller": "{BASE}index.php",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|wpwatchdefault",
+        "caller": "{BASE}index.php",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|wpwatchdeletion",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|wpwatchlistdays",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 2
+    },
+    {
+        "path": "POST|wpwatchlisthideanons",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|wpwatchlisthidebots",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|wpwatchlisthideliu",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|wpwatchlisthideminor",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|wpwatchlisthideown",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|wpwatchlisthidepatrolled",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|wpwatchmoves",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|wpwatchrollback",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|wpWatchthis",
+        "caller": "{BASE}index.php",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|wpwllimit",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "GET|debug",
+        "caller": "{BASE}load.php",
+        "min_length": 4,
+        "max_length": 5,
+        "filter": 4
+    },
+    {
+        "path": "GET|lang",
+        "caller": "{BASE}load.php",
+        "min_length": 1,
+        "max_length": 10,
+        "filter": 6
+    },
+    {
+        "path": "GET|modules",
+        "caller": "{BASE}load.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "GET|only",
+        "caller": "{BASE}load.php",
+        "min_length": 1,
+        "max_length": 20,
+        "filter": 4
+    },
+    {
+        "path": "GET|printable",
+        "caller": "{BASE}load.php",
+        "min_length": -1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "GET|skin",
+        "caller": "{BASE}load.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 4
+    },
+    {
+        "path": "GET|version",
+        "caller": "{BASE}load.php",
+        "min_length": 16,
+        "max_length": 16,
+        "filter": 4
+    }
+]

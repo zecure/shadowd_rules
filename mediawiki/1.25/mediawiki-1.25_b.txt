@@ -1,0 +1,17 @@
+[
+    {
+        "path": "POST|wpReason",
+        "caller": "{BASE}index.php",
+        "threshold": 20
+    },
+    {
+        "path": "POST|wpSummary",
+        "caller": "{BASE}index.php",
+        "threshold": 20
+    },
+    {
+        "path": "POST|wpTextbox*",
+        "caller": "{BASE}index.php",
+        "threshold": 30
+    }
+]
