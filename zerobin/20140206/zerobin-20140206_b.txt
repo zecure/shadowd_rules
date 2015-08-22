@@ -1,0 +1,12 @@
+[
+    {
+        "path": "POST|data",
+        "caller": "{BASE}index.php",
+        "threshold": 30
+    },
+    {
+        "path": "POST|nickname",
+        "caller": "{BASE}index.php",
+        "threshold": 30
+    }
+]

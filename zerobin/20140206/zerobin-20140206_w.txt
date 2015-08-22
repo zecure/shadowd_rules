@@ -1,0 +1,72 @@
+[
+    {
+        "path": "COOKIE|PHPSESSID",
+        "caller": "*",
+        "min_length": 26,
+        "max_length": 26,
+        "filter": 4
+    },
+    {
+        "path": "GET|*",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": 40,
+        "filter": 3
+    },
+    {
+        "path": "POST|burnafterreading",
+        "caller": "{BASE}index.php",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|data",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|expire",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": 6,
+        "filter": 4
+    },
+    {
+        "path": "POST|nickname",
+        "caller": "{BASE}index.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|opendiscussion",
+        "caller": "{BASE}index.php",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|parentid",
+        "caller": "{BASE}index.php",
+        "min_length": 16,
+        "max_length": 16,
+        "filter": 3
+    },
+    {
+        "path": "POST|pasteid",
+        "caller": "{BASE}index.php",
+        "min_length": 16,
+        "max_length": 16,
+        "filter": 3
+    },
+    {
+        "path": "POST|syntaxcoloring",
+        "caller": "{BASE}index.php",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    }
+]
