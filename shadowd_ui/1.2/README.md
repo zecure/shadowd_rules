@@ -11,8 +11,7 @@ You should also ignore this sensible user input:
         {"caller": "\/app.php\/settings", "path": "POST|setting_defaults|newPassword|first"},
         {"caller": "\/app.php\/settings", "path": "POST|setting_defaults|newPassword|second"},
         {"caller": "\/app.php\/settings", "path": "POST|setting_defaults|oldPassword"},
-        {"caller": "\/app.php\/user", "path": "POST|user|password"},
-        {"caller": "\/app.php\/user\/*", "path": "POST|user|password"},
+        {"caller": "\/app.php\/user", "path": "POST|user|password"}
     ]
 
 The rules are very tight and a good example for how rules should look like. There is really no room for vulnerabilities.
