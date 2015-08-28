@@ -1,0 +1,16 @@
+[
+    {"caller": "\/...\/wp-admin\/install.php", "path": "POST|admin_password"},
+    {"caller": "\/...\/wp-admin\/install.php", "path": "POST|admin_password2"},
+    {"caller": "\/...\/wp-admin\/options.php", "path": "POST|mailserver_pass"},
+    {"caller": "\/...\/wp-admin\/profile.php", "path": "POST|pass1"},
+    {"caller": "\/...\/wp-admin\/profile.php", "path": "POST|pass2"},
+    {"caller": "\/...\/wp-admin\/user-new.php", "path": "POST|pass1"},
+    {"caller": "\/...\/wp-admin\/user-new.php", "path": "POST|pass2"},
+    {"caller": "\/...\/wp-admin\/user-edit.php", "path": "POST|pass1"},
+    {"caller": "\/...\/wp-admin\/user-edit.php", "path": "POST|pass2"},
+    {"caller": "\/...\/wp-admin\/user-new.php", "path": "POST|pass1"},
+    {"caller": "\/...\/wp-admin\/user-new.php", "path": "POST|pass2"},
+    {"caller": "\/...\/wp-login.php", "path": "POST|pass1"},
+    {"caller": "\/...\/wp-login.php", "path": "POST|pass2"},
+    {"caller": "\/...\/wp-login.php", "path": "POST|pwd"}
+]

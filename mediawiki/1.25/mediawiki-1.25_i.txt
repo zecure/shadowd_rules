@@ -1,0 +1,6 @@
+[
+    {"caller": "\/...\/load.php", "path": "GET|*"},
+    {"caller": "\/...\/index.php", "path": "POST|wpPassword"},
+    {"caller": "\/...\/index.php", "path": "POST|wpNewPassword"},
+    {"caller": "\/...\/index.php", "path": "POST|wpRetype"}
+]

@@ -6,14 +6,22 @@ This repository contains whitelist and blacklist rules. Feel free to submit your
 
 ## Directory structure
 
+The application names are written in lower case. Space and other special characters are replaced by underscores.
+
     appname/version
 
 ## File structure
 
+The rules are in the following files:
+
     Blacklist: appname-version_b.txt
     Whitelist: appname-version_w.txt
 
-The application names are written in lower case. Space and other special characters are replaced by underscores.
+Sensitive user input that should be ignored is in this file:
+
+    Ignore: appname-version_i.txt
+
+Please note that in some cases you will have to replace *...* in the ignore caller with the actual (json-encoded) path of that caller.
 
 ## Scope
 
