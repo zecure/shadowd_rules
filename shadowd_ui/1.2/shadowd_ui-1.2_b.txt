@@ -1,0 +1,7 @@
+[
+    {
+        "path": "GET|parameter_filter|searchValues|*",
+        "caller": "\/app.php\/parameters",
+        "threshold": -1
+    }
+]

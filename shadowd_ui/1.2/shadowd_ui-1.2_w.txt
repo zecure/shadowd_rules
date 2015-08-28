@@ -123,7 +123,7 @@
         "caller": "\/app.php\/blacklist\/rule",
         "min_length": -1,
         "max_length": 10,
-        "filter": 1
+        "filter": 2
     },
     {
         "path": "POST|blacklist_rule|_token",
@@ -172,7 +172,7 @@
         "caller": "\/app.php\/blacklist\/rule\/*",
         "min_length": -1,
         "max_length": 10,
-        "filter": 1
+        "filter": 2
     },
     {
         "path": "POST|blacklist_rule|_token",
