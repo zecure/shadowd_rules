@@ -231,6 +231,13 @@
         "filter": 7
     },
     {
+        "path": "SERVER|Upgrade-Insecure-Requests",
+        "caller": "*",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
         "path": "SERVER|User-Agent",
         "caller": "*",
         "min_length": -1,
