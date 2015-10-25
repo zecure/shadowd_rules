@@ -294,6 +294,13 @@
         "filter": 7
     },
     {
+        "path": "SERVER|HTTP_X_PROXY_ID",
+        "caller": "*",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
         "path": "SERVER|HTTP_X_REQUESTED_WITH",
         "caller": "*",
         "min_length": -1,
