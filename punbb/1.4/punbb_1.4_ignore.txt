@@ -1,0 +1,13 @@
+[
+  {"caller": "\/...\/register.php", "path": "DATA|raw"},
+  {"caller": "\/...\/register.php", "path": "POST|req_password1"},
+  {"caller": "\/...\/register.php", "path": "POST|req_password2"},
+  {"caller": "\/...\/login.php", "path": "DATA|raw"},
+  {"caller": "\/...\/login.php", "path": "POST|req_password"},
+  {"caller": "\/...\/profile.php", "path": "DATA|raw"},
+  {"caller": "\/...\/profile.php", "path": "POST|req_old_password"},
+  {"caller": "\/...\/profile.php", "path": "POST|req_new_password1"},
+  {"caller": "\/...\/profile.php", "path": "POST|req_new_password2"},
+  {"caller": "\/...\/profile.php", "path": "POST|req_password"},
+  {"caller": "\/...\/admin/settings.php", "path": "POST|form|smtp_pass"}
+]

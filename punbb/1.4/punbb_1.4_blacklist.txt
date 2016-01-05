@@ -1,0 +1,47 @@
+[
+    {
+        "path": "POST|req_message",
+        "caller": "{BASE}edit.php",
+        "threshold": -1
+    },
+    {
+        "path": "POST|req_subject",
+        "caller": "{BASE}edit.php",
+        "threshold": 15
+    },
+    {
+        "path": "DATA|raw",
+        "caller": "{BASE}misc.php",
+        "threshold": -1
+    },
+    {
+        "path": "POST|req_message",
+        "caller": "{BASE}misc.php",
+        "threshold": -1
+    },
+    {
+        "path": "POST|req_subject",
+        "caller": "{BASE}misc.php",
+        "threshold": 15
+    },
+    {
+        "path": "POST|new_subject",
+        "caller": "{BASE}moderate.php",
+        "threshold": 15
+    },
+    {
+        "path": "DATA|raw",
+        "caller": "{BASE}post.php",
+        "threshold": -1
+    },
+    {
+        "path": "POST|req_message",
+        "caller": "{BASE}post.php",
+        "threshold": -1
+    },
+    {
+        "path": "POST|signature",
+        "caller": "{BASE}profile.php",
+        "threshold": 15
+    }
+]

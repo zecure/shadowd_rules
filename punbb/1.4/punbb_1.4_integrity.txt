@@ -1,0 +1,142 @@
+[
+    {
+        "caller": "{BASE}admin\/bans.php",
+        "algorithm": "sha256",
+        "digest": "077d3960538a1667b0a5785d3cdbe1236fd979d96b14da348e1b817abad142de"
+    },
+    {
+        "caller": "{BASE}admin\/categories.php",
+        "algorithm": "sha256",
+        "digest": "a4622d3ebe83b3d449ad439269e55f0c6ce1303a121b72ece368fdb43410506e"
+    },
+    {
+        "caller": "{BASE}admin\/censoring.php",
+        "algorithm": "sha256",
+        "digest": "5c1d3bea93b1db1bcdbf3df3506662343afb91d1b4fea9d3cc180da90aa913d9"
+    },
+    {
+        "caller": "{BASE}admin\/extensions.php",
+        "algorithm": "sha256",
+        "digest": "2c6483c6fd6fac401bc1498424c5cdc7f344b777f5dec15240589580461a0dcc"
+    },
+    {
+        "caller": "{BASE}admin\/forums.php",
+        "algorithm": "sha256",
+        "digest": "ea36f32ca3ec431dcdf589bf3d2dc3cc6270eb9e3cab968cf4cc77a644938f91"
+    },
+    {
+        "caller": "{BASE}admin\/groups.php",
+        "algorithm": "sha256",
+        "digest": "bf590f781c2d11206d80067e7d4bf507e23eb1d4c6400d5c78226adadf09005e"
+    },
+    {
+        "caller": "{BASE}admin\/index.php",
+        "algorithm": "sha256",
+        "digest": "f75131f27d45614ff3ebf7dd0713f47f33fdc66a4186cc1fdd16dfd9ec88013d"
+    },
+    {
+        "caller": "{BASE}admin\/prune.php",
+        "algorithm": "sha256",
+        "digest": "90a467072733a93398fab5e8adf0e74cf9ba15cabb79411abb31569c0bfe688f"
+    },
+    {
+        "caller": "{BASE}admin\/ranks.php",
+        "algorithm": "sha256",
+        "digest": "e63684e6a8838005a98a341650aa3af558248376f0539955e04fcc05efb9a9ab"
+    },
+    {
+        "caller": "{BASE}admin\/reindex.php",
+        "algorithm": "sha256",
+        "digest": "2a0124ef51706960e8ec8b1aa16a88af95c9c8bf79a5bc8097594fb398380c77"
+    },
+    {
+        "caller": "{BASE}admin\/reports.php",
+        "algorithm": "sha256",
+        "digest": "7097c212ea379484e727e895cadb33d2a9c2a8e0f117f58c1db123ec6633aaf7"
+    },
+    {
+        "caller": "{BASE}admin\/settings.php",
+        "algorithm": "sha256",
+        "digest": "41fb96d23436d2cf45565d991f683dba3e78916098f15564cf3b198098bcf9f3"
+    },
+    {
+        "caller": "{BASE}admin\/users.php",
+        "algorithm": "sha256",
+        "digest": "e9f9b5107d8309626b6a1e1e9179f8d818f8812eb6f927e41365e5b9d63d56eb"
+    },
+    {
+        "caller": "{BASE}delete.php",
+        "algorithm": "sha256",
+        "digest": "b1bb1e4564c510006c74a6a2b20699c29781ab1fa5f0c8c519e85ca8f0ec9e08"
+    },
+    {
+        "caller": "{BASE}edit.php",
+        "algorithm": "sha256",
+        "digest": "c701fae317c662eb5bc0dccb21da8a02212c8b9d0225029da9a3da0a6884d9ee"
+    },
+    {
+        "caller": "{BASE}extern.php",
+        "algorithm": "sha256",
+        "digest": "9d415dedecee17038ac2261be36ae3dbd818c7d10982d4bdcc5a3ce99797dcc0"
+    },
+    {
+        "caller": "{BASE}help.php",
+        "algorithm": "sha256",
+        "digest": "e54959298056c4617e3bbd3e4e2d57db55563bcc4b0cbef9250c87f60d5f370d"
+    },
+    {
+        "caller": "{BASE}index.php",
+        "algorithm": "sha256",
+        "digest": "fee7063600b99f393041777b9f3365f66b77269535cfa5e07f707017cfb542d3"
+    },
+    {
+        "caller": "{BASE}login.php",
+        "algorithm": "sha256",
+        "digest": "0e46f9dce79c73d4ff9c18edcc7633307d67554ac46027adc86fd9acf449892a"
+    },
+    {
+        "caller": "{BASE}misc.php",
+        "algorithm": "sha256",
+        "digest": "3658c5ed7663d4e4d132c78fd96e641cc7fc121925996fca82c8eb62924b2716"
+    },
+    {
+        "caller": "{BASE}moderate.php",
+        "algorithm": "sha256",
+        "digest": "daf442972707cd0c34a5afa1f496ab3afe3c6d1068f3d85fad4f5fd259c089b4"
+    },
+    {
+        "caller": "{BASE}post.php",
+        "algorithm": "sha256",
+        "digest": "b11734b91ff2baa92e688d2fca3e9c733201c5d419cc3b0f8d17de2bbbc24801"
+    },
+    {
+        "caller": "{BASE}profile.php",
+        "algorithm": "sha256",
+        "digest": "1b50fb4fdcc075b91715ba294fb85d02344b29e8dd6c833976b7b7ada42bbfff"
+    },
+    {
+        "caller": "{BASE}register.php",
+        "algorithm": "sha256",
+        "digest": "65381b593ac16d2cf8443d5e6858cadd2e0963aa7f507a6ccdd2ba4a4f5be459"
+    },
+    {
+        "caller": "{BASE}search.php",
+        "algorithm": "sha256",
+        "digest": "464a6b27beafa33a63a690530ddb2e8c7a94599e54e0cbda99238c99610324b3"
+    },
+    {
+        "caller": "{BASE}userlist.php",
+        "algorithm": "sha256",
+        "digest": "2d5380852542f6a74bfedd7b3a665f70abb24d837331178e968d0078f7f83191"
+    },
+    {
+        "caller": "{BASE}viewforum.php",
+        "algorithm": "sha256",
+        "digest": "c637c606c0ad053eae97a2e56169b096ebcd1e1cadf8d37b6b5a6501c5c20ade"
+    },
+    {
+        "caller": "{BASE}viewtopic.php",
+        "algorithm": "sha256",
+        "digest": "4a383b283c32ec4feaa6179eef67c38924837d88447ee66d7857dc44ec56c095"
+    }
+]

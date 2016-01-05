@@ -1,0 +1,2074 @@
+[
+    {
+        "path": "COOKIE|forum_cookie_*",
+        "caller": "*",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "COOKIE|PHPSESSID",
+        "caller": "*",
+        "min_length": 26,
+        "max_length": 26,
+        "filter": 4
+    },
+    {
+        "path": "DATA|raw",
+        "caller": "{BASE}admin\/bans.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "GET|action",
+        "caller": "{BASE}admin\/bans.php",
+        "min_length": 4,
+        "max_length": 4,
+        "filter": 4
+    },
+    {
+        "path": "GET|csrf_token",
+        "caller": "{BASE}admin\/bans.php",
+        "min_length": 40,
+        "max_length": 40,
+        "filter": 3
+    },
+    {
+        "path": "GET|del_ban",
+        "caller": "{BASE}admin\/bans.php",
+        "min_length": 1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "GET|edit_ban",
+        "caller": "{BASE}admin\/bans.php",
+        "min_length": 1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "GET|sort_by",
+        "caller": "{BASE}admin\/bans.php",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|add_ban",
+        "caller": "{BASE}admin\/bans.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|add_edit_ban",
+        "caller": "{BASE}admin\/bans.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|ban_email",
+        "caller": "{BASE}admin\/bans.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|ban_expire",
+        "caller": "{BASE}admin\/bans.php",
+        "min_length": -1,
+        "max_length": 10,
+        "filter": 7
+    },
+    {
+        "path": "POST|ban_id",
+        "caller": "{BASE}admin\/bans.php",
+        "min_length": 1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "POST|ban_ip",
+        "caller": "{BASE}admin\/bans.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 6
+    },
+    {
+        "path": "POST|ban_message",
+        "caller": "{BASE}admin\/bans.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|ban_user",
+        "caller": "{BASE}admin\/bans.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|csrf_token",
+        "caller": "{BASE}admin\/bans.php",
+        "min_length": 40,
+        "max_length": 40,
+        "filter": 3
+    },
+    {
+        "path": "POST|mode",
+        "caller": "{BASE}admin\/bans.php",
+        "min_length": 3,
+        "max_length": 4,
+        "filter": 4
+    },
+    {
+        "path": "POST|new_ban_user",
+        "caller": "{BASE}admin\/bans.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "DATA|raw",
+        "caller": "{BASE}admin\/categories.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "GET|action",
+        "caller": "{BASE}admin\/categories.php",
+        "min_length": 3,
+        "max_length": 3,
+        "filter": 4
+    },
+    {
+        "path": "POST|add_cat",
+        "caller": "{BASE}admin\/categories.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|cat_name|*",
+        "caller": "{BASE}admin\/categories.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|cat_order|*",
+        "caller": "{BASE}admin\/categories.php",
+        "min_length": 1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "POST|cat_to_delete",
+        "caller": "{BASE}admin\/categories.php",
+        "min_length": 1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "POST|csrf_token",
+        "caller": "{BASE}admin\/categories.php",
+        "min_length": 40,
+        "max_length": 40,
+        "filter": 3
+    },
+    {
+        "path": "POST|del_cat",
+        "caller": "{BASE}admin\/categories.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|del_cat_cancel",
+        "caller": "{BASE}admin\/categories.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|del_cat_comply",
+        "caller": "{BASE}admin\/categories.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|new_cat_name",
+        "caller": "{BASE}admin\/categories.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|position",
+        "caller": "{BASE}admin\/categories.php",
+        "min_length": 1,
+        "max_length": 3,
+        "filter": 1
+    },
+    {
+        "path": "POST|update",
+        "caller": "{BASE}admin\/categories.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "DATA|raw",
+        "caller": "{BASE}admin\/censoring.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "GET|action",
+        "caller": "{BASE}admin\/censoring.php",
+        "min_length": 3,
+        "max_length": 3,
+        "filter": 4
+    },
+    {
+        "path": "POST|add_word",
+        "caller": "{BASE}admin\/censoring.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|csrf_token",
+        "caller": "{BASE}admin\/censoring.php",
+        "min_length": 40,
+        "max_length": 40,
+        "filter": 3
+    },
+    {
+        "path": "POST|new_replace_with",
+        "caller": "{BASE}admin\/censoring.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|new_search_for",
+        "caller": "{BASE}admin\/censoring.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|remove|*",
+        "caller": "{BASE}admin\/censoring.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|replace_with|*",
+        "caller": "{BASE}admin\/censoring.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|search_for|*",
+        "caller": "{BASE}admin\/censoring.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|update|*",
+        "caller": "{BASE}admin\/censoring.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "GET|section",
+        "caller": "{BASE}admin\/extensions.php",
+        "min_length": 6,
+        "max_length": 8,
+        "filter": 4
+    },
+    {
+        "path": "DATA|raw",
+        "caller": "{BASE}admin\/forums.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "GET|action",
+        "caller": "{BASE}admin\/forums.php",
+        "min_length": 4,
+        "max_length": 6,
+        "filter": 4
+    },
+    {
+        "path": "GET|del_forum",
+        "caller": "{BASE}admin\/forums.php",
+        "min_length": 1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "GET|edit_forum",
+        "caller": "{BASE}admin\/forums.php",
+        "min_length": 1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "POST|add_forum",
+        "caller": "{BASE}admin\/forums.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|add_to_cat",
+        "caller": "{BASE}admin\/forums.php",
+        "min_length": 1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "POST|cat_id",
+        "caller": "{BASE}admin\/forums.php",
+        "min_length": 1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "POST|csrf_token",
+        "caller": "{BASE}admin\/forums.php",
+        "min_length": 40,
+        "max_length": 40,
+        "filter": 3
+    },
+    {
+        "path": "POST|del_forum_cancel",
+        "caller": "{BASE}admin\/forums.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|del_forum_comply",
+        "caller": "{BASE}admin\/forums.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|forum_desc",
+        "caller": "{BASE}admin\/forums.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|forum_name",
+        "caller": "{BASE}admin\/forums.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|position",
+        "caller": "{BASE}admin\/forums.php",
+        "min_length": 1,
+        "max_length": 3,
+        "filter": 1
+    },
+    {
+        "path": "POST|position|*",
+        "caller": "{BASE}admin\/forums.php",
+        "min_length": 1,
+        "max_length": 3,
+        "filter": 1
+    },
+    {
+        "path": "POST|post_replies_new|*",
+        "caller": "{BASE}admin\/forums.php",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|post_replies_old|*",
+        "caller": "{BASE}admin\/forums.php",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|post_topics_new|*",
+        "caller": "{BASE}admin\/forums.php",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|post_topics_old|*",
+        "caller": "{BASE}admin\/forums.php",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|read_forum_new|*",
+        "caller": "{BASE}admin\/forums.php",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|read_forum_old|*",
+        "caller": "{BASE}admin\/forums.php",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|redirect_url",
+        "caller": "{BASE}admin\/forums.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|revert_perms",
+        "caller": "{BASE}admin\/forums.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|save",
+        "caller": "{BASE}admin\/forums.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|sort_by",
+        "caller": "{BASE}admin\/forums.php",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|update_positions",
+        "caller": "{BASE}admin\/forums.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "DATA|raw",
+        "caller": "{BASE}admin\/groups.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "GET|action",
+        "caller": "{BASE}admin\/groups.php",
+        "min_length": 3,
+        "max_length": 3,
+        "filter": 4
+    },
+    {
+        "path": "POST|add_edit_group",
+        "caller": "{BASE}admin\/groups.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|add_group",
+        "caller": "{BASE}admin\/groups.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|base_group",
+        "caller": "{BASE}admin\/groups.php",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|csrf_token",
+        "caller": "{BASE}admin\/groups.php",
+        "min_length": 40,
+        "max_length": 40,
+        "filter": 3
+    },
+    {
+        "path": "POST|delete_posts",
+        "caller": "{BASE}admin\/groups.php",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|delete_topics",
+        "caller": "{BASE}admin\/groups.php",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|edit_posts",
+        "caller": "{BASE}admin\/groups.php",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|email_flood",
+        "caller": "{BASE}admin\/groups.php",
+        "min_length": 2,
+        "max_length": 2,
+        "filter": 1
+    },
+    {
+        "path": "POST|mode",
+        "caller": "{BASE}admin\/groups.php",
+        "min_length": 3,
+        "max_length": 3,
+        "filter": 4
+    },
+    {
+        "path": "POST|moderator",
+        "caller": "{BASE}admin\/groups.php",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|mod_ban_users",
+        "caller": "{BASE}admin\/groups.php",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|mod_change_passwords",
+        "caller": "{BASE}admin\/groups.php",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|mod_edit_users",
+        "caller": "{BASE}admin\/groups.php",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|mod_rename_users",
+        "caller": "{BASE}admin\/groups.php",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|post_flood",
+        "caller": "{BASE}admin\/groups.php",
+        "min_length": 1,
+        "max_length": 4,
+        "filter": 1
+    },
+    {
+        "path": "POST|post_replies",
+        "caller": "{BASE}admin\/groups.php",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|post_topics",
+        "caller": "{BASE}admin\/groups.php",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|read_board",
+        "caller": "{BASE}admin\/groups.php",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|req_title",
+        "caller": "{BASE}admin\/groups.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|search",
+        "caller": "{BASE}admin\/groups.php",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|search_flood",
+        "caller": "{BASE}admin\/groups.php",
+        "min_length": 1,
+        "max_length": 4,
+        "filter": 1
+    },
+    {
+        "path": "POST|search_users",
+        "caller": "{BASE}admin\/groups.php",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|send_email",
+        "caller": "{BASE}admin\/groups.php",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|set_title",
+        "caller": "{BASE}admin\/groups.php",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|user_title",
+        "caller": "{BASE}admin\/groups.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|view_users",
+        "caller": "{BASE}admin\/groups.php",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "DATA|raw",
+        "caller": "{BASE}admin\/prune.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "GET|action",
+        "caller": "{BASE}admin\/prune.php",
+        "min_length": 3,
+        "max_length": 3,
+        "filter": 4
+    },
+    {
+        "path": "POST|csrf_token",
+        "caller": "{BASE}admin\/prune.php",
+        "min_length": 40,
+        "max_length": 40,
+        "filter": 3
+    },
+    {
+        "path": "POST|form_sent",
+        "caller": "{BASE}admin\/prune.php",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|prune",
+        "caller": "{BASE}admin\/prune.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|prune_from",
+        "caller": "{BASE}admin\/prune.php",
+        "min_length": 1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|prune_sticky",
+        "caller": "{BASE}admin\/prune.php",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|req_prune_days",
+        "caller": "{BASE}admin\/prune.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "DATA|raw",
+        "caller": "{BASE}admin\/ranks.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "GET|action",
+        "caller": "{BASE}admin\/ranks.php",
+        "min_length": 3,
+        "max_length": 3,
+        "filter": 4
+    },
+    {
+        "path": "POST|add_rank",
+        "caller": "{BASE}admin\/ranks.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|csrf_token",
+        "caller": "{BASE}admin\/ranks.php",
+        "min_length": 40,
+        "max_length": 40,
+        "filter": 3
+    },
+    {
+        "path": "POST|min_posts|*",
+        "caller": "{BASE}admin\/ranks.php",
+        "min_length": 1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "POST|new_min_posts",
+        "caller": "{BASE}admin\/ranks.php",
+        "min_length": 1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "POST|new_rank",
+        "caller": "{BASE}admin\/ranks.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|rank|*",
+        "caller": "{BASE}admin\/ranks.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|remove|*",
+        "caller": "{BASE}admin\/ranks.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|update|*",
+        "caller": "{BASE}admin\/ranks.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "GET|csrf_token",
+        "caller": "{BASE}admin\/reindex.php",
+        "min_length": 40,
+        "max_length": 40,
+        "filter": 3
+    },
+    {
+        "path": "GET|i_empty_index",
+        "caller": "{BASE}admin\/reindex.php",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "GET|i_per_page",
+        "caller": "{BASE}admin\/reindex.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "GET|i_start_at",
+        "caller": "{BASE}admin\/reindex.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "GET|rebuild_index",
+        "caller": "{BASE}admin\/reindex.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "DATA|raw",
+        "caller": "{BASE}admin\/reports.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "GET|action",
+        "caller": "{BASE}admin\/reports.php",
+        "min_length": 3,
+        "max_length": 3,
+        "filter": 4
+    },
+    {
+        "path": "POST|csrf_token",
+        "caller": "{BASE}admin\/reports.php",
+        "min_length": 40,
+        "max_length": 40,
+        "filter": 3
+    },
+    {
+        "path": "POST|mark_as_read",
+        "caller": "{BASE}admin\/reports.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|reports|*",
+        "caller": "{BASE}admin\/reports.php",
+        "min_length": 1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "DATA|raw",
+        "caller": "{BASE}admin\/settings.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "GET|section",
+        "caller": "{BASE}admin\/settings.php",
+        "min_length": 5,
+        "max_length": 13,
+        "filter": 4
+    },
+    {
+        "path": "POST|csrf_token",
+        "caller": "{BASE}admin\/settings.php",
+        "min_length": 40,
+        "max_length": 40,
+        "filter": 3
+    },
+    {
+        "path": "POST|form_sent",
+        "caller": "{BASE}admin\/settings.php",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|form|*",
+        "caller": "{BASE}admin\/settings.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|save",
+        "caller": "{BASE}admin\/settings.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "DATA|raw",
+        "caller": "{BASE}admin\/users.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "GET|action",
+        "caller": "{BASE}admin\/users.php",
+        "min_length": 12,
+        "max_length": 12,
+        "filter": 6
+    },
+    {
+        "path": "GET|csrf_token",
+        "caller": "{BASE}admin\/users.php",
+        "min_length": 40,
+        "max_length": 40,
+        "filter": 3
+    },
+    {
+        "path": "GET|direction",
+        "caller": "{BASE}admin\/users.php",
+        "min_length": 3,
+        "max_length": 4,
+        "filter": 4
+    },
+    {
+        "path": "GET|find_user",
+        "caller": "{BASE}admin\/users.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "GET|form|*",
+        "caller": "{BASE}admin\/users.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "GET|ip_stats",
+        "caller": "{BASE}admin\/users.php",
+        "min_length": 1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "GET|last_post_after",
+        "caller": "{BASE}admin\/users.php",
+        "min_length": -1,
+        "max_length": 19,
+        "filter": 6
+    },
+    {
+        "path": "GET|last_post_before",
+        "caller": "{BASE}admin\/users.php",
+        "min_length": -1,
+        "max_length": 19,
+        "filter": 6
+    },
+    {
+        "path": "GET|order_by",
+        "caller": "{BASE}admin\/users.php",
+        "min_length": 5,
+        "max_length": 10,
+        "filter": 6
+    },
+    {
+        "path": "GET|posts_greater",
+        "caller": "{BASE}admin\/users.php",
+        "min_length": -1,
+        "max_length": 8,
+        "filter": 1
+    },
+    {
+        "path": "GET|posts_less",
+        "caller": "{BASE}admin\/users.php",
+        "min_length": -1,
+        "max_length": 8,
+        "filter": 1
+    },
+    {
+        "path": "GET|registered_after",
+        "caller": "{BASE}admin\/users.php",
+        "min_length": -1,
+        "max_length": 19,
+        "filter": 6
+    },
+    {
+        "path": "GET|registered_before",
+        "caller": "{BASE}admin\/users.php",
+        "min_length": -1,
+        "max_length": 19,
+        "filter": 6
+    },
+    {
+        "path": "GET|show_users",
+        "caller": "{BASE}admin\/users.php",
+        "min_length": -1,
+        "max_length": 15,
+        "filter": 6
+    },
+    {
+        "path": "GET|user_group",
+        "caller": "{BASE}admin\/users.php",
+        "min_length": 1,
+        "max_length": 2,
+        "filter": 2
+    },
+    {
+        "path": "POST|ban_expire",
+        "caller": "{BASE}admin\/users.php",
+        "min_length": -1,
+        "max_length": 10,
+        "filter": 7
+    },
+    {
+        "path": "POST|ban_message",
+        "caller": "{BASE}admin\/users.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|ban_users",
+        "caller": "{BASE}admin\/users.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|ban_users_comply",
+        "caller": "{BASE}admin\/users.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|change_group",
+        "caller": "{BASE}admin\/users.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|change_group_cancel",
+        "caller": "{BASE}admin\/users.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|change_group_comply",
+        "caller": "{BASE}admin\/users.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|csrf_token",
+        "caller": "{BASE}admin\/users.php",
+        "min_length": 40,
+        "max_length": 40,
+        "filter": 3
+    },
+    {
+        "path": "POST|move_to_group",
+        "caller": "{BASE}admin\/users.php",
+        "min_length": 1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "POST|users*",
+        "caller": "{BASE}admin\/users.php",
+        "min_length": 1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "DATA|raw",
+        "caller": "{BASE}delete.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "GET|id",
+        "caller": "{BASE}delete.php",
+        "min_length": 1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "POST|csrf_token",
+        "caller": "{BASE}delete.php",
+        "min_length": 40,
+        "max_length": 40,
+        "filter": 3
+    },
+    {
+        "path": "POST|delete",
+        "caller": "{BASE}delete.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|form_sent",
+        "caller": "{BASE}delete.php",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|req_confirm",
+        "caller": "{BASE}delete.php",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "DATA|raw",
+        "caller": "{BASE}edit.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "GET|id",
+        "caller": "{BASE}edit.php",
+        "min_length": 1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "POST|csrf_token",
+        "caller": "{BASE}edit.php",
+        "min_length": 40,
+        "max_length": 40,
+        "filter": 3
+    },
+    {
+        "path": "POST|form_sent",
+        "caller": "{BASE}edit.php",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|hide_smilies",
+        "caller": "{BASE}edit.php",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|preview",
+        "caller": "{BASE}edit.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|req_message",
+        "caller": "{BASE}edit.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|req_subject",
+        "caller": "{BASE}edit.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|silent",
+        "caller": "{BASE}edit.php",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|submit_button",
+        "caller": "{BASE}edit.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "GET|action",
+        "caller": "{BASE}extern.php",
+        "min_length": 4,
+        "max_length": 4,
+        "filter": 4
+    },
+    {
+        "path": "GET|fid",
+        "caller": "{BASE}extern.php",
+        "min_length": 1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "GET|tid",
+        "caller": "{BASE}extern.php",
+        "min_length": 1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "GET|type",
+        "caller": "{BASE}extern.php",
+        "min_length": 3,
+        "max_length": 3,
+        "filter": 4
+    },
+    {
+        "path": "GET|section",
+        "caller": "{BASE}help.php",
+        "min_length": 3,
+        "max_length": 7,
+        "filter": 4
+    },
+    {
+        "path": "GET|login",
+        "caller": "{BASE}index.php",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "DATA|raw",
+        "caller": "{BASE}login.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "GET|action",
+        "caller": "{BASE}login.php",
+        "min_length": 1,
+        "max_length": 6,
+        "filter": 4
+    },
+    {
+        "path": "GET|csrf_token",
+        "caller": "{BASE}login.php",
+        "min_length": 40,
+        "max_length": 40,
+        "filter": 3
+    },
+    {
+        "path": "GET|id",
+        "caller": "{BASE}login.php",
+        "min_length": 1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "POST|cancel",
+        "caller": "{BASE}login.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|csrf_token",
+        "caller": "{BASE}login.php",
+        "min_length": 40,
+        "max_length": 40,
+        "filter": 3
+    },
+    {
+        "path": "POST|form_sent",
+        "caller": "{BASE}login.php",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|login",
+        "caller": "{BASE}login.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|redirect_url",
+        "caller": "{BASE}login.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|request_pass",
+        "caller": "{BASE}login.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|req_email",
+        "caller": "{BASE}login.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|req_password",
+        "caller": "{BASE}login.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|req_username",
+        "caller": "{BASE}login.php",
+        "min_length": -1,
+        "max_length": 50,
+        "filter": 7
+    },
+    {
+        "path": "POST|save_pass",
+        "caller": "{BASE}login.php",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "DATA|raw",
+        "caller": "{BASE}misc.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "GET|action",
+        "caller": "{BASE}misc.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 4
+    },
+    {
+        "path": "GET|csrf_token",
+        "caller": "{BASE}misc.php",
+        "min_length": 40,
+        "max_length": 40,
+        "filter": 3
+    },
+    {
+        "path": "GET|email",
+        "caller": "{BASE}misc.php",
+        "min_length": 1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "GET|fid",
+        "caller": "{BASE}misc.php",
+        "min_length": 1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "GET|forum_subscribe",
+        "caller": "{BASE}misc.php",
+        "min_length": 1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "GET|report",
+        "caller": "{BASE}misc.php",
+        "min_length": 1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "GET|unsubscribe",
+        "caller": "{BASE}misc.php",
+        "min_length": 1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "POST|cancel",
+        "caller": "{BASE}misc.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|csrf_token",
+        "caller": "{BASE}misc.php",
+        "min_length": 40,
+        "max_length": 40,
+        "filter": 3
+    },
+    {
+        "path": "POST|form_sent",
+        "caller": "{BASE}misc.php",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|redirect_url",
+        "caller": "{BASE}misc.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|req_message",
+        "caller": "{BASE}misc.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|req_reason",
+        "caller": "{BASE}misc.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|req_subject",
+        "caller": "{BASE}misc.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|submit",
+        "caller": "{BASE}misc.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "DATA|raw",
+        "caller": "{BASE}moderate.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "GET|close",
+        "caller": "{BASE}moderate.php",
+        "min_length": 1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "GET|csrf_token",
+        "caller": "{BASE}moderate.php",
+        "min_length": 40,
+        "max_length": 40,
+        "filter": 3
+    },
+    {
+        "path": "GET|fid",
+        "caller": "{BASE}moderate.php",
+        "min_length": 1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "GET|get_host",
+        "caller": "{BASE}moderate.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 6
+    },
+    {
+        "path": "GET|move_topics",
+        "caller": "{BASE}moderate.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "GET|stick",
+        "caller": "{BASE}moderate.php",
+        "min_length": 1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "GET|tid",
+        "caller": "{BASE}moderate.php",
+        "min_length": 1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "POST|cancel",
+        "caller": "{BASE}moderate.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|close",
+        "caller": "{BASE}moderate.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|csrf_token",
+        "caller": "{BASE}moderate.php",
+        "min_length": 40,
+        "max_length": 40,
+        "filter": 3
+    },
+    {
+        "path": "POST|delete_posts",
+        "caller": "{BASE}moderate.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|delete_posts_comply",
+        "caller": "{BASE}moderate.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|delete_topics",
+        "caller": "{BASE}moderate.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|delete_topics_comply",
+        "caller": "{BASE}moderate.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|merge_topics",
+        "caller": "{BASE}moderate.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|merge_topics_comply",
+        "caller": "{BASE}moderate.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|move_topics",
+        "caller": "{BASE}moderate.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|move_topics_to",
+        "caller": "{BASE}moderate.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|move_to_forum",
+        "caller": "{BASE}moderate.php",
+        "min_length": 1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "POST|new_subject",
+        "caller": "{BASE}moderate.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|open",
+        "caller": "{BASE}moderate.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|posts",
+        "caller": "{BASE}moderate.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 6
+    },
+    {
+        "path": "POST|posts|*",
+        "caller": "{BASE}moderate.php",
+        "min_length": 1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "POST|req_confirm",
+        "caller": "{BASE}moderate.php",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|split_posts",
+        "caller": "{BASE}moderate.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|split_posts_comply",
+        "caller": "{BASE}moderate.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|topics",
+        "caller": "{BASE}moderate.php",
+        "min_length": 1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|topics|*",
+        "caller": "{BASE}moderate.php",
+        "min_length": 1,
+        "max_length": -1,
+        "filter": 6
+    },
+    {
+        "path": "POST|with_redirect",
+        "caller": "{BASE}moderate.php",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "DATA|raw",
+        "caller": "{BASE}post.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "GET|fid",
+        "caller": "{BASE}post.php",
+        "min_length": 1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "GET|qid",
+        "caller": "{BASE}post.php",
+        "min_length": 1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "GET|tid",
+        "caller": "{BASE}post.php",
+        "min_length": 1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "POST|csrf_token",
+        "caller": "{BASE}post.php",
+        "min_length": 40,
+        "max_length": 40,
+        "filter": 3
+    },
+    {
+        "path": "POST|form_sent",
+        "caller": "{BASE}post.php",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|form_user",
+        "caller": "{BASE}post.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|hide_smilies",
+        "caller": "{BASE}post.php",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|preview",
+        "caller": "{BASE}post.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|req_message",
+        "caller": "{BASE}post.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|req_subject",
+        "caller": "{BASE}post.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|submit_button",
+        "caller": "{BASE}post.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|subscribe",
+        "caller": "{BASE}post.php",
+        "min_length": 1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "DATA|raw",
+        "caller": "{BASE}profile.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "FILES|req_file",
+        "caller": "{BASE}profile.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "GET|id",
+        "caller": "{BASE}profile.php",
+        "min_length": 1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "GET|section",
+        "caller": "{BASE}profile.php",
+        "min_length": 5,
+        "max_length": 9,
+        "filter": 4
+    },
+    {
+        "path": "POST|csrf_token",
+        "caller": "{BASE}profile.php",
+        "min_length": 40,
+        "max_length": 40,
+        "filter": 3
+    },
+    {
+        "path": "POST|form_sent",
+        "caller": "{BASE}profile.php",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|form|*",
+        "caller": "{BASE}profile.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|group_id",
+        "caller": "{BASE}profile.php",
+        "min_length": 1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "POST|MAX_FILE_SIZE",
+        "caller": "{BASE}profile.php",
+        "min_length": 1,
+        "max_length": 10,
+        "filter": 1
+    },
+    {
+        "path": "POST|req_new_password1",
+        "caller": "{BASE}profile.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|req_new_password2",
+        "caller": "{BASE}profile.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|req_old_password",
+        "caller": "{BASE}profile.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|req_password",
+        "caller": "{BASE}profile.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|signature",
+        "caller": "{BASE}profile.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|update",
+        "caller": "{BASE}profile.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|update_group_membership",
+        "caller": "{BASE}profile.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "DATA|raw",
+        "caller": "{BASE}register.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "GET|action",
+        "caller": "{BASE}register.php",
+        "min_length": 8,
+        "max_length": 8,
+        "filter": 4
+    },
+    {
+        "path": "GET|agree",
+        "caller": "{BASE}register.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "GET|cancel",
+        "caller": "{BASE}register.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "GET|login",
+        "caller": "{BASE}register.php",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "GET|req_agreement",
+        "caller": "{BASE}register.php",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|csrf_token",
+        "caller": "{BASE}register.php",
+        "min_length": 40,
+        "max_length": 40,
+        "filter": 3
+    },
+    {
+        "path": "POST|dst",
+        "caller": "{BASE}register.php",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|form_sent",
+        "caller": "{BASE}register.php",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|register",
+        "caller": "{BASE}register.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|req_email1",
+        "caller": "{BASE}register.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|req_password1",
+        "caller": "{BASE}register.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|req_password2",
+        "caller": "{BASE}register.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|req_username",
+        "caller": "{BASE}register.php",
+        "min_length": -1,
+        "max_length": 50,
+        "filter": 7
+    },
+    {
+        "path": "POST|timezone",
+        "caller": "{BASE}register.php",
+        "min_length": 6,
+        "max_length": 6,
+        "filter": 6
+    },
+    {
+        "path": "GET|action",
+        "caller": "{BASE}search.php",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 4
+    },
+    {
+        "path": "GET|keywords",
+        "caller": "{BASE}search.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "GET|search",
+        "caller": "{BASE}search.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "GET|user_id",
+        "caller": "{BASE}search.php",
+        "min_length": 1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "GET|search",
+        "caller": "{BASE}userlist.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "GET|show_group",
+        "caller": "{BASE}userlist.php",
+        "min_length": 1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "GET|sort_by",
+        "caller": "{BASE}userlist.php",
+        "min_length": 8,
+        "max_length": 10,
+        "filter": 6
+    },
+    {
+        "path": "GET|sort_dir",
+        "caller": "{BASE}userlist.php",
+        "min_length": 3,
+        "max_length": 4,
+        "filter": 4
+    },
+    {
+        "path": "GET|username",
+        "caller": "{BASE}userlist.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "GET|id",
+        "caller": "{BASE}viewforum.php",
+        "min_length": 1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "GET|action",
+        "caller": "{BASE}viewtopic.php",
+        "min_length": 3,
+        "max_length": 4,
+        "filter": 4
+    },
+    {
+        "path": "GET|id",
+        "caller": "{BASE}viewtopic.php",
+        "min_length": 1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "GET|login",
+        "caller": "{BASE}viewtopic.php",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "GET|pid",
+        "caller": "{BASE}viewtopic.php",
+        "min_length": 1,
+        "max_length": -1,
+        "filter": 1
+    }
+]
