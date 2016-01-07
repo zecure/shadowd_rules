@@ -1,0 +1,3 @@
+[
+  {"path": "SERVER|HTTP_AUTHORIZATION"}
+]

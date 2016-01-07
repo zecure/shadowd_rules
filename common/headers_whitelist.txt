@@ -35,7 +35,7 @@
         "filter": 7
     },
     {
-        "path": "SERVER|Accept-Authorization",
+        "path": "SERVER|Authorization",
         "caller": "*",
         "min_length": -1,
         "max_length": -1,
