@@ -28,6 +28,13 @@
         "filter": 4
     },
     {
+        "path": "GET|add_ban",
+        "caller": "{BASE}admin\/bans.php",
+        "min_length": 1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
         "path": "GET|csrf_token",
         "caller": "{BASE}admin\/bans.php",
         "min_length": 40,
@@ -1771,6 +1778,13 @@
         "filter": 7
     },
     {
+        "path": "GET|action",
+        "caller": "{BASE}profile.php",
+        "min_length": 11,
+        "max_length": 11,
+        "filter": 6
+    },
+    {
         "path": "GET|id",
         "caller": "{BASE}profile.php",
         "min_length": 1,
@@ -1785,11 +1799,39 @@
         "filter": 4
     },
     {
+        "path": "POST|admin_note",
+        "caller": "{BASE}profile.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|cancel",
+        "caller": "{BASE}profile.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
         "path": "POST|csrf_token",
         "caller": "{BASE}profile.php",
         "min_length": 40,
         "max_length": 40,
         "filter": 3
+    },
+    {
+        "path": "POST|delete_posts",
+        "caller": "{BASE}profile.php",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|delete_user_comply",
+        "caller": "{BASE}profile.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
     },
     {
         "path": "POST|form_sent",
@@ -1820,6 +1862,27 @@
         "filter": 1
     },
     {
+        "path": "POST|num_posts",
+        "caller": "{BASE}profile.php",
+        "min_length": 1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "POST|old_username",
+        "caller": "{BASE}profile.php",
+        "min_length": -1,
+        "max_length": 50,
+        "filter": 7
+    },
+    {
+        "path": "POST|req_email",
+        "caller": "{BASE}profile.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
         "path": "POST|req_new_password1",
         "caller": "{BASE}profile.php",
         "min_length": -1,
@@ -1848,6 +1911,13 @@
         "filter": 7
     },
     {
+        "path": "POST|req_username",
+        "caller": "{BASE}profile.php",
+        "min_length": -1,
+        "max_length": 50,
+        "filter": 7
+    },
+    {
         "path": "POST|signature",
         "caller": "{BASE}profile.php",
         "min_length": -1,
@@ -1855,7 +1925,21 @@
         "filter": 7
     },
     {
+        "path": "POST|title",
+        "caller": "{BASE}profile.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
         "path": "POST|update",
+        "caller": "{BASE}profile.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|update_forums",
         "caller": "{BASE}profile.php",
         "min_length": -1,
         "max_length": -1,
@@ -1977,8 +2061,29 @@
         "path": "GET|action",
         "caller": "{BASE}search.php",
         "min_length": 1,
+        "max_length": 24,
+        "filter": 6
+    },
+    {
+        "path": "GET|advanced",
+        "caller": "{BASE}search.php",
+        "min_length": 1,
         "max_length": 1,
-        "filter": 4
+        "filter": 1
+    },
+    {
+        "path": "GET|author",
+        "caller": "{BASE}search.php",
+        "min_length": -1,
+        "max_length": 50,
+        "filter": 7
+    },
+    {
+        "path": "GET|forum|*",
+        "caller": "{BASE}search.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
     },
     {
         "path": "GET|keywords",
@@ -1993,6 +2098,34 @@
         "min_length": -1,
         "max_length": -1,
         "filter": 7
+    },
+    {
+        "path": "GET|search_in",
+        "caller": "{BASE}search.php",
+        "min_length": 3,
+        "max_length": 7,
+        "filter": 4
+    },
+    {
+        "path": "GET|show_as",
+        "caller": "{BASE}search.php",
+        "min_length": 5,
+        "max_length": 6,
+        "filter": 4
+    },
+    {
+        "path": "GET|sort_by",
+        "caller": "{BASE}search.php",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "GET|sort_dir",
+        "caller": "{BASE}search.php",
+        "min_length": 3,
+        "max_length": 4,
+        "filter": 4
     },
     {
         "path": "GET|user_id",
