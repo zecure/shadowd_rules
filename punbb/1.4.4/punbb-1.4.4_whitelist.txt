@@ -14,6 +14,13 @@
         "filter": 4
     },
     {
+        "path": "GET|login",
+        "caller": "{BASE}*",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
         "path": "DATA|raw",
         "caller": "{BASE}admin\/bans.php",
         "min_length": -1,
@@ -1246,13 +1253,6 @@
         "filter": 4
     },
     {
-        "path": "GET|login",
-        "caller": "{BASE}index.php",
-        "min_length": 1,
-        "max_length": 1,
-        "filter": 1
-    },
-    {
         "path": "DATA|raw",
         "caller": "{BASE}login.php",
         "min_length": -1,
@@ -1981,13 +1981,6 @@
         "filter": 7
     },
     {
-        "path": "GET|login",
-        "caller": "{BASE}register.php",
-        "min_length": 1,
-        "max_length": 1,
-        "filter": 1
-    },
-    {
         "path": "GET|req_agreement",
         "caller": "{BASE}register.php",
         "min_length": 1,
@@ -2195,13 +2188,6 @@
         "caller": "{BASE}viewtopic.php",
         "min_length": 1,
         "max_length": -1,
-        "filter": 1
-    },
-    {
-        "path": "GET|login",
-        "caller": "{BASE}viewtopic.php",
-        "min_length": 1,
-        "max_length": 1,
         "filter": 1
     },
     {
