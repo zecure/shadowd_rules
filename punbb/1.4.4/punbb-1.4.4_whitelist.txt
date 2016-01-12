@@ -1242,7 +1242,7 @@
         "path": "GET|type",
         "caller": "{BASE}extern.php",
         "min_length": 3,
-        "max_length": 3,
+        "max_length": 4,
         "filter": 4
     },
     {
