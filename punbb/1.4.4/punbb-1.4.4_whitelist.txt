@@ -917,6 +917,13 @@
         "filter": 7
     },
     {
+        "path": "POST|prev_url",
+        "caller": "{BASE}admin\/settings.php",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
         "path": "POST|save",
         "caller": "{BASE}admin\/settings.php",
         "min_length": -1,
