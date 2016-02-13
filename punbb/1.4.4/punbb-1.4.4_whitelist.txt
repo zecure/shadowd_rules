@@ -2153,7 +2153,7 @@
         "caller": "{BASE}userlist.php",
         "min_length": 1,
         "max_length": -1,
-        "filter": 1
+        "filter": 2
     },
     {
         "path": "GET|sort_by",
