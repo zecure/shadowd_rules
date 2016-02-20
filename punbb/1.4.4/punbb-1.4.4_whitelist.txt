@@ -226,7 +226,7 @@
     {
         "path": "POST|position",
         "caller": "{BASE}admin\/categories.php",
-        "min_length": 1,
+        "min_length": -1,
         "max_length": 3,
         "filter": 1
     },
@@ -401,14 +401,14 @@
     {
         "path": "POST|position",
         "caller": "{BASE}admin\/forums.php",
-        "min_length": 1,
+        "min_length": -1,
         "max_length": 3,
         "filter": 1
     },
     {
         "path": "POST|position|*",
         "caller": "{BASE}admin\/forums.php",
-        "min_length": 1,
+        "min_length": -1,
         "max_length": 3,
         "filter": 1
     },
@@ -2137,6 +2137,13 @@
     {
         "path": "GET|user_id",
         "caller": "{BASE}search.php",
+        "min_length": 1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "GET|p",
+        "caller": "{BASE}userlist.php",
         "min_length": 1,
         "max_length": -1,
         "filter": 1
