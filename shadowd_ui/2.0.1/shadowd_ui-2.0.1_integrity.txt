@@ -1,0 +1,7 @@
+[
+    {
+        "caller": "*",
+        "algorithm": "sha256",
+        "digest": "83628aaae07b9b07ac72450f353cbfb0ed6becfd7428b40c72c70aee962ecfe9"
+    }
+]

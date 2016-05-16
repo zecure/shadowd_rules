@@ -1,0 +1,9 @@
+[
+    {"path": "COOKIE|PHPSESSID"},
+    {"path": "COOKIE|REMEMBERME"},
+    {"caller": "\/app.php\/login_check", "path": "POST|_password"},
+    {"caller": "\/app.php\/settings", "path": "POST|setting_defaults|newPassword|first"},
+    {"caller": "\/app.php\/settings", "path": "POST|setting_defaults|newPassword|second"},
+    {"caller": "\/app.php\/settings", "path": "POST|setting_defaults|oldPassword"},
+    {"caller": "\/app.php\/user", "path": "POST|user|password"}
+]

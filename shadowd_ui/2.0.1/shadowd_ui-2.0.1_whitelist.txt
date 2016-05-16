@@ -1,0 +1,3159 @@
+[
+    {
+        "path": "COOKIE|PHPSESSID",
+        "caller": "*",
+        "min_length": 26,
+        "max_length": 26,
+        "filter": 4
+    },
+    {
+        "path": "COOKIE|REMEMBERME",
+        "caller": "*",
+        "min_length": 156,
+        "max_length": 156,
+        "filter": 5
+    },
+    {
+        "path": "POST|blacklist_export|actions|export",
+        "caller": "\/app.php\/blacklist\/export",
+        "min_length": 0,
+        "max_length": 0,
+        "filter": 1
+    },
+    {
+        "path": "POST|blacklist_export|base",
+        "caller": "\/app.php\/blacklist\/export",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|blacklist_export|excludeCallers|*",
+        "caller": "\/app.php\/blacklist\/export",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|blacklist_export|excludePaths|*",
+        "caller": "\/app.php\/blacklist\/export",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|blacklist_export|includeCallers|*",
+        "caller": "\/app.php\/blacklist\/export",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|blacklist_export|includePaths|*",
+        "caller": "\/app.php\/blacklist\/export",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|blacklist_export|profile",
+        "caller": "\/app.php\/blacklist\/export",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "POST|blacklist_export|_token",
+        "caller": "\/app.php\/blacklist\/export",
+        "min_length": 43,
+        "max_length": 43,
+        "filter": 7
+    },
+    {
+        "path": "FILES|blacklist_import|file",
+        "caller": "\/app.php\/blacklist\/import",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|blacklist_import|actions|import",
+        "caller": "\/app.php\/blacklist\/import",
+        "min_length": 0,
+        "max_length": 0,
+        "filter": 1
+    },
+    {
+        "path": "POST|blacklist_import|base",
+        "caller": "\/app.php\/blacklist\/import",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|blacklist_import|profile",
+        "caller": "\/app.php\/blacklist\/import",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "POST|blacklist_import|_token",
+        "caller": "\/app.php\/blacklist\/import",
+        "min_length": 43,
+        "max_length": 43,
+        "filter": 7
+    },
+    {
+        "path": "POST|blacklist_rule|actions|save",
+        "caller": "\/app.php\/blacklist\/rule",
+        "min_length": 0,
+        "max_length": 0,
+        "filter": 1
+    },
+    {
+        "path": "POST|blacklist_rule|caller",
+        "caller": "\/app.php\/blacklist\/rule",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|blacklist_rule|path",
+        "caller": "\/app.php\/blacklist\/rule",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|blacklist_rule|profile",
+        "caller": "\/app.php\/blacklist\/rule",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "POST|blacklist_rule|status",
+        "caller": "\/app.php\/blacklist\/rule",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|blacklist_rule|threshold",
+        "caller": "\/app.php\/blacklist\/rule",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 2
+    },
+    {
+        "path": "POST|blacklist_rule|_token",
+        "caller": "\/app.php\/blacklist\/rule",
+        "min_length": 43,
+        "max_length": 43,
+        "filter": 7
+    },
+    {
+        "path": "POST|blacklist_rule|actions|save",
+        "caller": "\/app.php\/blacklist\/rule\/*",
+        "min_length": 0,
+        "max_length": 0,
+        "filter": 1
+    },
+    {
+        "path": "POST|blacklist_rule|caller",
+        "caller": "\/app.php\/blacklist\/rule\/*",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|blacklist_rule|path",
+        "caller": "\/app.php\/blacklist\/rule\/*",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|blacklist_rule|profile",
+        "caller": "\/app.php\/blacklist\/rule\/*",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "POST|blacklist_rule|status",
+        "caller": "\/app.php\/blacklist\/rule\/*",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|blacklist_rule|threshold",
+        "caller": "\/app.php\/blacklist\/rule\/*",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 2
+    },
+    {
+        "path": "POST|blacklist_rule|_token",
+        "caller": "\/app.php\/blacklist\/rule\/*",
+        "min_length": 43,
+        "max_length": 43,
+        "filter": 7
+    },
+    {
+        "path": "GET|blacklist_rule_filter|actions|filter",
+        "caller": "\/app.php\/blacklist\/rules",
+        "min_length": 0,
+        "max_length": 0,
+        "filter": 1
+    },
+    {
+        "path": "GET|blacklist_rule_filter|excludeCallers|*",
+        "caller": "\/app.php\/blacklist\/rules",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "GET|blacklist_rule_filter|excludeConflict",
+        "caller": "\/app.php\/blacklist\/rules",
+        "min_length": -1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "GET|blacklist_rule_filter|excludeDateEnd|date|day",
+        "caller": "\/app.php\/blacklist\/rules",
+        "min_length": -1,
+        "max_length": 2,
+        "filter": 1
+    },
+    {
+        "path": "GET|blacklist_rule_filter|excludeDateEnd|date|month",
+        "caller": "\/app.php\/blacklist\/rules",
+        "min_length": -1,
+        "max_length": 2,
+        "filter": 1
+    },
+    {
+        "path": "GET|blacklist_rule_filter|excludeDateEnd|date|year",
+        "caller": "\/app.php\/blacklist\/rules",
+        "min_length": -1,
+        "max_length": 4,
+        "filter": 1
+    },
+    {
+        "path": "GET|blacklist_rule_filter|excludeDateEnd|time|hour",
+        "caller": "\/app.php\/blacklist\/rules",
+        "min_length": -1,
+        "max_length": 2,
+        "filter": 1
+    },
+    {
+        "path": "GET|blacklist_rule_filter|excludeDateEnd|time|minute",
+        "caller": "\/app.php\/blacklist\/rules",
+        "min_length": -1,
+        "max_length": 2,
+        "filter": 1
+    },
+    {
+        "path": "GET|blacklist_rule_filter|excludeDateStart|date|day",
+        "caller": "\/app.php\/blacklist\/rules",
+        "min_length": -1,
+        "max_length": 2,
+        "filter": 1
+    },
+    {
+        "path": "GET|blacklist_rule_filter|excludeDateStart|date|month",
+        "caller": "\/app.php\/blacklist\/rules",
+        "min_length": -1,
+        "max_length": 2,
+        "filter": 1
+    },
+    {
+        "path": "GET|blacklist_rule_filter|excludeDateStart|date|year",
+        "caller": "\/app.php\/blacklist\/rules",
+        "min_length": -1,
+        "max_length": 4,
+        "filter": 1
+    },
+    {
+        "path": "GET|blacklist_rule_filter|excludeDateStart|time|hour",
+        "caller": "\/app.php\/blacklist\/rules",
+        "min_length": -1,
+        "max_length": 2,
+        "filter": 1
+    },
+    {
+        "path": "GET|blacklist_rule_filter|excludeDateStart|time|minute",
+        "caller": "\/app.php\/blacklist\/rules",
+        "min_length": -1,
+        "max_length": 2,
+        "filter": 1
+    },
+    {
+        "path": "GET|blacklist_rule_filter|excludePaths|*",
+        "caller": "\/app.php\/blacklist\/rules",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "GET|blacklist_rule_filter|excludeProfileIds|*",
+        "caller": "\/app.php\/blacklist\/rules",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "GET|blacklist_rule_filter|excludeRuleIds|*",
+        "caller": "\/app.php\/blacklist\/rules",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "GET|blacklist_rule_filter|excludeStatus",
+        "caller": "\/app.php\/blacklist\/rules",
+        "min_length": -1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "GET|blacklist_rule_filter|includeCallers|*",
+        "caller": "\/app.php\/blacklist\/rules",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "GET|blacklist_rule_filter|includeConflict",
+        "caller": "\/app.php\/blacklist\/rules",
+        "min_length": -1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "GET|blacklist_rule_filter|includeDateEnd|date|day",
+        "caller": "\/app.php\/blacklist\/rules",
+        "min_length": -1,
+        "max_length": 2,
+        "filter": 1
+    },
+    {
+        "path": "GET|blacklist_rule_filter|includeDateEnd|date|month",
+        "caller": "\/app.php\/blacklist\/rules",
+        "min_length": -1,
+        "max_length": 2,
+        "filter": 1
+    },
+    {
+        "path": "GET|blacklist_rule_filter|includeDateEnd|date|year",
+        "caller": "\/app.php\/blacklist\/rules",
+        "min_length": -1,
+        "max_length": 4,
+        "filter": 1
+    },
+    {
+        "path": "GET|blacklist_rule_filter|includeDateEnd|time|hour",
+        "caller": "\/app.php\/blacklist\/rules",
+        "min_length": -1,
+        "max_length": 2,
+        "filter": 1
+    },
+    {
+        "path": "GET|blacklist_rule_filter|includeDateEnd|time|minute",
+        "caller": "\/app.php\/blacklist\/rules",
+        "min_length": -1,
+        "max_length": 2,
+        "filter": 1
+    },
+    {
+        "path": "GET|blacklist_rule_filter|includeDateStart|date|day",
+        "caller": "\/app.php\/blacklist\/rules",
+        "min_length": -1,
+        "max_length": 2,
+        "filter": 1
+    },
+    {
+        "path": "GET|blacklist_rule_filter|includeDateStart|date|month",
+        "caller": "\/app.php\/blacklist\/rules",
+        "min_length": -1,
+        "max_length": 2,
+        "filter": 1
+    },
+    {
+        "path": "GET|blacklist_rule_filter|includeDateStart|date|year",
+        "caller": "\/app.php\/blacklist\/rules",
+        "min_length": -1,
+        "max_length": 4,
+        "filter": 1
+    },
+    {
+        "path": "GET|blacklist_rule_filter|includeDateStart|time|hour",
+        "caller": "\/app.php\/blacklist\/rules",
+        "min_length": -1,
+        "max_length": 2,
+        "filter": 1
+    },
+    {
+        "path": "GET|blacklist_rule_filter|includeDateStart|time|minute",
+        "caller": "\/app.php\/blacklist\/rules",
+        "min_length": -1,
+        "max_length": 2,
+        "filter": 1
+    },
+    {
+        "path": "GET|blacklist_rule_filter|includePaths|*",
+        "caller": "\/app.php\/blacklist\/rules",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "GET|blacklist_rule_filter|includeProfileIds|*",
+        "caller": "\/app.php\/blacklist\/rules",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "GET|blacklist_rule_filter|includeRuleIds|*",
+        "caller": "\/app.php\/blacklist\/rules",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "GET|blacklist_rule_filter|includeStatus",
+        "caller": "\/app.php\/blacklist\/rules",
+        "min_length": -1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "GET|direction",
+        "caller": "\/app.php\/blacklist\/rules",
+        "min_length": 3,
+        "max_length": 4,
+        "filter": 4
+    },
+    {
+        "path": "GET|limit",
+        "caller": "\/app.php\/blacklist\/rules",
+        "min_length": 1,
+        "max_length": 4,
+        "filter": 1
+    },
+    {
+        "path": "GET|page",
+        "caller": "\/app.php\/blacklist\/rules",
+        "min_length": 1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "GET|sort",
+        "caller": "\/app.php\/blacklist\/rules",
+        "min_length": 5,
+        "max_length": 20,
+        "filter": 6
+    },
+    {
+        "path": "POST|blacklist_rule_selector|actions|do",
+        "caller": "\/app.php\/blacklist\/rules",
+        "min_length": 0,
+        "max_length": 0,
+        "filter": 1
+    },
+    {
+        "path": "POST|blacklist_rule_selector|subaction",
+        "caller": "\/app.php\/blacklist\/rules",
+        "min_length": 6,
+        "max_length": 10,
+        "filter": 4
+    },
+    {
+        "path": "POST|blacklist_rule_selector|_token",
+        "caller": "\/app.php\/blacklist\/rules",
+        "min_length": 43,
+        "max_length": 43,
+        "filter": 7
+    },
+    {
+        "path": "POST|selected|*",
+        "caller": "\/app.php\/blacklist\/rules",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "POST|generator_settings|actions|generate",
+        "caller": "\/app.php\/generator",
+        "min_length": 0,
+        "max_length": 0,
+        "filter": 1
+    },
+    {
+        "path": "POST|generator_settings|enableBlacklist",
+        "caller": "\/app.php\/generator",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|generator_settings|enableIntegrity",
+        "caller": "\/app.php\/generator",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|generator_settings|enableWhitelist",
+        "caller": "\/app.php\/generator",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|generator_settings|excludeCallers|*",
+        "caller": "\/app.php\/generator",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|generator_settings|excludePaths|*",
+        "caller": "\/app.php\/generator",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|generator_settings|includeCallers|*",
+        "caller": "\/app.php\/generator",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|generator_settings|includePaths|*",
+        "caller": "\/app.php\/generator",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|generator_settings|maxLengthVariance",
+        "caller": "\/app.php\/generator",
+        "min_length": 1,
+        "max_length": 3,
+        "filter": 1
+    },
+    {
+        "path": "POST|generator_settings|minFilterDominance",
+        "caller": "\/app.php\/generator",
+        "min_length": 1,
+        "max_length": 3,
+        "filter": 1
+    },
+    {
+        "path": "POST|generator_settings|minThresholdDominance",
+        "caller": "\/app.php\/generator",
+        "min_length": 1,
+        "max_length": 3,
+        "filter": 1
+    },
+    {
+        "path": "POST|generator_settings|minUniqueVisitors",
+        "caller": "\/app.php\/generator",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "POST|generator_settings|predefined",
+        "caller": "\/app.php\/generator",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|generator_settings|profile",
+        "caller": "\/app.php\/generator",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "POST|generator_settings|status",
+        "caller": "\/app.php\/generator",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|generator_settings|_token",
+        "caller": "\/app.php\/generator",
+        "min_length": 43,
+        "max_length": 43,
+        "filter": 7
+    },
+    {
+        "path": "POST|generator_settings|unifyBlacklistArrays",
+        "caller": "\/app.php\/generator",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|generator_settings|unifyBlacklistCallers",
+        "caller": "\/app.php\/generator",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|generator_settings|unifyWhitelistArrays",
+        "caller": "\/app.php\/generator",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|generator_settings|unifyWhitelistCallers",
+        "caller": "\/app.php\/generator",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|integrity_export|actions|export",
+        "caller": "\/app.php\/integrity\/export",
+        "min_length": 0,
+        "max_length": 0,
+        "filter": 1
+    },
+    {
+        "path": "POST|integrity_export|base",
+        "caller": "\/app.php\/integrity\/export",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|integrity_export|excludeCallers|*",
+        "caller": "\/app.php\/integrity\/export",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|integrity_export|includeCallers|*",
+        "caller": "\/app.php\/integrity\/export",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|integrity_export|profile",
+        "caller": "\/app.php\/integrity\/export",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "POST|integrity_export|_token",
+        "caller": "\/app.php\/integrity\/export",
+        "min_length": 43,
+        "max_length": 43,
+        "filter": 7
+    },
+    {
+        "path": "FILES|integrity_import|file",
+        "caller": "\/app.php\/integrity\/import",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|integrity_import|actions|import",
+        "caller": "\/app.php\/integrity\/import",
+        "min_length": 0,
+        "max_length": 0,
+        "filter": 1
+    },
+    {
+        "path": "POST|integrity_import|base",
+        "caller": "\/app.php\/integrity\/import",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|integrity_import|profile",
+        "caller": "\/app.php\/integrity\/import",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "POST|integrity_import|_token",
+        "caller": "\/app.php\/integrity\/import",
+        "min_length": 43,
+        "max_length": 43,
+        "filter": 7
+    },
+    {
+        "path": "POST|integrity_rule|actions|save",
+        "caller": "\/app.php\/integrity\/rule",
+        "min_length": 0,
+        "max_length": 0,
+        "filter": 1
+    },
+    {
+        "path": "POST|integrity_rule|algorithm",
+        "caller": "\/app.php\/integrity\/rule",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 6
+    },
+    {
+        "path": "POST|integrity_rule|caller",
+        "caller": "\/app.php\/integrity\/rule",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|integrity_rule|digest",
+        "caller": "\/app.php\/integrity\/rule",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 3
+    },
+    {
+        "path": "POST|integrity_rule|profile",
+        "caller": "\/app.php\/integrity\/rule",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "POST|integrity_rule|status",
+        "caller": "\/app.php\/integrity\/rule",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|integrity_rule|_token",
+        "caller": "\/app.php\/integrity\/rule",
+        "min_length": 43,
+        "max_length": 43,
+        "filter": 7
+    },
+    {
+        "path": "POST|integrity_rule|actions|save",
+        "caller": "\/app.php\/integrity\/rule\/*",
+        "min_length": 0,
+        "max_length": 0,
+        "filter": 1
+    },
+    {
+        "path": "POST|integrity_rule|algorithm",
+        "caller": "\/app.php\/integrity\/rule\/*",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|integrity_rule|caller",
+        "caller": "\/app.php\/integrity\/rule\/*",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|integrity_rule|digest",
+        "caller": "\/app.php\/integrity\/rule\/*",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 6
+    },
+    {
+        "path": "POST|integrity_rule|profile",
+        "caller": "\/app.php\/integrity\/rule\/*",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "POST|integrity_rule|status",
+        "caller": "\/app.php\/integrity\/rule\/*",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|integrity_rule|_token",
+        "caller": "\/app.php\/integrity\/rule\/*",
+        "min_length": 43,
+        "max_length": 43,
+        "filter": 7
+    },
+    {
+        "path": "GET|direction",
+        "caller": "\/app.php\/integrity\/rules",
+        "min_length": 3,
+        "max_length": 4,
+        "filter": 4
+    },
+    {
+        "path": "GET|integrity_rule_filter|actions|filter",
+        "caller": "\/app.php\/integrity\/rules",
+        "min_length": 0,
+        "max_length": 0,
+        "filter": 1
+    },
+    {
+        "path": "GET|integrity_rule_filter|excludeAlgorithms|*",
+        "caller": "\/app.php\/integrity\/rules",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 6
+    },
+    {
+        "path": "GET|integrity_rule_filter|excludeCallers|*",
+        "caller": "\/app.php\/integrity\/rules",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "GET|integrity_rule_filter|excludeConflict",
+        "caller": "\/app.php\/integrity\/rules",
+        "min_length": -1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "GET|integrity_rule_filter|excludeDateEnd|date|day",
+        "caller": "\/app.php\/integrity\/rules",
+        "min_length": -1,
+        "max_length": 2,
+        "filter": 1
+    },
+    {
+        "path": "GET|integrity_rule_filter|excludeDateEnd|date|month",
+        "caller": "\/app.php\/integrity\/rules",
+        "min_length": -1,
+        "max_length": 2,
+        "filter": 1
+    },
+    {
+        "path": "GET|integrity_rule_filter|excludeDateEnd|date|year",
+        "caller": "\/app.php\/integrity\/rules",
+        "min_length": -1,
+        "max_length": 4,
+        "filter": 1
+    },
+    {
+        "path": "GET|integrity_rule_filter|excludeDateEnd|time|hour",
+        "caller": "\/app.php\/integrity\/rules",
+        "min_length": -1,
+        "max_length": 2,
+        "filter": 1
+    },
+    {
+        "path": "GET|integrity_rule_filter|excludeDateEnd|time|minute",
+        "caller": "\/app.php\/integrity\/rules",
+        "min_length": -1,
+        "max_length": 2,
+        "filter": 1
+    },
+    {
+        "path": "GET|integrity_rule_filter|excludeDateStart|date|day",
+        "caller": "\/app.php\/integrity\/rules",
+        "min_length": -1,
+        "max_length": 2,
+        "filter": 1
+    },
+    {
+        "path": "GET|integrity_rule_filter|excludeDateStart|date|month",
+        "caller": "\/app.php\/integrity\/rules",
+        "min_length": -1,
+        "max_length": 2,
+        "filter": 1
+    },
+    {
+        "path": "GET|integrity_rule_filter|excludeDateStart|date|year",
+        "caller": "\/app.php\/integrity\/rules",
+        "min_length": -1,
+        "max_length": 4,
+        "filter": 1
+    },
+    {
+        "path": "GET|integrity_rule_filter|excludeDateStart|time|hour",
+        "caller": "\/app.php\/integrity\/rules",
+        "min_length": -1,
+        "max_length": 2,
+        "filter": 1
+    },
+    {
+        "path": "GET|integrity_rule_filter|excludeDateStart|time|minute",
+        "caller": "\/app.php\/integrity\/rules",
+        "min_length": -1,
+        "max_length": 2,
+        "filter": 1
+    },
+    {
+        "path": "GET|integrity_rule_filter|excludeDigests|*",
+        "caller": "\/app.php\/integrity\/rules",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "GET|integrity_rule_filter|excludeProfileIds|*",
+        "caller": "\/app.php\/integrity\/rules",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "GET|integrity_rule_filter|excludeRuleIds|*",
+        "caller": "\/app.php\/integrity\/rules",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "GET|integrity_rule_filter|excludeStatus",
+        "caller": "\/app.php\/integrity\/rules",
+        "min_length": -1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "GET|integrity_rule_filter|includeAlgorithms|*",
+        "caller": "\/app.php\/integrity\/rules",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 6
+    },
+    {
+        "path": "GET|integrity_rule_filter|includeCallers|*",
+        "caller": "\/app.php\/integrity\/rules",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "GET|integrity_rule_filter|includeConflict",
+        "caller": "\/app.php\/integrity\/rules",
+        "min_length": -1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "GET|integrity_rule_filter|includeDateEnd|date|day",
+        "caller": "\/app.php\/integrity\/rules",
+        "min_length": -1,
+        "max_length": 2,
+        "filter": 1
+    },
+    {
+        "path": "GET|integrity_rule_filter|includeDateEnd|date|month",
+        "caller": "\/app.php\/integrity\/rules",
+        "min_length": -1,
+        "max_length": 2,
+        "filter": 1
+    },
+    {
+        "path": "GET|integrity_rule_filter|includeDateEnd|date|year",
+        "caller": "\/app.php\/integrity\/rules",
+        "min_length": -1,
+        "max_length": 4,
+        "filter": 1
+    },
+    {
+        "path": "GET|integrity_rule_filter|includeDateEnd|time|hour",
+        "caller": "\/app.php\/integrity\/rules",
+        "min_length": -1,
+        "max_length": 2,
+        "filter": 1
+    },
+    {
+        "path": "GET|integrity_rule_filter|includeDateEnd|time|minute",
+        "caller": "\/app.php\/integrity\/rules",
+        "min_length": -1,
+        "max_length": 2,
+        "filter": 1
+    },
+    {
+        "path": "GET|integrity_rule_filter|includeDateStart|date|day",
+        "caller": "\/app.php\/integrity\/rules",
+        "min_length": -1,
+        "max_length": 2,
+        "filter": 1
+    },
+    {
+        "path": "GET|integrity_rule_filter|includeDateStart|date|month",
+        "caller": "\/app.php\/integrity\/rules",
+        "min_length": -1,
+        "max_length": 2,
+        "filter": 1
+    },
+    {
+        "path": "GET|integrity_rule_filter|includeDateStart|date|year",
+        "caller": "\/app.php\/integrity\/rules",
+        "min_length": -1,
+        "max_length": 4,
+        "filter": 1
+    },
+    {
+        "path": "GET|integrity_rule_filter|includeDateStart|time|hour",
+        "caller": "\/app.php\/integrity\/rules",
+        "min_length": -1,
+        "max_length": 2,
+        "filter": 1
+    },
+    {
+        "path": "GET|integrity_rule_filter|includeDateStart|time|minute",
+        "caller": "\/app.php\/integrity\/rules",
+        "min_length": -1,
+        "max_length": 2,
+        "filter": 1
+    },
+    {
+        "path": "GET|integrity_rule_filter|includeDigests|*",
+        "caller": "\/app.php\/integrity\/rules",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 6
+    },
+    {
+        "path": "GET|integrity_rule_filter|includeProfileIds|*",
+        "caller": "\/app.php\/integrity\/rules",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "GET|integrity_rule_filter|includeRuleIds|*",
+        "caller": "\/app.php\/integrity\/rules",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "GET|integrity_rule_filter|includeStatus",
+        "caller": "\/app.php\/integrity\/rules",
+        "min_length": -1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "GET|limit",
+        "caller": "\/app.php\/integrity\/rules",
+        "min_length": 1,
+        "max_length": 4,
+        "filter": 1
+    },
+    {
+        "path": "GET|page",
+        "caller": "\/app.php\/integrity\/rules",
+        "min_length": 1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "GET|sort",
+        "caller": "\/app.php\/integrity\/rules",
+        "min_length": 4,
+        "max_length": 20,
+        "filter": 6
+    },
+    {
+        "path": "POST|integrity_rule_selector|actions|do",
+        "caller": "\/app.php\/integrity\/rules",
+        "min_length": 0,
+        "max_length": 0,
+        "filter": 1
+    },
+    {
+        "path": "POST|integrity_rule_selector|subaction",
+        "caller": "\/app.php\/integrity\/rules",
+        "min_length": 6,
+        "max_length": 10,
+        "filter": 4
+    },
+    {
+        "path": "POST|integrity_rule_selector|_token",
+        "caller": "\/app.php\/integrity\/rules",
+        "min_length": 43,
+        "max_length": 43,
+        "filter": 7
+    },
+    {
+        "path": "POST|selected|*",
+        "caller": "\/app.php\/integrity\/rules",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "POST|_csrf_token",
+        "caller": "\/app.php\/login_check",
+        "min_length": 43,
+        "max_length": 43,
+        "filter": 7
+    },
+    {
+        "path": "POST|_password",
+        "caller": "\/app.php\/login_check",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|_remember_me",
+        "caller": "\/app.php\/login_check",
+        "min_length": 2,
+        "max_length": 2,
+        "filter": 4
+    },
+    {
+        "path": "POST|_target_path",
+        "caller": "\/app.php\/login_check",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 5
+    },
+    {
+        "path": "POST|_username",
+        "caller": "\/app.php\/login_check",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "GET|direction",
+        "caller": "\/app.php\/parameters",
+        "min_length": 3,
+        "max_length": 4,
+        "filter": 4
+    },
+    {
+        "path": "GET|hash",
+        "caller": "\/app.php\/parameters",
+        "min_length": 1,
+        "max_length": 3,
+        "filter": 1
+    },
+    {
+        "path": "GET|limit",
+        "caller": "\/app.php\/parameters",
+        "min_length": 1,
+        "max_length": 4,
+        "filter": 1
+    },
+    {
+        "path": "GET|page",
+        "caller": "\/app.php\/parameters",
+        "min_length": 1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "GET|parameter_filter|actions|filter",
+        "caller": "\/app.php\/parameters",
+        "min_length": 0,
+        "max_length": 0,
+        "filter": 1
+    },
+    {
+        "path": "GET|parameter_filter|excludeBrokenIntegrityRule",
+        "caller": "\/app.php\/parameters",
+        "min_length": -1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "GET|parameter_filter|excludeBrokenWhitelistRule",
+        "caller": "\/app.php\/parameters",
+        "min_length": -1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "GET|parameter_filter|excludeCallers|*",
+        "caller": "\/app.php\/parameters",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "GET|parameter_filter|excludeClientIPs|*",
+        "caller": "\/app.php\/parameters",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 6
+    },
+    {
+        "path": "GET|parameter_filter|excludeCriticalImpact",
+        "caller": "\/app.php\/parameters",
+        "min_length": -1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "GET|parameter_filter|excludeDateEnd|date|day",
+        "caller": "\/app.php\/parameters",
+        "min_length": -1,
+        "max_length": 2,
+        "filter": 1
+    },
+    {
+        "path": "GET|parameter_filter|excludeDateEnd|date|month",
+        "caller": "\/app.php\/parameters",
+        "min_length": -1,
+        "max_length": 2,
+        "filter": 1
+    },
+    {
+        "path": "GET|parameter_filter|excludeDateEnd|date|year",
+        "caller": "\/app.php\/parameters",
+        "min_length": -1,
+        "max_length": 4,
+        "filter": 1
+    },
+    {
+        "path": "GET|parameter_filter|excludeDateEnd|time|hour",
+        "caller": "\/app.php\/parameters",
+        "min_length": -1,
+        "max_length": 2,
+        "filter": 1
+    },
+    {
+        "path": "GET|parameter_filter|excludeDateEnd|time|minute",
+        "caller": "\/app.php\/parameters",
+        "min_length": -1,
+        "max_length": 2,
+        "filter": 1
+    },
+    {
+        "path": "GET|parameter_filter|excludeDateStart|date|day",
+        "caller": "\/app.php\/parameters",
+        "min_length": -1,
+        "max_length": 2,
+        "filter": 1
+    },
+    {
+        "path": "GET|parameter_filter|excludeDateStart|date|month",
+        "caller": "\/app.php\/parameters",
+        "min_length": -1,
+        "max_length": 2,
+        "filter": 1
+    },
+    {
+        "path": "GET|parameter_filter|excludeDateStart|date|year",
+        "caller": "\/app.php\/parameters",
+        "min_length": -1,
+        "max_length": 4,
+        "filter": 1
+    },
+    {
+        "path": "GET|parameter_filter|excludeDateStart|time|hour",
+        "caller": "\/app.php\/parameters",
+        "min_length": -1,
+        "max_length": 2,
+        "filter": 1
+    },
+    {
+        "path": "GET|parameter_filter|excludeDateStart|time|minute",
+        "caller": "\/app.php\/parameters",
+        "min_length": -1,
+        "max_length": 2,
+        "filter": 1
+    },
+    {
+        "path": "GET|parameter_filter|excludeNoIntegrityRule",
+        "caller": "\/app.php\/parameters",
+        "min_length": -1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "GET|parameter_filter|excludeNoWhitelistRule",
+        "caller": "\/app.php\/parameters",
+        "min_length": -1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "GET|parameter_filter|excludeParameterIds|*",
+        "caller": "\/app.php\/parameters",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "GET|parameter_filter|excludePaths|*",
+        "caller": "\/app.php\/parameters",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "GET|parameter_filter|excludeProfileIds|*",
+        "caller": "\/app.php\/parameters",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "GET|parameter_filter|excludeRequestIds|*",
+        "caller": "\/app.php\/parameters",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "GET|parameter_filter|excludeThreat",
+        "caller": "\/app.php\/parameters",
+        "min_length": -1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "GET|parameter_filter|excludeValues|*",
+        "caller": "\/app.php\/parameters",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "GET|parameter_filter|includeBrokenIntegrityRule",
+        "caller": "\/app.php\/parameters",
+        "min_length": -1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "GET|parameter_filter|includeBrokenWhitelistRule",
+        "caller": "\/app.php\/parameters",
+        "min_length": -1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "GET|parameter_filter|includeCallers|*",
+        "caller": "\/app.php\/parameters",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "GET|parameter_filter|includeClientIPs|*",
+        "caller": "\/app.php\/parameters",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 6
+    },
+    {
+        "path": "GET|parameter_filter|includeCriticalImpact",
+        "caller": "\/app.php\/parameters",
+        "min_length": -1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "GET|parameter_filter|includeDateEnd|date|day",
+        "caller": "\/app.php\/parameters",
+        "min_length": -1,
+        "max_length": 2,
+        "filter": 1
+    },
+    {
+        "path": "GET|parameter_filter|includeDateEnd|date|month",
+        "caller": "\/app.php\/parameters",
+        "min_length": -1,
+        "max_length": 2,
+        "filter": 1
+    },
+    {
+        "path": "GET|parameter_filter|includeDateEnd|date|year",
+        "caller": "\/app.php\/parameters",
+        "min_length": -1,
+        "max_length": 4,
+        "filter": 1
+    },
+    {
+        "path": "GET|parameter_filter|includeDateEnd|time|hour",
+        "caller": "\/app.php\/parameters",
+        "min_length": -1,
+        "max_length": 2,
+        "filter": 1
+    },
+    {
+        "path": "GET|parameter_filter|includeDateEnd|time|minute",
+        "caller": "\/app.php\/parameters",
+        "min_length": -1,
+        "max_length": 2,
+        "filter": 1
+    },
+    {
+        "path": "GET|parameter_filter|includeDateStart|date|day",
+        "caller": "\/app.php\/parameters",
+        "min_length": -1,
+        "max_length": 2,
+        "filter": 1
+    },
+    {
+        "path": "GET|parameter_filter|includeDateStart|date|month",
+        "caller": "\/app.php\/parameters",
+        "min_length": -1,
+        "max_length": 2,
+        "filter": 1
+    },
+    {
+        "path": "GET|parameter_filter|includeDateStart|date|year",
+        "caller": "\/app.php\/parameters",
+        "min_length": -1,
+        "max_length": 4,
+        "filter": 1
+    },
+    {
+        "path": "GET|parameter_filter|includeDateStart|time|hour",
+        "caller": "\/app.php\/parameters",
+        "min_length": -1,
+        "max_length": 2,
+        "filter": 1
+    },
+    {
+        "path": "GET|parameter_filter|includeDateStart|time|minute",
+        "caller": "\/app.php\/parameters",
+        "min_length": -1,
+        "max_length": 2,
+        "filter": 1
+    },
+    {
+        "path": "GET|parameter_filter|includeNoIntegrityRule",
+        "caller": "\/app.php\/parameters",
+        "min_length": -1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "GET|parameter_filter|includeNoWhitelistRule",
+        "caller": "\/app.php\/parameters",
+        "min_length": -1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "GET|parameter_filter|includeParameterIds|*",
+        "caller": "\/app.php\/parameters",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "GET|parameter_filter|includePaths|*",
+        "caller": "\/app.php\/parameters",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "GET|parameter_filter|includeProfileIds|*",
+        "caller": "\/app.php\/parameters",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "GET|parameter_filter|includeRequestIds|*",
+        "caller": "\/app.php\/parameters",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "GET|parameter_filter|includeThreat",
+        "caller": "\/app.php\/parameters",
+        "min_length": -1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "GET|parameter_filter|includeValues|*",
+        "caller": "\/app.php\/parameters",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "GET|sort",
+        "caller": "\/app.php\/parameters",
+        "min_length": 4,
+        "max_length": 20,
+        "filter": 6
+    },
+    {
+        "path": "POST|parameter_selector|actions|do",
+        "caller": "\/app.php\/parameters",
+        "min_length": 0,
+        "max_length": 0,
+        "filter": 1
+    },
+    {
+        "path": "POST|parameter_selector|subaction",
+        "caller": "\/app.php\/parameters",
+        "min_length": 6,
+        "max_length": 6,
+        "filter": 4
+    },
+    {
+        "path": "POST|parameter_selector|_token",
+        "caller": "\/app.php\/parameters",
+        "min_length": 43,
+        "max_length": 43,
+        "filter": 7
+    },
+    {
+        "path": "POST|selected|*",
+        "caller": "\/app.php\/parameters",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "POST|profile|actions|save",
+        "caller": "\/app.php\/profile",
+        "min_length": 0,
+        "max_length": 0,
+        "filter": 1
+    },
+    {
+        "path": "POST|profile|blacklistEnabled",
+        "caller": "\/app.php\/profile",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|profile|blacklistThreshold",
+        "caller": "\/app.php\/profile",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "POST|profile|floodingEnabled",
+        "caller": "\/app.php\/profile",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|profile|floodingThreshold",
+        "caller": "\/app.php\/profile",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "POST|profile|floodingTime",
+        "caller": "\/app.php\/profile",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "POST|profile|integrityEnabled",
+        "caller": "\/app.php\/profile",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|profile|key",
+        "caller": "\/app.php\/profile",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|profile|mode",
+        "caller": "\/app.php\/profile",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|profile|name",
+        "caller": "\/app.php\/profile",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|profile|serverIP",
+        "caller": "\/app.php\/profile",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|profile|_token",
+        "caller": "\/app.php\/profile",
+        "min_length": 43,
+        "max_length": 43,
+        "filter": 7
+    },
+    {
+        "path": "POST|profile|whitelistEnabled",
+        "caller": "\/app.php\/profile",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|profile|actions|save",
+        "caller": "\/app.php\/profile\/*",
+        "min_length": 0,
+        "max_length": 0,
+        "filter": 1
+    },
+    {
+        "path": "POST|profile|blacklistEnabled",
+        "caller": "\/app.php\/profile\/*",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|profile|blacklistThreshold",
+        "caller": "\/app.php\/profile\/*",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "POST|profile|floodingEnabled",
+        "caller": "\/app.php\/profile\/*",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|profile|floodingThreshold",
+        "caller": "\/app.php\/profile\/*",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "POST|profile|floodingTime",
+        "caller": "\/app.php\/profile\/*",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "POST|profile|integrityEnabled",
+        "caller": "\/app.php\/profile\/*",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|profile|key",
+        "caller": "\/app.php\/profile\/*",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|profile|mode",
+        "caller": "\/app.php\/profile\/*",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|profile|name",
+        "caller": "\/app.php\/profile\/*",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|profile|serverIP",
+        "caller": "\/app.php\/profile\/*",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|profile|_token",
+        "caller": "\/app.php\/profile\/*",
+        "min_length": 43,
+        "max_length": 43,
+        "filter": 7
+    },
+    {
+        "path": "POST|profile|whitelistEnabled",
+        "caller": "\/app.php\/profile\/*",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "GET|direction",
+        "caller": "\/app.php\/profiles",
+        "min_length": 3,
+        "max_length": 4,
+        "filter": 4
+    },
+    {
+        "path": "GET|hash",
+        "caller": "\/app.php\/profiles",
+        "min_length": 1,
+        "max_length": 3,
+        "filter": 1
+    },
+    {
+        "path": "GET|limit",
+        "caller": "\/app.php\/profiles",
+        "min_length": 1,
+        "max_length": 4,
+        "filter": 1
+    },
+    {
+        "path": "GET|page",
+        "caller": "\/app.php\/profiles",
+        "min_length": 1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "GET|profile_filter|actions|filter",
+        "caller": "\/app.php\/profiles",
+        "min_length": 0,
+        "max_length": 0,
+        "filter": 1
+    },
+    {
+        "path": "GET|profile_filter|excludeDateEnd|date|day",
+        "caller": "\/app.php\/profiles",
+        "min_length": -1,
+        "max_length": 2,
+        "filter": 1
+    },
+    {
+        "path": "GET|profile_filter|excludeDateEnd|date|month",
+        "caller": "\/app.php\/profiles",
+        "min_length": -1,
+        "max_length": 2,
+        "filter": 1
+    },
+    {
+        "path": "GET|profile_filter|excludeDateEnd|date|year",
+        "caller": "\/app.php\/profiles",
+        "min_length": -1,
+        "max_length": 4,
+        "filter": 1
+    },
+    {
+        "path": "GET|profile_filter|excludeDateEnd|time|hour",
+        "caller": "\/app.php\/profiles",
+        "min_length": -1,
+        "max_length": 2,
+        "filter": 1
+    },
+    {
+        "path": "GET|profile_filter|excludeDateEnd|time|minute",
+        "caller": "\/app.php\/profiles",
+        "min_length": -1,
+        "max_length": 2,
+        "filter": 1
+    },
+    {
+        "path": "GET|profile_filter|excludeDateStart|date|day",
+        "caller": "\/app.php\/profiles",
+        "min_length": -1,
+        "max_length": 2,
+        "filter": 1
+    },
+    {
+        "path": "GET|profile_filter|excludeDateStart|date|month",
+        "caller": "\/app.php\/profiles",
+        "min_length": -1,
+        "max_length": 2,
+        "filter": 1
+    },
+    {
+        "path": "GET|profile_filter|excludeDateStart|date|year",
+        "caller": "\/app.php\/profiles",
+        "min_length": -1,
+        "max_length": 4,
+        "filter": 1
+    },
+    {
+        "path": "GET|profile_filter|excludeDateStart|time|hour",
+        "caller": "\/app.php\/profiles",
+        "min_length": -1,
+        "max_length": 2,
+        "filter": 1
+    },
+    {
+        "path": "GET|profile_filter|excludeDateStart|time|minute",
+        "caller": "\/app.php\/profiles",
+        "min_length": -1,
+        "max_length": 2,
+        "filter": 1
+    },
+    {
+        "path": "GET|profile_filter|excludeMode",
+        "caller": "\/app.php\/profiles",
+        "min_length": -1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "GET|profile_filter|excludeNames|*",
+        "caller": "\/app.php\/profiles",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "GET|profile_filter|excludeProfileIds|*",
+        "caller": "\/app.php\/profiles",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "GET|profile_filter|excludeServerIPs|*",
+        "caller": "\/app.php\/profiles",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "GET|profile_filter|includeDateEnd|date|day",
+        "caller": "\/app.php\/profiles",
+        "min_length": -1,
+        "max_length": 2,
+        "filter": 1
+    },
+    {
+        "path": "GET|profile_filter|includeDateEnd|date|month",
+        "caller": "\/app.php\/profiles",
+        "min_length": -1,
+        "max_length": 2,
+        "filter": 1
+    },
+    {
+        "path": "GET|profile_filter|includeDateEnd|date|year",
+        "caller": "\/app.php\/profiles",
+        "min_length": -1,
+        "max_length": 4,
+        "filter": 1
+    },
+    {
+        "path": "GET|profile_filter|includeDateEnd|time|hour",
+        "caller": "\/app.php\/profiles",
+        "min_length": -1,
+        "max_length": 2,
+        "filter": 1
+    },
+    {
+        "path": "GET|profile_filter|includeDateEnd|time|minute",
+        "caller": "\/app.php\/profiles",
+        "min_length": -1,
+        "max_length": 2,
+        "filter": 1
+    },
+    {
+        "path": "GET|profile_filter|includeDateStart|date|day",
+        "caller": "\/app.php\/profiles",
+        "min_length": -1,
+        "max_length": 2,
+        "filter": 1
+    },
+    {
+        "path": "GET|profile_filter|includeDateStart|date|month",
+        "caller": "\/app.php\/profiles",
+        "min_length": -1,
+        "max_length": 2,
+        "filter": 1
+    },
+    {
+        "path": "GET|profile_filter|includeDateStart|date|year",
+        "caller": "\/app.php\/profiles",
+        "min_length": -1,
+        "max_length": 4,
+        "filter": 1
+    },
+    {
+        "path": "GET|profile_filter|includeDateStart|time|hour",
+        "caller": "\/app.php\/profiles",
+        "min_length": -1,
+        "max_length": 2,
+        "filter": 1
+    },
+    {
+        "path": "GET|profile_filter|includeDateStart|time|minute",
+        "caller": "\/app.php\/profiles",
+        "min_length": -1,
+        "max_length": 2,
+        "filter": 1
+    },
+    {
+        "path": "GET|profile_filter|includeMode",
+        "caller": "\/app.php\/profiles",
+        "min_length": -1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "GET|profile_filter|includeNames|*",
+        "caller": "\/app.php\/profiles",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "GET|profile_filter|includeProfileIds|*",
+        "caller": "\/app.php\/profiles",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "GET|profile_filter|includeServerIPs|*",
+        "caller": "\/app.php\/profiles",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "GET|sort",
+        "caller": "\/app.php\/profiles",
+        "min_length": 4,
+        "max_length": 20,
+        "filter": 6
+    },
+    {
+        "path": "POST|profile_selector|actions|do",
+        "caller": "\/app.php\/profiles",
+        "min_length": 0,
+        "max_length": 0,
+        "filter": 1
+    },
+    {
+        "path": "POST|profile_selector|subaction",
+        "caller": "\/app.php\/profiles",
+        "min_length": 6,
+        "max_length": 16,
+        "filter": 4
+    },
+    {
+        "path": "POST|profile_selector|_token",
+        "caller": "\/app.php\/profiles",
+        "min_length": 43,
+        "max_length": 43,
+        "filter": 7
+    },
+    {
+        "path": "POST|selected|*",
+        "caller": "\/app.php\/profiles",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "GET|direction",
+        "caller": "\/app.php\/requests",
+        "min_length": 3,
+        "max_length": 4,
+        "filter": 4
+    },
+    {
+        "path": "GET|limit",
+        "caller": "\/app.php\/requests",
+        "min_length": 1,
+        "max_length": 4,
+        "filter": 1
+    },
+    {
+        "path": "GET|page",
+        "caller": "\/app.php\/requests",
+        "min_length": 1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "GET|request_filter|actions|filter",
+        "caller": "\/app.php\/requests",
+        "min_length": 0,
+        "max_length": 0,
+        "filter": 1
+    },
+    {
+        "path": "GET|request_filter|excludeCallers|*",
+        "caller": "\/app.php\/requests",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "GET|request_filter|excludeClientIPs|*",
+        "caller": "\/app.php\/requests",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 6
+    },
+    {
+        "path": "GET|request_filter|excludeDateEnd|date|day",
+        "caller": "\/app.php\/requests",
+        "min_length": -1,
+        "max_length": 2,
+        "filter": 1
+    },
+    {
+        "path": "GET|request_filter|excludeDateEnd|date|month",
+        "caller": "\/app.php\/requests",
+        "min_length": -1,
+        "max_length": 2,
+        "filter": 1
+    },
+    {
+        "path": "GET|request_filter|excludeDateEnd|date|year",
+        "caller": "\/app.php\/requests",
+        "min_length": -1,
+        "max_length": 4,
+        "filter": 1
+    },
+    {
+        "path": "GET|request_filter|excludeDateEnd|time|hour",
+        "caller": "\/app.php\/requests",
+        "min_length": -1,
+        "max_length": 2,
+        "filter": 1
+    },
+    {
+        "path": "GET|request_filter|excludeDateEnd|time|minute",
+        "caller": "\/app.php\/requests",
+        "min_length": -1,
+        "max_length": 2,
+        "filter": 1
+    },
+    {
+        "path": "GET|request_filter|excludeDateStart|date|day",
+        "caller": "\/app.php\/requests",
+        "min_length": -1,
+        "max_length": 2,
+        "filter": 1
+    },
+    {
+        "path": "GET|request_filter|excludeDateStart|date|month",
+        "caller": "\/app.php\/requests",
+        "min_length": -1,
+        "max_length": 2,
+        "filter": 1
+    },
+    {
+        "path": "GET|request_filter|excludeDateStart|date|year",
+        "caller": "\/app.php\/requests",
+        "min_length": -1,
+        "max_length": 4,
+        "filter": 1
+    },
+    {
+        "path": "GET|request_filter|excludeDateStart|time|hour",
+        "caller": "\/app.php\/requests",
+        "min_length": -1,
+        "max_length": 2,
+        "filter": 1
+    },
+    {
+        "path": "GET|request_filter|excludeDateStart|time|minute",
+        "caller": "\/app.php\/requests",
+        "min_length": -1,
+        "max_length": 2,
+        "filter": 1
+    },
+    {
+        "path": "GET|request_filter|excludeProfileIds|*",
+        "caller": "\/app.php\/requests",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "GET|request_filter|excludeRequestIds|*",
+        "caller": "\/app.php\/requests",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "GET|request_filter|excludeResources|*",
+        "caller": "\/app.php\/requests",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "GET|request_filter|includeCallers|*",
+        "caller": "\/app.php\/requests",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "GET|request_filter|includeClientIPs|*",
+        "caller": "\/app.php\/requests",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 6
+    },
+    {
+        "path": "GET|request_filter|includeDateEnd|date|day",
+        "caller": "\/app.php\/requests",
+        "min_length": -1,
+        "max_length": 2,
+        "filter": 1
+    },
+    {
+        "path": "GET|request_filter|includeDateEnd|date|month",
+        "caller": "\/app.php\/requests",
+        "min_length": -1,
+        "max_length": 2,
+        "filter": 1
+    },
+    {
+        "path": "GET|request_filter|includeDateEnd|date|year",
+        "caller": "\/app.php\/requests",
+        "min_length": -1,
+        "max_length": 4,
+        "filter": 1
+    },
+    {
+        "path": "GET|request_filter|includeDateEnd|time|hour",
+        "caller": "\/app.php\/requests",
+        "min_length": -1,
+        "max_length": 2,
+        "filter": 1
+    },
+    {
+        "path": "GET|request_filter|includeDateEnd|time|minute",
+        "caller": "\/app.php\/requests",
+        "min_length": -1,
+        "max_length": 2,
+        "filter": 1
+    },
+    {
+        "path": "GET|request_filter|includeDateStart|date|day",
+        "caller": "\/app.php\/requests",
+        "min_length": -1,
+        "max_length": 2,
+        "filter": 1
+    },
+    {
+        "path": "GET|request_filter|includeDateStart|date|month",
+        "caller": "\/app.php\/requests",
+        "min_length": -1,
+        "max_length": 2,
+        "filter": 1
+    },
+    {
+        "path": "GET|request_filter|includeDateStart|date|year",
+        "caller": "\/app.php\/requests",
+        "min_length": -1,
+        "max_length": 4,
+        "filter": 1
+    },
+    {
+        "path": "GET|request_filter|includeDateStart|time|hour",
+        "caller": "\/app.php\/requests",
+        "min_length": -1,
+        "max_length": 2,
+        "filter": 1
+    },
+    {
+        "path": "GET|request_filter|includeDateStart|time|minute",
+        "caller": "\/app.php\/requests",
+        "min_length": -1,
+        "max_length": 2,
+        "filter": 1
+    },
+    {
+        "path": "GET|request_filter|includeProfileIds|*",
+        "caller": "\/app.php\/requests",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "GET|request_filter|includeRequestIds|*",
+        "caller": "\/app.php\/requests",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "GET|request_filter|includeResources|*",
+        "caller": "\/app.php\/requests",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "GET|sort",
+        "caller": "\/app.php\/requests",
+        "min_length": 4,
+        "max_length": 20,
+        "filter": 6
+    },
+    {
+        "path": "POST|parameter_selector|actions|do",
+        "caller": "\/app.php\/requests",
+        "min_length": 0,
+        "max_length": 0,
+        "filter": 1
+    },
+    {
+        "path": "POST|parameter_selector|subaction",
+        "caller": "\/app.php\/requests",
+        "min_length": 6,
+        "max_length": 6,
+        "filter": 4
+    },
+    {
+        "path": "POST|parameter_selector|_token",
+        "caller": "\/app.php\/requests",
+        "min_length": 43,
+        "max_length": 43,
+        "filter": 7
+    },
+    {
+        "path": "POST|selected|*",
+        "caller": "\/app.php\/requests",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "POST|setting_defaults|actions|save",
+        "caller": "\/app.php\/settings",
+        "min_length": 0,
+        "max_length": 0,
+        "filter": 1
+    },
+    {
+        "path": "POST|setting_defaults|locale",
+        "caller": "\/app.php\/settings",
+        "min_length": 2,
+        "max_length": 5,
+        "filter": 7
+    },
+    {
+        "path": "POST|setting_defaults|newPassword|first",
+        "caller": "\/app.php\/settings",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|setting_defaults|newPassword|second",
+        "caller": "\/app.php\/settings",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|setting_defaults|oldPassword",
+        "caller": "\/app.php\/settings",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|setting_defaults|openFilter",
+        "caller": "\/app.php\/settings",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|setting_defaults|pageLimit",
+        "caller": "\/app.php\/settings",
+        "min_length": 1,
+        "max_length": 3,
+        "filter": 1
+    },
+    {
+        "path": "POST|setting_defaults|sortOrder",
+        "caller": "\/app.php\/settings",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|setting_defaults|theme",
+        "caller": "\/app.php\/settings",
+        "min_length": -1,
+        "max_length": 16,
+        "filter": 7
+    },
+    {
+        "path": "POST|setting_defaults|_token",
+        "caller": "\/app.php\/settings",
+        "min_length": 43,
+        "max_length": 43,
+        "filter": 7
+    },
+    {
+        "path": "POST|user|actions|save",
+        "caller": "\/app.php\/user",
+        "min_length": 0,
+        "max_length": 0,
+        "filter": 1
+    },
+    {
+        "path": "POST|user|changePassword",
+        "caller": "\/app.php\/user",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|user|email",
+        "caller": "\/app.php\/user",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|user|password",
+        "caller": "\/app.php\/user",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|user|role",
+        "caller": "\/app.php\/user",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|user|_token",
+        "caller": "\/app.php\/user",
+        "min_length": 43,
+        "max_length": 43,
+        "filter": 7
+    },
+    {
+        "path": "POST|user|username",
+        "caller": "\/app.php\/user",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|user|actions|save",
+        "caller": "\/app.php\/user\/*",
+        "min_length": 0,
+        "max_length": 0,
+        "filter": 1
+    },
+    {
+        "path": "POST|user|changePassword",
+        "caller": "\/app.php\/user\/*",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|user|email",
+        "caller": "\/app.php\/user\/*",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|user|password",
+        "caller": "\/app.php\/user\/*",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|user|role",
+        "caller": "\/app.php\/user\/*",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|user|_token",
+        "caller": "\/app.php\/user\/*",
+        "min_length": 43,
+        "max_length": 43,
+        "filter": 7
+    },
+    {
+        "path": "POST|user|username",
+        "caller": "\/app.php\/user\/*",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "GET|limit",
+        "caller": "\/app.php\/users",
+        "min_length": 1,
+        "max_length": 4,
+        "filter": 1
+    },
+    {
+        "path": "GET|page",
+        "caller": "\/app.php\/users",
+        "min_length": 1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "GET|user_filter|actions|filter",
+        "caller": "\/app.php\/users",
+        "min_length": 0,
+        "max_length": 0,
+        "filter": 1
+    },
+    {
+        "path": "GET|user_filter|excludeDateEnd|date|day",
+        "caller": "\/app.php\/users",
+        "min_length": -1,
+        "max_length": 2,
+        "filter": 1
+    },
+    {
+        "path": "GET|user_filter|excludeDateEnd|date|month",
+        "caller": "\/app.php\/users",
+        "min_length": -1,
+        "max_length": 2,
+        "filter": 1
+    },
+    {
+        "path": "GET|user_filter|excludeDateEnd|date|year",
+        "caller": "\/app.php\/users",
+        "min_length": -1,
+        "max_length": 4,
+        "filter": 1
+    },
+    {
+        "path": "GET|user_filter|excludeDateEnd|time|hour",
+        "caller": "\/app.php\/users",
+        "min_length": -1,
+        "max_length": 2,
+        "filter": 1
+    },
+    {
+        "path": "GET|user_filter|excludeDateEnd|time|minute",
+        "caller": "\/app.php\/users",
+        "min_length": -1,
+        "max_length": 2,
+        "filter": 1
+    },
+    {
+        "path": "GET|user_filter|excludeDateStart|date|day",
+        "caller": "\/app.php\/users",
+        "min_length": -1,
+        "max_length": 2,
+        "filter": 1
+    },
+    {
+        "path": "GET|user_filter|excludeDateStart|date|month",
+        "caller": "\/app.php\/users",
+        "min_length": -1,
+        "max_length": 2,
+        "filter": 1
+    },
+    {
+        "path": "GET|user_filter|excludeDateStart|date|year",
+        "caller": "\/app.php\/users",
+        "min_length": -1,
+        "max_length": 4,
+        "filter": 1
+    },
+    {
+        "path": "GET|user_filter|excludeDateStart|time|hour",
+        "caller": "\/app.php\/users",
+        "min_length": -1,
+        "max_length": 2,
+        "filter": 1
+    },
+    {
+        "path": "GET|user_filter|excludeDateStart|time|minute",
+        "caller": "\/app.php\/users",
+        "min_length": -1,
+        "max_length": 2,
+        "filter": 1
+    },
+    {
+        "path": "GET|user_filter|excludeEmails|*",
+        "caller": "\/app.php\/users",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "GET|user_filter|excludeUserIds|*",
+        "caller": "\/app.php\/users",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "GET|user_filter|excludeUsernames|*",
+        "caller": "\/app.php\/users",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "GET|user_filter|includeDateEnd|date|day",
+        "caller": "\/app.php\/users",
+        "min_length": -1,
+        "max_length": 2,
+        "filter": 1
+    },
+    {
+        "path": "GET|user_filter|includeDateEnd|date|month",
+        "caller": "\/app.php\/users",
+        "min_length": -1,
+        "max_length": 2,
+        "filter": 1
+    },
+    {
+        "path": "GET|user_filter|includeDateEnd|date|year",
+        "caller": "\/app.php\/users",
+        "min_length": -1,
+        "max_length": 4,
+        "filter": 1
+    },
+    {
+        "path": "GET|user_filter|includeDateEnd|time|hour",
+        "caller": "\/app.php\/users",
+        "min_length": -1,
+        "max_length": 2,
+        "filter": 1
+    },
+    {
+        "path": "GET|user_filter|includeDateEnd|time|minute",
+        "caller": "\/app.php\/users",
+        "min_length": -1,
+        "max_length": 2,
+        "filter": 1
+    },
+    {
+        "path": "GET|user_filter|includeDateStart|date|day",
+        "caller": "\/app.php\/users",
+        "min_length": -1,
+        "max_length": 2,
+        "filter": 1
+    },
+    {
+        "path": "GET|user_filter|includeDateStart|date|month",
+        "caller": "\/app.php\/users",
+        "min_length": -1,
+        "max_length": 2,
+        "filter": 1
+    },
+    {
+        "path": "GET|user_filter|includeDateStart|date|year",
+        "caller": "\/app.php\/users",
+        "min_length": -1,
+        "max_length": 4,
+        "filter": 1
+    },
+    {
+        "path": "GET|user_filter|includeDateStart|time|hour",
+        "caller": "\/app.php\/users",
+        "min_length": -1,
+        "max_length": 2,
+        "filter": 1
+    },
+    {
+        "path": "GET|user_filter|includeDateStart|time|minute",
+        "caller": "\/app.php\/users",
+        "min_length": -1,
+        "max_length": 2,
+        "filter": 1
+    },
+    {
+        "path": "GET|user_filter|includeEmails|*",
+        "caller": "\/app.php\/users",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "GET|user_filter|includeUserIds|*",
+        "caller": "\/app.php\/users",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "GET|user_filter|includeUsernames|*",
+        "caller": "\/app.php\/users",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|selected|*",
+        "caller": "\/app.php\/users",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "POST|user_selector|actions|do",
+        "caller": "\/app.php\/users",
+        "min_length": 0,
+        "max_length": 0,
+        "filter": 1
+    },
+    {
+        "path": "POST|user_selector|subaction",
+        "caller": "\/app.php\/users",
+        "min_length": 6,
+        "max_length": 6,
+        "filter": 4
+    },
+    {
+        "path": "POST|user_selector|_token",
+        "caller": "\/app.php\/users",
+        "min_length": 43,
+        "max_length": 43,
+        "filter": 7
+    },
+    {
+        "path": "POST|whitelist_export|actions|export",
+        "caller": "\/app.php\/whitelist\/export",
+        "min_length": 0,
+        "max_length": 0,
+        "filter": 1
+    },
+    {
+        "path": "POST|whitelist_export|base",
+        "caller": "\/app.php\/whitelist\/export",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|whitelist_export|excludeCallers|*",
+        "caller": "\/app.php\/whitelist\/export",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|whitelist_export|excludePaths|*",
+        "caller": "\/app.php\/whitelist\/export",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|whitelist_export|includeCallers|*",
+        "caller": "\/app.php\/whitelist\/export",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|whitelist_export|includePaths|*",
+        "caller": "\/app.php\/whitelist\/export",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|whitelist_export|profile",
+        "caller": "\/app.php\/whitelist\/export",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "POST|whitelist_export|_token",
+        "caller": "\/app.php\/whitelist\/export",
+        "min_length": 43,
+        "max_length": 43,
+        "filter": 7
+    },
+    {
+        "path": "FILES|whitelist_import|file",
+        "caller": "\/app.php\/whitelist\/import",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|whitelist_import|actions|import",
+        "caller": "\/app.php\/whitelist\/import",
+        "min_length": 0,
+        "max_length": 0,
+        "filter": 1
+    },
+    {
+        "path": "POST|whitelist_import|base",
+        "caller": "\/app.php\/whitelist\/import",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|whitelist_import|profile",
+        "caller": "\/app.php\/whitelist\/import",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "POST|whitelist_import|_token",
+        "caller": "\/app.php\/whitelist\/import",
+        "min_length": 43,
+        "max_length": 43,
+        "filter": 7
+    },
+    {
+        "path": "POST|whitelist_rule|actions|save",
+        "caller": "\/app.php\/whitelist\/rule",
+        "min_length": 0,
+        "max_length": 0,
+        "filter": 1
+    },
+    {
+        "path": "POST|whitelist_rule|caller",
+        "caller": "\/app.php\/whitelist\/rule",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|whitelist_rule|filter",
+        "caller": "\/app.php\/whitelist\/rule",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|whitelist_rule|maxLength",
+        "caller": "\/app.php\/whitelist\/rule",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 2
+    },
+    {
+        "path": "POST|whitelist_rule|minLength",
+        "caller": "\/app.php\/whitelist\/rule",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 2
+    },
+    {
+        "path": "POST|whitelist_rule|path",
+        "caller": "\/app.php\/whitelist\/rule",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|whitelist_rule|profile",
+        "caller": "\/app.php\/whitelist\/rule",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "POST|whitelist_rule|status",
+        "caller": "\/app.php\/whitelist\/rule",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|whitelist_rule|_token",
+        "caller": "\/app.php\/whitelist\/rule",
+        "min_length": 43,
+        "max_length": 43,
+        "filter": 7
+    },
+    {
+        "path": "POST|whitelist_rule|actions|save",
+        "caller": "\/app.php\/whitelist\/rule\/*",
+        "min_length": 0,
+        "max_length": 0,
+        "filter": 1
+    },
+    {
+        "path": "POST|whitelist_rule|caller",
+        "caller": "\/app.php\/whitelist\/rule\/*",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|whitelist_rule|filter",
+        "caller": "\/app.php\/whitelist\/rule\/*",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|whitelist_rule|maxLength",
+        "caller": "\/app.php\/whitelist\/rule\/*",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 2
+    },
+    {
+        "path": "POST|whitelist_rule|minLength",
+        "caller": "\/app.php\/whitelist\/rule\/*",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 2
+    },
+    {
+        "path": "POST|whitelist_rule|path",
+        "caller": "\/app.php\/whitelist\/rule\/*",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "POST|whitelist_rule|profile",
+        "caller": "\/app.php\/whitelist\/rule\/*",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "POST|whitelist_rule|status",
+        "caller": "\/app.php\/whitelist\/rule\/*",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|whitelist_rule|_token",
+        "caller": "\/app.php\/whitelist\/rule\/*",
+        "min_length": 43,
+        "max_length": 43,
+        "filter": 7
+    },
+    {
+        "path": "GET|direction",
+        "caller": "\/app.php\/whitelist\/rules",
+        "min_length": 3,
+        "max_length": 4,
+        "filter": 4
+    },
+    {
+        "path": "GET|limit",
+        "caller": "\/app.php\/whitelist\/rules",
+        "min_length": 1,
+        "max_length": 4,
+        "filter": 1
+    },
+    {
+        "path": "GET|page",
+        "caller": "\/app.php\/whitelist\/rules",
+        "min_length": 1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "GET|sort",
+        "caller": "\/app.php\/whitelist\/rules",
+        "min_length": 5,
+        "max_length": 20,
+        "filter": 6
+    },
+    {
+        "path": "GET|whitelist_rule_filter|actions|filter",
+        "caller": "\/app.php\/whitelist\/rules",
+        "min_length": 0,
+        "max_length": 0,
+        "filter": 1
+    },
+    {
+        "path": "GET|whitelist_rule_filter|excludeCallers|*",
+        "caller": "\/app.php\/whitelist\/rules",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "GET|whitelist_rule_filter|excludeConflict",
+        "caller": "\/app.php\/whitelist\/rules",
+        "min_length": -1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "GET|whitelist_rule_filter|excludeDateEnd|date|day",
+        "caller": "\/app.php\/whitelist\/rules",
+        "min_length": -1,
+        "max_length": 2,
+        "filter": 1
+    },
+    {
+        "path": "GET|whitelist_rule_filter|excludeDateEnd|date|month",
+        "caller": "\/app.php\/whitelist\/rules",
+        "min_length": -1,
+        "max_length": 2,
+        "filter": 1
+    },
+    {
+        "path": "GET|whitelist_rule_filter|excludeDateEnd|date|year",
+        "caller": "\/app.php\/whitelist\/rules",
+        "min_length": -1,
+        "max_length": 4,
+        "filter": 1
+    },
+    {
+        "path": "GET|whitelist_rule_filter|excludeDateEnd|time|hour",
+        "caller": "\/app.php\/whitelist\/rules",
+        "min_length": -1,
+        "max_length": 2,
+        "filter": 1
+    },
+    {
+        "path": "GET|whitelist_rule_filter|excludeDateEnd|time|minute",
+        "caller": "\/app.php\/whitelist\/rules",
+        "min_length": -1,
+        "max_length": 2,
+        "filter": 1
+    },
+    {
+        "path": "GET|whitelist_rule_filter|excludeDateStart|date|day",
+        "caller": "\/app.php\/whitelist\/rules",
+        "min_length": -1,
+        "max_length": 2,
+        "filter": 1
+    },
+    {
+        "path": "GET|whitelist_rule_filter|excludeDateStart|date|month",
+        "caller": "\/app.php\/whitelist\/rules",
+        "min_length": -1,
+        "max_length": 2,
+        "filter": 1
+    },
+    {
+        "path": "GET|whitelist_rule_filter|excludeDateStart|date|year",
+        "caller": "\/app.php\/whitelist\/rules",
+        "min_length": -1,
+        "max_length": 4,
+        "filter": 1
+    },
+    {
+        "path": "GET|whitelist_rule_filter|excludeDateStart|time|hour",
+        "caller": "\/app.php\/whitelist\/rules",
+        "min_length": -1,
+        "max_length": 2,
+        "filter": 1
+    },
+    {
+        "path": "GET|whitelist_rule_filter|excludeDateStart|time|minute",
+        "caller": "\/app.php\/whitelist\/rules",
+        "min_length": -1,
+        "max_length": 2,
+        "filter": 1
+    },
+    {
+        "path": "GET|whitelist_rule_filter|excludePaths|*",
+        "caller": "\/app.php\/whitelist\/rules",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "GET|whitelist_rule_filter|excludeProfileIds|*",
+        "caller": "\/app.php\/whitelist\/rules",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "GET|whitelist_rule_filter|excludeRuleIds|*",
+        "caller": "\/app.php\/whitelist\/rules",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "GET|whitelist_rule_filter|excludeStatus",
+        "caller": "\/app.php\/whitelist\/rules",
+        "min_length": -1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "GET|whitelist_rule_filter|includeCallers|*",
+        "caller": "\/app.php\/whitelist\/rules",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "GET|whitelist_rule_filter|includeConflict",
+        "caller": "\/app.php\/whitelist\/rules",
+        "min_length": -1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "GET|whitelist_rule_filter|includeDateEnd|date|day",
+        "caller": "\/app.php\/whitelist\/rules",
+        "min_length": -1,
+        "max_length": 2,
+        "filter": 1
+    },
+    {
+        "path": "GET|whitelist_rule_filter|includeDateEnd|date|month",
+        "caller": "\/app.php\/whitelist\/rules",
+        "min_length": -1,
+        "max_length": 2,
+        "filter": 1
+    },
+    {
+        "path": "GET|whitelist_rule_filter|includeDateEnd|date|year",
+        "caller": "\/app.php\/whitelist\/rules",
+        "min_length": -1,
+        "max_length": 4,
+        "filter": 1
+    },
+    {
+        "path": "GET|whitelist_rule_filter|includeDateEnd|time|hour",
+        "caller": "\/app.php\/whitelist\/rules",
+        "min_length": -1,
+        "max_length": 2,
+        "filter": 1
+    },
+    {
+        "path": "GET|whitelist_rule_filter|includeDateEnd|time|minute",
+        "caller": "\/app.php\/whitelist\/rules",
+        "min_length": -1,
+        "max_length": 2,
+        "filter": 1
+    },
+    {
+        "path": "GET|whitelist_rule_filter|includeDateStart|date|day",
+        "caller": "\/app.php\/whitelist\/rules",
+        "min_length": -1,
+        "max_length": 2,
+        "filter": 1
+    },
+    {
+        "path": "GET|whitelist_rule_filter|includeDateStart|date|month",
+        "caller": "\/app.php\/whitelist\/rules",
+        "min_length": -1,
+        "max_length": 2,
+        "filter": 1
+    },
+    {
+        "path": "GET|whitelist_rule_filter|includeDateStart|date|year",
+        "caller": "\/app.php\/whitelist\/rules",
+        "min_length": -1,
+        "max_length": 4,
+        "filter": 1
+    },
+    {
+        "path": "GET|whitelist_rule_filter|includeDateStart|time|hour",
+        "caller": "\/app.php\/whitelist\/rules",
+        "min_length": -1,
+        "max_length": 2,
+        "filter": 1
+    },
+    {
+        "path": "GET|whitelist_rule_filter|includeDateStart|time|minute",
+        "caller": "\/app.php\/whitelist\/rules",
+        "min_length": -1,
+        "max_length": 2,
+        "filter": 1
+    },
+    {
+        "path": "GET|whitelist_rule_filter|includePaths|*",
+        "caller": "\/app.php\/whitelist\/rules",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "GET|whitelist_rule_filter|includeProfileIds|*",
+        "caller": "\/app.php\/whitelist\/rules",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "GET|whitelist_rule_filter|includeRuleIds|*",
+        "caller": "\/app.php\/whitelist\/rules",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "GET|whitelist_rule_filter|includeStatus",
+        "caller": "\/app.php\/whitelist\/rules",
+        "min_length": -1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "POST|selected|*",
+        "caller": "\/app.php\/whitelist\/rules",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "POST|whitelist_rule_selector|actions|do",
+        "caller": "\/app.php\/whitelist\/rules",
+        "min_length": 0,
+        "max_length": 0,
+        "filter": 1
+    },
+    {
+        "path": "POST|whitelist_rule_selector|subaction",
+        "caller": "\/app.php\/whitelist\/rules",
+        "min_length": 6,
+        "max_length": 10,
+        "filter": 4
+    },
+    {
+        "path": "POST|whitelist_rule_selector|_token",
+        "caller": "\/app.php\/whitelist\/rules",
+        "min_length": 43,
+        "max_length": 43,
+        "filter": 7
+    }
+]

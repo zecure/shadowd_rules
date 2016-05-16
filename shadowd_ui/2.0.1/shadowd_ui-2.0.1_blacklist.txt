@@ -1,0 +1,7 @@
+[
+    {
+        "path": "GET|parameter_filter|includeValues|*",
+        "caller": "\/app.php\/parameters",
+        "threshold": 16
+    }
+]
