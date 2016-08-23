@@ -1201,7 +1201,7 @@
         "caller": "\/app.php\/parameters",
         "min_length": -1,
         "max_length": -1,
-        "filter": 6
+        "filter": 7
     },
     {
         "path": "GET|parameter_filter|excludeCriticalImpact",
@@ -1362,7 +1362,7 @@
         "caller": "\/app.php\/parameters",
         "min_length": -1,
         "max_length": -1,
-        "filter": 6
+        "filter": 7
     },
     {
         "path": "GET|parameter_filter|includeCriticalImpact",
@@ -2020,7 +2020,7 @@
         "caller": "\/app.php\/requests",
         "min_length": -1,
         "max_length": -1,
-        "filter": 6
+        "filter": 7
     },
     {
         "path": "GET|request_filter|excludeDateEnd|date|day",
@@ -2125,7 +2125,7 @@
         "caller": "\/app.php\/requests",
         "min_length": -1,
         "max_length": -1,
-        "filter": 6
+        "filter": 7
     },
     {
         "path": "GET|request_filter|includeDateEnd|date|day",
