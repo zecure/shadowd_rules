@@ -1,0 +1,324 @@
+[
+    {
+        "path": "SERVER|HTTP_ACCEPT",
+        "caller": "*",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "SERVER|HTTP_ACCEPT_CHARSET",
+        "caller": "*",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "SERVER|HTTP_ACCEPT_DATETIME",
+        "caller": "*",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "SERVER|HTTP_ACCEPT_ENCODING",
+        "caller": "*",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "SERVER|HTTP_ACCEPT_LANGUAGE",
+        "caller": "*",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "SERVER|HTTP_AUTHORIZATION",
+        "caller": "*",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "SERVER|HTTP_CACHE_CONTROL",
+        "caller": "*",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "SERVER|HTTP_CONNECTION",
+        "caller": "*",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "SERVER|HTTP_CONTENT_LENGTH",
+        "caller": "*",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "SERVER|HTTP_CONTENT_MD5",
+        "caller": "*",
+        "min_length": 24,
+        "max_length": 24,
+        "filter": 5
+    },
+    {
+        "path": "SERVER|HTTP_COOKIE",
+        "caller": "*",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "SERVER|HTTP_DATE",
+        "caller": "*",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "SERVER|HTTP_DNT",
+        "caller": "*",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "SERVER|HTTP_EXPECT",
+        "caller": "*",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 6
+    },
+    {
+        "path": "SERVER|HTTP_FROM",
+        "caller": "*",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "SERVER|HTTP_FRONT_END_HTTPS",
+        "caller": "*",
+        "min_length": 2,
+        "max_length": 3,
+        "filter": 4
+    },
+    {
+        "path": "SERVER|HTTP_HOST",
+        "caller": "*",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 6
+    },
+    {
+        "path": "SERVER|HTTP_HTTPS",
+        "caller": "*",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "SERVER|HTTP_IF_MATCH",
+        "caller": "*",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "SERVER|HTTP_IF_MODIFIED_SINCE",
+        "caller": "*",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "SERVER|HTTP_IF_NONE_MATCH",
+        "caller": "*",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "SERVER|HTTP_IF_RANGE",
+        "caller": "*",
+        "min_length": 32,
+        "max_length": 32,
+        "filter": 4
+    },
+    {
+        "path": "SERVER|HTTP_IF_UNMODIFIED_SINCE",
+        "caller": "*",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "SERVER|HTTP_KEEP_ALIVE",
+        "caller": "*",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "SERVER|HTTP_MAX_FORWARDS",
+        "caller": "*",
+        "min_length": -1,
+        "max_length": 10,
+        "filter": 1
+    },
+    {
+        "path": "SERVER|HTTP_ORIGIN",
+        "caller": "*",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "SERVER|HTTP_PRAGMA",
+        "caller": "*",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "SERVER|HTTP_PROXY_AUTHORIZATION",
+        "caller": "*",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "SERVER|HTTP_PROXY_CONNECTION",
+        "caller": "*",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 6
+    },
+    {
+        "path": "SERVER|HTTP_RANGE",
+        "caller": "*",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "SERVER|HTTP_REFERER",
+        "caller": "*",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "SERVER|HTTP_TE",
+        "caller": "*",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "SERVER|HTTP_UPGRADE",
+        "caller": "*",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "SERVER|HTTP_UPGRADE_INSECURE_REQUESTS",
+        "caller": "*",
+        "min_length": 1,
+        "max_length": 1,
+        "filter": 1
+    },
+    {
+        "path": "SERVER|HTTP_USER_AGENT",
+        "caller": "*",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "SERVER|HTTP_VIA",
+        "caller": "*",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "SERVER|HTTP_WARNING",
+        "caller": "*",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "SERVER|HTTP_X_ATT_DEVICEID",
+        "caller": "*",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "SERVER|HTTP_X_CNECTION",
+        "caller": "*",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 4
+    },
+    {
+        "path": "SERVER|HTTP_X_FORWARDED_FOR",
+        "caller": "*",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "SERVER|HTTP_X_FORWARDED_PROTO",
+        "caller": "*",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 4
+    },
+    {
+        "path": "SERVER|HTTP_X_HOST",
+        "caller": "*",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "SERVER|HTTP_X_PROXY_ID",
+        "caller": "*",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 1
+    },
+    {
+        "path": "SERVER|HTTP_X_REQUESTED_WITH",
+        "caller": "*",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 6
+    },
+    {
+        "path": "SERVER|HTTP_X_WAP_PROFILE",
+        "caller": "*",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    },
+    {
+        "path": "SERVER|PHP_SELF",
+        "caller": "*",
+        "min_length": -1,
+        "max_length": -1,
+        "filter": 7
+    }
+]
